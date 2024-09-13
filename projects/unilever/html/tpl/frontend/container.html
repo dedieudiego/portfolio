@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>{TITLE_SITE}</title>
+        <meta name="description" content="{DESCRIPTION_SITE}" />
+        <meta name="keywords" content="{KEYWORDS_SITE}" />
+
+        <!-- START BLOCK : OPENGRAPH -->
+        <meta property="og:title" content="{og_title}" />
+        <meta property="og:description" content="{og_description}" />
+        <meta property="og:url" content="{og_url}" />
+        <meta property="og:image" content="{og_image}" />
+        <!-- END BLOCK : OPENGRAPH -->
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+
+        <link href="{IMG_WEB_PATH}favicon.png" rel="shortcut icon"/>
+
+        <link rel="stylesheet" href="{CSS_WEB_PATH}tef-reset.css" />
+        <link rel="stylesheet" href="{CSS_WEB_PATH}jquery.bxslider.css" />
+        <link rel="stylesheet" href="{CSS_WEB_PATH}tef-styles.css" />
+        <!--[if lte IE 9]>
+            <link rel="stylesheet" type="text/css" href="{CSS_WEB_PATH}tef-styles-ie8.css" />
+        <![endif]-->
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+    </head>
+
+    <body>
+			<!-- <section class="center_content"> ahora esta en conversion y landing -->
+    
+            {SECTION_CONTENT}
+
+            <script src="{JS_WEB_PATH}lib/jquery/tef-modernizr.js"></script>
+            <script src="{JS_WEB_PATH}lib/jquery/jquery-1.9.1.js"></script>
+            <script src="{JS_WEB_PATH}lib/jquery/placeholders.min.js"></script>	
+            <script>
+                var doc = document.documentElement;
+                doc.setAttribute('data-useragent', navigator.userAgent);
+            </script>
+
+            <script type="text/javascript">var WEB_PATH = '{WEB_PATH}';
+                var IMG_WEB_PATH = '{IMG_WEB_PATH}';
+                var AJAX_WEB_PATH = '{AJAX_WEB_PATH}';</script>
+            <!-- START BLOCK : JS_DEBUG -->
+
+            <script type="text/javascript" src="{JS_WEB_PATH}frontend/app.form.js"></script>
+            <script type="text/javascript" src="{JS_WEB_PATH}frontend/app.landing.js"></script>
+            <script type="text/javascript" src="{JS_WEB_PATH}frontend/app.messages.js"></script>
+            <script type="text/javascript" src="{JS_WEB_PATH}frontend/app.validation.js"></script>
+            <!-- END BLOCK : JS_DEBUG -->
+
+
+        </section>
+    </body>
+</html>

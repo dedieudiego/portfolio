@@ -1,0 +1,31 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} !^(.*)/$
+RewriteCond %{REQUEST_URI} !^(.*)(\.)(.*)$
+#RewriteCond %{REQUEST_METHOD} !POST
+RewriteRule ^(.*)$ http://%{HTTP_HOST}%{REQUEST_URI}/ [R=301,L]
+
+##### Prevenir listado de directorios:
+#Options -Indexes
+
+##### Index.php por defecto
+DirectoryIndex index.php
+
+<FilesMatch "\.(gif|jpg|jpeg|png|swf|css|js|html?|xml|txt|ico)$">
+	FileETag none
+</FilesMatch>
+
+#ErrorDocument 404 /error/
+
+# Pages
+#RewriteRule ^$                              app/frontend/inicio.php                  [NC,L]
+RewriteRule ^$                               app/frontend/landing.php?land=pilot      [NC,QSA,L]
+RewriteRule ^completado/$                    app/frontend/conversion.php?land=pilot   [NC,QSA,L]
+#RewriteRule ^([0-9a-zA-Z_-]+)/$             app/frontend/landing.php?land=$1         [NC,QSA,L]
+#RewriteRule ^([0-9a-zA-Z_-]+)/completado/$  app/frontend/conversion.php?land=$1      [NC,QSA,L]
+
+# Ajax
+RewriteRule ^async/(\w+)/$       app/ajax/frontend/$1.php              [NC,L]
+
+
+

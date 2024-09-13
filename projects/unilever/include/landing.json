@@ -1,0 +1,60 @@
+{
+    "pilot": {
+        "id": "pilot",
+        "name": "Compra tu Honda Pilot 2016",
+        "title": "Antitranspirantes comprimidos de Unilever",
+        "description": "Con una nueva tecnología, el formato renovado brinda la misma duración reduciendo el impacto ambiental.",
+        "keywords": "unilever,antitranspirantes,comprimidos,dove,rexona, hace eco",
+        "class": "pilot",
+        "bunker_id": 104,
+        "opengraph": {
+            "title": "Compra tu Honda Pilot 2016",
+            "description": "Totalmente re diseñada para la familia moderna, con su nuevo estilo aerodinámico, esta SUV nunca antes se vio mejor. Puerta trasera electrónica, techo panorámico,luces delanteras de led. Asientos con sistema one touch. Cámara de visión trasera con multi angulo, alerta choque delantero,transmisión automática de 9 velocidades.  280hp, 3.5L DI Engine SOHC iVTEC+VCM. Mejor rendimiento de combustible, 20 MPG en ciudad / 27 MPG en carretera. 8” Audio Touch Screen. Multi-Angle Rearview Camera with Dynamic Guidelines. Honda LaneWatch™. Equipada con aros 20”. Consola con hasta 5 conexiones USB para celulares y tabletas. Remote Engine Start. Smart entry y Push Button Start. Road Departure Mitigation System. Collision Mitigation Braking System. Lane Keeping Assist. Sistema de entretenimiento con Blu-Ray y pantalla de 9” VGA.",
+            "image": "fb-600x315-1.png"
+        },
+        "dealer": {
+            "san-juan": {
+                "id": "san-juan",
+                "label": "Honda de San Juan",
+                "emails": ["hplaceres@theelectricfactory.com"],
+                "emails_xml": ["dmorales@theelectricfactory.com"]
+            },
+            "bayamon": {
+                "id": "bayamon",
+                "label": "Honda de Bayamon",
+                "emails": ["hplaceres@theelectricfactory.com,"],
+                "emails_xml": ["dmorales@theelectricfactory.com"]
+            },
+            "ponce": {
+                "id": "ponce",
+                "label": "Honda de Ponce",
+                "emails": ["hplaceres@theelectricfactory.com"],
+                "emails_xml": ["dmorales@theelectricfactory.com"]
+            },
+            "cayey": {
+                "id": "cayey",
+                "label": "Honda de Cayey",
+                "emails": ["hplaceres@theelectricfactory.com"],
+                "emails_xml": ["dmorales@theelectricfactory.com"]
+            },
+            "caguas": {
+                "id": "caguas",
+                "label": "Honda de Caguas",
+                "emails": ["hplaceres@theelectricfactory.com"],
+                "emails_xml": ["dmorales@theelectricfactory.com"]
+            },
+            "arecibo": {
+                "id": "arecibo",
+                "label": "Honda de Arecibo",
+                "emails": ["hplaceres@theelectricfactory.com"],
+                "emails_xml": ["dmorales@theelectricfactory.com"]
+            },
+             "triangle-65-infanteria": {
+                "id": "triangle-65-infanteria",
+                "label": "Trianlge 65 Infantería",
+                "emails": ["hplaceres@theelectricfactory.com"],
+                "emails_xml": ["dmorales@theelectricfactory.com"]
+            }
+        }
+    }
+}
