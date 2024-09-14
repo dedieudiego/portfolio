@@ -3974,6 +3974,7 @@ td:last-child {
     vertical-align: bottom;
     transition    : all 0.3s ease-in-out;
     margin        : 0;
+    width         : 100%;
 }
 
 .folio-entries .entry__link::before {
