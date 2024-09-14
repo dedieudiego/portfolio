@@ -4132,7 +4132,7 @@ td:last-child {
 
 @media screen and (max-width: 500px) {
     .folio-entries .entry {
-        width: 100%;
+        width: 88%;
     }
 }
 

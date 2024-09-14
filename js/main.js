@@ -312,3 +312,12 @@
     })();
 
 })(document.documentElement);
+
+document.addEventListener('DOMContentLoaded', function() {
+    var grid = document.querySelector('.folio-entries');
+    var masonry = new Masonry(grid, {
+        itemSelector: '.entry',
+        columnWidth: '.entry',
+        percentPosition: true
+    });
+});
