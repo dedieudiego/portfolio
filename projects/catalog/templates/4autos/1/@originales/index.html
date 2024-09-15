@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 7]>    <html class="no-js lt-ie10 lt-ie9 lt-ie8" lang="es"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie10 lt-ie9" lang="es"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js lt-ie10" lang="es"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
+    <head>
+      <meta charset="utf-8" />
+
+      <meta name="rating" content="general" />
+      <meta name="Revisit-After" content="1 Days"/>
+      <meta name="robots" content="index,follow" />
+      <meta name="author" content="Diego De Dieu" />
+
+      <meta name="title" content="Thef" />
+      <meta name="keywords" content="" />
+      <meta name="description" content="" />
+
+      <meta property="og:title" content="" />
+      <meta property="og:description" content="" />
+      <meta property="og:url" content="" />
+      <meta property="og:image" content="" />
+
+      <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+
+      <title>Work - Diego De Dieu</title>
+
+      <link href="../img/favicon.png" rel="shortcut icon"/>
+
+      <link rel="stylesheet" href="../css/tef-reset.css" />
+      <link rel="stylesheet" href="../css/jquery.bxslider.css" />
+      <link rel="stylesheet" href="../css/tef-styles.css" />
+      <link rel="stylesheet" href="../css/selectric.css" />
+      <!--[if lte IE 8]>
+            <link rel="stylesheet" type="text/css" href="../css/tef-styles-ie8.css" />
+        <![endif]-->
+      
+      <!-- Included Main JS Files -->
+      <script src="../js/lib/jquery/tef-modernizr.js"></script>
+      <script src="../js/lib/jquery/jquery-1.9.1.js"></script>
+      <script src="../js/lib/jquery/placeholders.min.js"></script>
+      <script src="../js/lib/jquery/jquery.bxslider.js"></script>
+      <script type="text/javascript" src="../js/lib/jquery/jquery.selectric.js"></script>
+      <!--[if lte IE 8]>
+      <script src="../js/lib/jquery/jquery.backgroundSize.js"></script>
+      <script>
+        $(function() {
+          $('.backgrounds div').css( "background-size", "cover" );
+        });
+      </script>
+      <![endif]-->
+
+      <script type="text/javascript">
+         $(document).ready(function(){
+           $(function(){
+              $('select').selectric();
+            });
+         });
+      </script>
+    </head>
+   <body class="detail tlx">
+      <div class="backgrounds">
+        <div class="tlx"></div>
+        <div class="ilx"></div>
+        <div class="mdx"></div>
+        <div class="rdx"></div>
+      </div>
+      <div class="allContent">
+  <header class="cont-general">
+    <div class="logo"><a href="#"><img src="http://placehold.it/186x60/ffffff?text=LOGO" alt="Acura"></a></div>
+  </header>
+  <section class="detail cont-general">
+     <div class="title">Lorem ipsum dolor sit amet <br class="mobile"><span>9.99<sup>%</sup></span> TGS</div>
+     <div class="frase tlx mobile">Lorem ipsum dolor sit 1</div>
+     <div class="frase ilx mobile">Lorem ipsum dolor sit 2</div>
+     <div class="frase mdx mobile">Lorem ipsum dolor sit 3</div>
+     <div class="frase rdx mobile">Lorem ipsum dolor sit 4</div>
+     <div class="car mobile">
+       <img class="tlx" src="../img/car-m.png" alt="Modelo">
+       <img class="ilx" src="../img/car-m.png" alt="Modelo">
+       <img class="mdx" src="../img/car-m.png" alt="Modelo">
+       <img class="rdx" src="../img/car-m.png" alt="Modelo">
+     </div>
+     <div class="specs mobile">
+
+        <div class="tlx">
+         Nullam fermentum dui urna, sit amet sagittis lectus<br>
+         Mauris finibus tortor at diam blandit, in maximus felis<br>
+         Lorem ipsum dolor<br>
+         Cras non enim a odio ullamcorper vehicula
+        </div>
+
+        <div class="ilx">
+         Nullam fermentum dui urna, sit amet sagittis lectus<br>
+         Mauris finibus tortor at diam blandit, in maximus felis<br>
+         Lorem ipsum dolor
+        </div>
+
+        <div class="mdx">
+         Nullam fermentum dui urna, sit amet sagittis lectus<br>
+         Mauris finibus tortor at diam blandit, in maximus felis<br>
+         Lorem ipsum dolor<br>
+         Cras non enim a odio ullamcorper vehicula
+        </div>
+
+        <div class="rdx">
+         Nullam fermentum dui urna, sit amet sagittis lectus<br>
+         Mauris finibus tortor at diam blandit, in maximus felis<br>
+         Lorem ipsum dolor
+        </div>
+
+     </div>
+     <div class="form">
+        <div class="formcontainer">
+            <div class="formfields">
+               <span class="title">request a test drive</span>
+                <form action="{AJAX_WEB_PATH}enviar/" method="post" id="form-solicitud" novalidate>
+                  <input type="hidden" id="landing_utm_source" name="utm_source" value="{utm_source}" />
+                  <input type="hidden" id="landing_utm_medium" name="utm_medium" value="{utm_medium}" />
+                  <input type="hidden" id="landing_utm_term" name="utm_term" value="{utm_term}" />
+                  <input type="hidden" id="landing_utm_content" name="utm_content" value="{utm_content}" />
+                  <input type="hidden" id="landing_utm_campaign" name="utm_campaign" value="{utm_campaign}" />
+                  <input type="hidden" id="landing_landing" name="landing" value="{LANDING_ID}" />
+                  <ul class="formbody">
+                      <li><input id="landing_nombre" type="text" name="nombre" placeholder="NAME" /></li>
+                      <li><input id="landing_apellido" type="text" name="apellido" placeholder="LAST NAME" /></li>
+                      <li><input id="landing_email" type="email" name="email" placeholder="E-MAIL" /></li>
+                      <li><input id="landing_telefono" type="tel" name="telefono" placeholder="PHONE" /></li>
+                      <li class="model">
+                        <div class="select-mobile">
+                        <select id="landing_dealer" tabindex="5" name="dealer">
+                            <option value="">SELECT DEALER</option>
+                            <option value="San Juan">LOREM IPSUM</option>
+                            <option value="Ponce">DOLOR SIT AMET</option>
+                          </select>
+                        </div>
+                      </li>
+                      <li class="getUpdates"><input type="checkbox" name="suscribe" value="1" id="c1"><label for="c1"><span></span></label>Get updates on new products and promos.</li>
+                      <li class="send"><a  id="submit-solicitud" href="#" class="btn_send"><span>SEND</span></a></li>
+                      <li id="error-solicitud" class="warning"><span>&#10008;</span> Mensaje de error</li>
+                  </ul>
+                </form>
+            </div>
+         </div>
+       </div>
+       <div class="car desktop">
+
+        <div class="imgContainer tlx">
+          <img src="../img/car.png" alt="Modelo">
+          <div class="topline">Lorem ipsum dolor sit</div>
+          <div class="square">
+            <div class="model">mod technology</div>
+            <div class="price"><span>$</span>999<sup>1</sup></div>
+            <p>Monthly</p>
+            <svg class="tlx" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+              <line class="top" x1="0" y1="0" x2="100%" y2="0"></line>
+              <line class="left" x1="0" y1="0" x2="0" y2="100%"></line>
+              <line class="bottom" x1="0" y1="100%" x2="100%" y2="100%"></line>
+              <line class="right" x1="100%" y1="0" x2="100%" y2="100%"></line>
+            </svg>
+          </div>
+        </div>
+
+        <div class="imgContainer ilx">
+          <img src="../img/car.png" alt="Modelo">
+          <div class="topline">Lorem ipsum dolor sit</div>
+          <div class="square">
+            <div class="model">mod technology</div>
+            <div class="price"><span>$</span>999<sup>2</sup></div>
+            <p>Monthly</p>
+            <svg class="ilx" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+              <line class="top" x1="0" y1="0" x2="100%" y2="0"></line>
+              <line class="left" x1="0" y1="0" x2="0" y2="100%"></line>
+              <line class="bottom" x1="0" y1="100%" x2="100%" y2="100%"></line>
+              <line class="right" x1="100%" y1="0" x2="100%" y2="100%"></line>
+            </svg>
+          </div>
+        </div>
+
+        <div class="imgContainer mdx">
+          <img src="../img/car.png" alt="Modelo">
+          <div class="topline">Lorem ipsum dolor sit</div>
+          <div class="square">
+            <div class="model">mod technology</div>
+            <div class="price"><span>$</span>999<sup>3</sup></div>
+            <p>Monthly</p>
+            <svg class="mdx" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+              <line class="top" x1="0" y1="0" x2="100%" y2="0"></line>
+              <line class="left" x1="0" y1="0" x2="0" y2="100%"></line>
+              <line class="bottom" x1="0" y1="100%" x2="100%" y2="100%"></line>
+              <line class="right" x1="100%" y1="0" x2="100%" y2="100%"></line>
+            </svg>
+          </div>
+        </div>
+
+        <div class="imgContainer rdx">
+          <img src="../img/car.png" alt="Modelo">
+          <div class="topline">Lorem ipsum dolor sit</div>
+          <div class="square">
+            <div class="model">mod technology</div>
+            <div class="price"><span>$</span>999<sup>4</sup></div>
+            <p>Monthly</p>
+            <svg class="rdx" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+              <line class="top" x1="0" y1="0" x2="100%" y2="0"></line>
+              <line class="left" x1="0" y1="0" x2="0" y2="100%"></line>
+              <line class="bottom" x1="0" y1="100%" x2="100%" y2="100%"></line>
+              <line class="right" x1="100%" y1="0" x2="100%" y2="100%"></line>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="redes">
+        <ul class="social">
+          <li target="_blank" class="fb"><a href="https://www.facebook.com/acurapr">Facebook</a></li>
+          <li target="_blank" class="tw"><a href="http://twitter.com/AcuraPR">Twitter</a></li>
+          <li target="_blank" class="in"><a href="https://instagram.com/acurapr/">Instagram</a></li>
+          <li target="_blank" class="yt"><a href="https://www.youtube.com/user/acurapuertorico">Youtube</a></li>
+        </ul>
+      </div>
+      <div class="specs desktop">
+
+        <div class="tlx">
+         Nullam fermentum dui urna, sit amet sagittis lectus pulvinar eu<br>
+         Mauris finibus tortor at diam blandit, in maximus felis suscipit<br>
+         Lorem ipsum dolor<br>
+         Cras non enim a odio ullamcorper vehicula
+        </div>
+
+        <div class="ilx">
+         Nullam fermentum dui urna, sit amet sagittis lectus pulvinar eu<br>
+         Mauris finibus tortor at diam blandit, in maximus felis suscipit<br>
+         Lorem ipsum dolor
+        </div>
+
+        <div class="mdx">
+         Nullam fermentum dui urna, sit amet sagittis lectus pulvinar eu<br>
+         Mauris finibus tortor at diam blandit, in maximus felis suscipit<br>
+         Lorem ipsum dolor<br>
+         Cras non enim a odio ullamcorper vehicula
+        </div>
+
+        <div class="rdx">
+         Nullam fermentum dui urna, sit amet sagittis lectus pulvinar eu<br>
+         Mauris finibus tortor at diam blandit, in maximus felis suscipit<br>
+         Lorem ipsum dolor
+        </div>
+
+     </div>
+     <div class="mouse desktop">
+      <div class="scroll"></div>
+    </div>
+  </section>
+  <section class="ok">
+    <h1>Test drive successfully <span>sent</span></h1>
+    <p>Mauris finibus tortor at diam blandit, in maximus felis suscipit lorem ipsum dolor</p>
+  </section>
+  <div class="navContainer">
+   <nav>
+     <ul>
+       <li id="nav_tlx" data-id="tlx" class="selected"><span>tlx</span><i></i></li>
+       <li id="nav_ilx" data-id="ilx"><span>ilx</span><i></i></li>
+       <li id="nav_mdx" data-id="mdx"><span>mdx</span><i></i></li>
+       <li id="nav_rdx" data-id="rdx"><span>rdx</span><i></i></li>
+     </ul>
+   </nav>
+  </div>
+        <script type="text/javascript">
+           $(document).ready(function(){
+
+            var landingid = $('#landing_landing').val();
+            $('#nav_' + landingid).addClass('selected');
+        </script>
+
+
+  <footer>
+      <div class="cont-general">
+          <div class="bottomText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla tellus et dictum faucibus. Aliquam quis feugiat sapien, eu tincidunt justo. Phasellus nec dolor quis orci rutrum congue. Sed rutrum sem a turpis scelerisque molestie. Mauris non felis sed ligula interdum interdum. Donec a porta ante, non aliquam enim. Fusce sodales velit lectus, imperdiet venenatis elit pellentesque ut. Pellentesque congue est a semper congue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec sed tortor fermentum, fringilla enim sit amet, scelerisque nulla. Donec ultrices ante in metus iaculis mollis. Nunc blandit efficitur aliquam. Duis sed ipsum id odio fermentum sollicitudin. Integer venenatis commodo purus. Sed a sodales erat. Nam mollis id risus a vulputate. Duis viverra nisl et neque pulvinar euismod. Fusce luctus tempor rutrum.</div>
+          <div class="topText">PHASELLUS NEC DOLOR QUIS ORCI RUTRUM CONGUE. SED RUTRUM SEM A TURPIS SCELERISQUE MOLESTIE.<br>• Lorem ipsum dolor, Sit. Avenios Km. 3.5 - <a href="tel:1112223333" class="tel-iphone">111-222-3333</a> <br class="mobile">• Lorem de ipsum | Sit Amet | <a href="tel:1112223333" class="tel-iphone">111-222-3333</a> <br class="mobile">• www.sitio.com</div>
+          <div class="reliable"><img class="desktop" src="http://placehold.it/127x30/000000?text=LOGO" alt="Reliable Auto"><img class="mobile" src="http://placehold.it/127x30/000000?text=LOGO" alt="Reliable Auto"></div>
+      </div>
+  </footer>
+</div>
+<script>
+    $(document).ready(function(){
+      $(document).keydown(function (evt) {
+          if (evt.keyCode == 40) { // down arrow
+            $('.selected').next().trigger('click');
+          }
+          else if (evt.keyCode == 38) { // down arrow
+            $('.selected').prev().trigger('click');
+          }
+        });
+
+        if(window.location.hash) {
+          $('.selected').removeClass('selected');
+          
+          $('body').removeClass('tlx');
+          var str = window.location.hash;
+          $('#nav_'+str.replace("#", "")).addClass('selected');
+          $('body').addClass(str.replace("#", ""));
+
+        } else {
+           window.location.hash = "tlx";
+        }
+
+      $('.bxslider').bxSlider({
+        controls: true
+      });
+
+     $('nav ul').find('li').on('click', function(){
+        $('.selected').removeClass('selected');
+        $(this).addClass('selected');
+        var model = $(this).text();
+        window.location.hash = $(this).data("id");
+        $('body').removeClass();
+        $('body').addClass('detail');
+        $('body').addClass(model);
+        if(!(window.navigator.userAgent.toLowerCase().indexOf('crios') > -1)){
+          setTimeout( function(){
+            $('body').css('background-image', 'url(../img/bg-' + model + '.jpg)')
+          },1000);
+        }
+        else
+        {
+          $('body').css('background-image', 'url(../img/bg-' + model + '.jpg)');
+        }
+     });
+     $('.btn_send').on('click', function(event){
+      event.preventDefault();
+      $('section.ok').addClass('active');
+      setTimeout( function(){
+        $('section.ok').removeClass('active');
+      },3000);
+     })
+
+      /*DOMMouseScroll*/
+      var last_time = new Date(); 
+
+      $(window).bind('wheel', function(event) {
+          var ahora = new Date();
+          if((ahora - last_time) >= 800)
+          {
+            if (event.originalEvent.deltaY <= 0) {
+
+                $('.selected').prev().trigger('click');
+                $('#landing_landing').val($('.selected').data('id'));
+              }
+              else {
+                $('.selected').next().trigger('click');
+                $('#landing_landing').val($('.selected').data('id'));
+              }
+
+              last_time = new Date(); 
+
+              window.location.hash = $('#landing_landing').val($('.selected').data('id')).val();
+            }
+      });
+   });
+ </script>
+   </body>
+</html>

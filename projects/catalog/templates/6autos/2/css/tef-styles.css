@@ -1,0 +1,433 @@
+	html, body {}
+
+	body {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d8d8d8+0,ffffff+50,d8d8d8+100 */
+background: rgb(210,210,210); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q4ZDhkOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkOGQ4ZDgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(left,  rgba(210,210,210,1) 0%, rgba(255,255,255,1) 50%, rgba(210,210,210,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(210,210,210,1)), color-stop(50%,rgba(255,255,255,1)), color-stop(100%,rgba(210,210,210,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(210,210,210,1) 0%,rgba(255,255,255,1) 50%,rgba(210,210,210,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(210,210,210,1) 0%,rgba(255,255,255,1) 50%,rgba(210,210,210,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(210,210,210,1) 0%,rgba(255,255,255,1) 50%,rgba(210,210,210,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(210,210,210,1) 0%,rgba(255,255,255,1) 50%,rgba(210,210,210,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E6E6E6', endColorstr='#FFFFFF',GradientType=1 ); /* IE6-8 */}
+
+	.h100 {height: 100%;}
+	.desktop {display: block !important;}
+	.mobile {display: none !important;}
+	.linktel {color: #3A393B;}
+	.linktel:hover {color:#666;}
+	iframe {display: none;}
+	footer ~ img {display: none;}
+
+	::-webkit-input-placeholder {
+	   color: #000;
+	   opacity: 1;
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+	   color: #000;
+	   opacity: 1;  
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+	   color: #000;
+	   opacity: 1;  
+	}
+
+	:-ms-input-placeholder {  
+	   color: #000; 
+	   opacity: 1; 
+	}
+
+
+/*	--------------------------------------------------
+	Layout
+	-------------------------------------------------- */
+	section > .row {}
+	sup {font-size: 50%;}
+
+/*	--------------------------------------------------
+	Contenedor general - Da el ancho del contenido
+	-------------------------------------------------- */
+	.cont-general{ position: relative; left: 0; right: 0; margin: auto; max-width: 1280px;}
+	section{position: relative;}
+
+/*	--------------------------------------------------
+	Header -
+	-------------------------------------------------- */	
+	header {}
+	header .logo {}
+	header .bella {position: absolute;right: 55px;top: 33px;}
+	header .honda { margin: auto; position: relative; margin-top: -90px; z-index: -1;}
+	header .honda .triangle {background: url(../img/triangleh.png) no-repeat 50%; margin:0 auto; height:119px;}
+	header .honda .factory {text-align: center;;}
+	header .honda .factory img.top {position: absolute;left: 0;right: 0;margin: auto;top: -80px;}
+	header .honda .factory img.bottom {position: relative;}
+	header .honda .factory h1 {font-family: "Avenir Bold", sans-serif;font-size: 461%;}
+	header .honda .factory h2 {font-family: "Avenir Demi", sans-serif;font-size: 230.7%;}
+	header .honda hr {border-color: #1B7AAF;border-width: 10px;border-bottom: 0;}
+/*	--------------------------------------------------
+	Fin Header -
+	-------------------------------------------------- */	
+
+	nav {}
+	nav li {}
+	nav li a {}
+
+/*	--------------------------------------------------
+	Section - Main
+	-------------------------------------------------- */
+	section.main {margin-top: 140px;max-width: 900px;}
+	section.main .cars {}
+	section.main .cars li {display: inline-block;width: 45%;margin-bottom: 120px;}
+	section.main .cars li:nth-child(even) {float: right;}
+	section.main .cars li .info {position: relative;padding-bottom: 20px;}
+	section.main .cars li .info img {margin-bottom: 25px; width:100%; position: relative; z-index: 2; top:0;
+	   -moz-transition: 0.3s;
+	    -ms-transition: 0.3s;
+	     -o-transition: 0.3s;
+	     transition: 0.3s;
+	     -webkit-transition: 0.3s;}
+	section.main .cars li .info .left {color: #000;font-family: "Avenir Light", sans-serif;margin-left: 20px;font-size: 197%;}
+	section.main .cars li .info .left span {font-family: "Avenir Bold", sans-serif;}
+	section.main .cars li .info .left span sup {font-family: "Avenir Demi", sans-serif;}
+	section.main .cars li:nth-child(even) .info .right {width: 54%;}
+	section.main .cars li .info .right {position: absolute;right: 5%;width: 45%;height: 70%;z-index: 1;bottom: 0; -webkit-transition: 0.3s;
+	   -moz-transition: 0.3s;
+	    -ms-transition: 0.3s;
+	     -o-transition: 0.3s;
+	        transition: 0.3s;}
+	section.main .cars li .info.pilot .right, section.main .cars li .info .right {height: 125%;}
+	section.main .cars li .info .right .top {font-size: 108%;left: -17%;text-indent: 21px;background: #1B7AAF;padding: 130px;border-radius: 150px;-moz-border-radius: 150px;-o-border-radius: 150px;-webkit-border-radius: 150px;-ms-border-radius: 150px;position: absolute;font-family: "Avenir Book", sans-serif;line-height: 30px;top: 5%; -webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;}
+	section.main .cars li .info.pilot .right .top {position: absolute;font-size: 108%;left: -7%;text-indent: 21px;line-height: 30px;font-family: "Avenir Book", sans-serif;background: #1B7AAF;padding: 20px 46px 130px 43px;border-radius: 150px;-o-border-radius: 150px;-moz-border-radius: 150px;-webkit-border-radius: 150px;-o-border-radius: 150px;top: -10px;}
+	section.main .cars li .info.pilot .right .top span {font-size: 341%;font-family: "Avenir Bold", sans-serif;}
+	section.main .cars li .info.pilot .right .bottom {left: 0; padding: 140px 41px 40px 48px;}
+	section.main .cars li .info.civic .right .bottom {left: 30%;}
+	section.main .cars li .info .right .bottom {position: absolute;font-family: "Avenir Book", sans-serif;font-size: 131%;bottom: 0px;text-indent: -20px;left: 7%;background: #1B7AAF;padding: 35px 14px 35px 31px;border-radius: 150px;-o-border-radius: 150px;-moz-border-radius: 150px;-webkit-border-radius: 150px;-o-border-radius: 150px; -webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;}
+	section.main .cars li .info .right .bottom span {font-size: 291%;font-family: "Avenir Bold", sans-serif;}
+	section.main .cars li .info .right .bottom span sup {position: relative;top: 8px;}
+	section.main .cars li .info a:hover .right .bottom, section.main .cars li .info a:hover .right .top {background:#229FD6;}
+	section.main .cars li .info a img {top:0; animation: floating 2s infinite ease-in-out; -webkit-animation: floating 2s infinite ease-in-out; -moz-animation: floating 2s infinite ease-in-out; -o-animation: floating 2s infinite ease-in-out; -ms-animation: floating 2s infinite ease-in-out; animation-play-state: paused;}
+	section.main .cars li .info a:hover img {top:-7px; animation-play-state:running;}
+	section.main .cars li hr {border-color: #000;width: 40%;margin-left: 4%;}
+	section.main .cars li > p {font-family: "Avenir Light", sans-serif; color: #000; font-size: 154%; margin-left: 20px; margin-top: 10px;}
+	section.main .newcars {margin-bottom: 120px;}
+	section.main .newcars .factory {text-align: center;background:#D8D8D8;position: relative;padding: 20px 0;border-top: 3px solid #000;}
+	section.main .newcars .factory a.hrv {width: 40%;height: 100%;position: absolute;bottom: 0;left: 10%;}
+	section.main .newcars .factory a.pilot-2016 {position: absolute;right: 10%;width: 40%;height: 100%;bottom: 0;}
+	section.main .newcars p {font-family: "Avenir Demi", sans-serif;font-size: 146.5%;color: #000; text-align: center; margin-bottom: 20px;}
+	section.main .newcars .factory h1 {color: #1B7AB0;font-family: "Avenir Bold", sans-serif;font-size: 223%;margin-top: 30px;}
+	section.main .newcars .factory h1 span {font-family: "Avenir Demi", sans-serif;}
+	section.main .newcars .factory .newcarsImg {left: 0;right: 0;margin: auto;bottom: -145%;position: absolute;}
+	section.main .newcars .factory .newcarsImg a img { top:0; animation: floating 2s infinite ease-in-out; -webkit-animation: floating 2s infinite ease-in-out; -moz-animation: floating 2s infinite ease-in-out; -o-animation: floating 2s infinite ease-in-out; -ms-animation: floating 2s infinite ease-in-out; animation-play-state: paused; position: relative;}
+	section.main .newcars .factory .newcarsImg a:hover img {top:-7px;animation-play-state:running;}
+	section.main .newcars .triangle {background: url(../img/trianglef.png) no-repeat 50%; margin:-1px auto 0 auto; height:119px;}
+	html[data-useragent*='MSIE 10.0'] section.main .cars li hr {margin-left: -210px;}
+/*	--------------------------------------------------
+	Fin Section - Main
+	-------------------------------------------------- */
+	    
+/*	--------------------------------------------------
+	Section - Detail
+	-------------------------------------------------- */
+	section.detail {margin-top: 90px;z-index: 2;margin-bottom: -170px;max-width: 900px;}
+	section.detail .car {text-align: center;}
+	section.detail.pilot .bonus {background: #1B7AB0;font-family: "Avenir Book", sans-serif;font-size: 108%;position: absolute;top: -54px;padding: 55px 20px;text-align: right;line-height: 33px;border-radius: 150px;-o-border-radius: 150px;-moz-border-radius: 150px;-webkit-border-radius: 150px;-ms-border-radius: 150px;z-index: 1;left: 0;}
+	section.detail .bonus {background: #1B7AB0;font-family: "Avenir Book", sans-serif;font-size: 108%;position: absolute;top: -54px;padding: 190px;text-align: right;line-height: 33px;border-radius: 200px;-o-border-radius: 200px;-moz-border-radius: 200px;-webkit-border-radius: 200px;-ms-border-radius: 200px;z-index: -1;left: 7%;}
+	section.detail .bonus span {font-family: "Avenir Bold", sans-serif;font-size: 346%;}
+	section.detail .price {font-family: "Avenir Bold", sans-serif;position: absolute;right: 0;top: -63px;text-align: right;}
+	section.detail .price .top {height: 85px;width: 220px;}
+	section.detail .price .top .text {font-size: 252%;color: #000;right: 20px;position: absolute;text-align: left;border-bottom: 2px solid #000;margin-bottom: 10px;}
+	section.detail .price .top .text sup {font-family: "Avenir Book", sans-serif;}
+	section.detail .price .top .text span {font-family: "Avenir Light", sans-serif;}
+	section.detail.pilot .price .bottom {background: #1B7AB0;position: relative;z-index: -1;font-family: "Avenir Book", sans-serif;font-size: 118%;border-radius: 150px;-o-border-radius: 150px;-moz-border-radius: 150px;-webkit-border-radius: 150px;-ms-border-radius: 150px;padding: 40px 70px 190px 70px;right: 0;top: 0;}
+	section.detail.pilot .price .bottom span {font-size: 276%;}
+	section.detail .price .bottom {background: #1B7AB0;position: absolute;z-index: 0;font-family: "Avenir Book", sans-serif;font-size: 136%;border-radius: 150px;-o-border-radius: 150px;-moz-border-radius: 150px;-webkit-border-radius: 150px;-ms-border-radius: 150px;top: 110px;padding: 32px 20px;right: 80px;}
+	section.detail .price .bottom span {font-size: 238%;font-family: "Avenir Bold", sans-serif;display: block;margin-bottom: -9px;}
+	section.detail .price .bottom span sup {position: relative; top:7px;}
+
+	@keyframes floating {
+		0% {top:0px}
+		50% {top: -7px;}
+		100% {top: 0;}
+	}
+	@-webkit-keyframes floating {
+		0% {top:0px}
+		50% {top: -7px;}
+		100% {top: 0;}
+	}
+	@-o-keyframes floating {
+		0% {top:0px}
+		50% {top: -7px;}
+		100% {top: 0;}
+	}
+	@-moz-keyframes floating {
+		0% {top:0px}
+		50% {top: -7px;}
+		100% {top: 0;}
+	}
+/*	--------------------------------------------------
+	Fin Section - Detail
+	-------------------------------------------------- */
+	    
+/*	--------------------------------------------------
+	Section - OK
+	-------------------------------------------------- */
+	section.ok { text-align: center; margin-top: 150px; padding: 50px 0; margin-bottom: 100px;}
+	section.ok h1 {font-family: "Avenir Bold", sans-serif; color: #808184; font-size: 292%; margin-bottom: 150px;}
+	section.ok h1 span {color: #0060AE;}
+	section.ok p {font-family: "Avenir Book", sans-serif; color: #808184; font-size: 246%;}
+/*	--------------------------------------------------
+	Fin Section - OK
+	-------------------------------------------------- */	    
+	    
+/*	--------------------------------------------------
+	Section - Form
+	-------------------------------------------------- */
+	section.form { clear: both;margin-top: 50px;margin-bottom: 120px;}
+	section.form .triangle { background: url(../img/triangle.png) no-repeat 50%; margin:0 auto -1px auto; height:76px;}
+	section.form .formfields { background: #1B7AB0; margin: auto; text-align: center; padding: 70px 220px 40px 220px; width: 100%; height: 450px;;}
+	section.form .formfields span.title {font-family: "Avenir Rounded", sans-serif; font-size: 276.9%; margin-top: 40px;}
+	section.form .formfields span.title img {vertical-align: sub;margin-right: 10px;;}
+	section.form .formfields ul.formbody {margin-top: 50px;}
+	section.form .formfields ul.formbody li {margin-right: 4%;float: left;margin-bottom: 10px;width: 48%;}
+	section.form .formfields ul.formbody li:nth-child(odd) {margin-right: 0;}
+	section.form .formfields ul.formbody li.send {margin-top: 0px;position: relative;width: 100%;}
+	section.form .formfields .label {text-align: left; font-family: "Avenir Demi", sans-serif; font-size: 138.5%;}
+	section.form .formfields a.btn_send { width: 115px; height: 40px; background: #9D1E21; font-family: "Avenir Light", sans-serif; font-size: 120%; line-height: 40px;z-index: 2;position: absolute;right: 0; -webkit-transition: ease all 0.3s;
+	   -moz-transition: ease all 0.3s;
+	    -ms-transition: ease all 0.3s;
+	     -o-transition: ease all 0.3s;
+	        transition: ease all 0.3s;
+	        margin-top: 0;
+	        display: block;}
+	section.form .formfields a.btn_send:hover {opacity:0.8; letter-spacing:2px}
+	section.form .formfields ul li.warning { background-color:rgba(235, 25 ,25, 0.8);height: 48px;text-align: left;line-height: 48px;font-family: "Avenir Demi", sans-serif;font-size: 120%;text-indent: 20px;margin-bottom: -50px;display: none;}
+	section.form .formfields ul li.getUpdates {color: #FFF; font-size: 100%;  position: relative; font-family: "Avenir Demi", sans-serif;text-align: left;width: 48%;margin: 0;line-height: 28px;}
+	section.form .formfields ul li .dealer {background: #fff;height: 48px;color: #000;line-height: 48px;text-align: left;text-indent: 20px;font-family: "Avenir Demi", sans-serif;font-size: 138.5%;cursor: default;}
+	section.form .formfields ul li input[type="checkbox"] {display: none;}
+	section.form .formfields ul li input[type="checkbox"] + label span { width: 22px; height: 22px; cursor: pointer; background: #fff; margin-right: 10px; display: block; vertical-align: bottom;float: left;margin-top: 8px;border-radius: 20px;-moz-border-radius: 20px;-ms-border-radius: 20px;-o-border-radius: 20px;-webkit-border-radius: 20px;}
+	section.form .formfields ul li input[type="checkbox"] + label span:hover {background-color:#ccc;}
+	section.form .formfields ul li input[type="checkbox"]:checked + label span:hover {background-color:#ccc;}
+	section.form .formfields ul li input[type="checkbox"]:checked + label span {background: url(../img/tick.png) no-repeat #fff 50% 40%;}
+	li.select {-webkit-appearance: none; outline:0 none; box-shadow:none; -moz-box-shadow:none; box-shadow:none; position:relative; background: #DAF0FA; -webkit-border-radius: 0;
+	        border-radius: 0;}
+	li.select select { 
+		-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; appearance: none; -moz-appearance: none; background: #DAF0FA; outline: 0; border-top:1px solid transparent; border-right:1px solid transparent; border-bottom: 1px solid transparent;
+		border-left:#1E7AB1 4px solid; width:100%; height:50px; float:left; padding:0 20px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; font-family:"Avenir Demi", sans-serif; font-size:160%; color:#353535;outline:0;
+	}
+	li.select:after { 
+		content:''; width:0; height:0; border-style:solid; border-width:6px 5px 0 5px; border-color:#333 transparent transparent transparent; 
+		position:absolute; right:10px; top:24px;
+	}
+	.select-mobile {-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; outline:0 none; box-shadow:none; -moz-box-shadow:none; box-shadow:none; position:relative; background:#DAF0FA;}
+	.select-mobile select { 
+		-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; appearance: none; -moz-appearance: none; background: #fff;
+		width:100%; height:50px; float:left;  padding:0 10px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; font-family:"Avenir Demi", sans-serif; font-size:120%; color:#000;outline:0; text-indent: 5px; border-right: 2px solid #CAC9C9; border-bottom: 2px solid #CAC9C9; border-left: 2px solid #CAC9C9; border-color:#CAC9C9; border-top:2px solid #CAC9C9;
+	}
+	.select-mobile:after {
+		content:'';
+		width:0;
+		height:0;
+		border-style:solid;
+		border-width:6px 5px 0 5px;
+		border-color:#333 transparent transparent transparent;
+		position:absolute;
+		right:10px;
+		top: 23px;
+	}
+/*	--------------------------------------------------
+	Fin Section - Form
+	-------------------------------------------------- */
+
+/*	--------------------------------------------------
+	Footer -
+	-------------------------------------------------- */		
+	footer { padding: 60px 10px; background:#0F0E0E; clear:both;}
+	footer .logos {float: left;margin-top: 10px;}
+	footer .logos li {display: inline-block;height: 60px;padding-top: 10px;padding-left: 20px;}
+	footer .logos li:first-child {padding-left: 0;border-right: 1px solid #fff;padding-right: 20px;}
+	footer .social {float: right;margin-top: 20px;}
+	footer .social li {display: inline-block;margin-right: 20px; font-family:"Avenir Book", sans-serif; font-size:153.9%;}
+	footer .social li:first-child {font-family: "Avenir Bold", sans-serif;}
+	footer .social li a {-webkit-transition: 0.3s;
+	   -moz-transition: 0.3s;
+	    -ms-transition: 0.3s;
+	     -o-transition: 0.3s;
+	        transition: 0.3s;}
+	footer .social li a i {display: inline-block;background: url(../img/social.png) no-repeat;width: 40px;height: 40px;margin-bottom: -10px;margin-right: 15px; -webkit-transition: 0.3s;
+	   -moz-transition: 0.3s;
+	    -ms-transition: 0.3s;
+	     -o-transition: 0.3s;
+	        transition: 0.3s;}
+	footer .social li.tw a i {background-position: -61px;}
+	footer .social li a:hover {opacity:0.8}
+	footer .social li a:hover i {border-radius:10px;-o-border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;-ms-border-radius:10px;}
+	footer div > h1 {font-family: "Avenir Bold", sans-serif;font-size: 169%;clear: both;padding-top: 20px;margin-bottom: 20px;}
+	footer div > p {font-size: 85%;text-align: justify;}
+/*	--------------------------------------------------
+	Fin Footer -
+	-------------------------------------------------- */	
+	    
+/*	--------------------------------------------------
+	Cars -
+	-------------------------------------------------- */	
+	section.detail.cr .accord, section.detail.cr .civic, section.detail.cr .pilot, section.detail.cr .pilot-2016, section.detail.cr .hrv {display: none !important;}
+	section.detail.civic .cr, section.detail.civic .accord, section.detail.civic .pilot, section.detail.civic .pilot-2016, section.detail.civic .hrv {display: none !important;}
+	section.detail.accord .cr, section.detail.accord .civic, section.detail.accord .pilot, section.detail.accord .pilot-2016, section.detail.accord .hrv {display: none !important;}
+	section.detail.pilot .cr, section.detail.pilot .civic, section.detail.pilot .accord, section.detail.pilot .pilot-2016, section.detail.pilot .hrv {display: none !important;}
+	section.detail.pilot-2016 .cr, section.detail.pilot-2016 .civic, section.detail.pilot-2016 .accord, section.detail.pilot-2016 .pilot, section.detail.pilot-2016 .hrv {display: none !important;}
+	section.detail.hrv .cr, section.detail.hrv .civic, section.detail.hrv .accord, section.detail.hrv .pilot-2016, section.detail.hrv .pilot {display: none !important;}
+	section.form.cr .accord, section.form.cr .civic, section.form.cr .pilot, section.form.cr .pilot-2016, section.form.cr .hrv {display: none !important;}
+	section.form.civic .cr, section.form.civic .accord, section.form.civic .pilot, section.form.civic .pilot-2016, section.form.civic .hrv {display: none !important;}
+	section.form.accord .cr, section.form.accord .civic, section.form.accord .pilot, section.form.accord .pilot-2016, section.form.accord .hrv {display: none !important;}
+	section.form.pilot .cr, section.form.pilot .civic, section.form.pilot .accord, section.form.pilot .pilot-2016, section.form.pilot .hrv {display: none !important;}
+	section.form.pilot-2016 .cr, section.form.pilot-2016 .civic, section.form.pilot-2016 .accord, section.form.pilot-2016 .pilot, section.form.pilot-2016 .hrv {display: none !important;}
+	section.form.hrv .cr, section.form.hrv .civic, section.form.hrv .accord, section.form.hrv .pilot-2016, section.form.hrv .pilot {display: none !important;}
+	section.detail.cr .cr .car {text-align: left;}
+	section.detail.accord .accord .car {text-align: left;}
+	section.detail.accord .accord .price {top: -3px;}
+	section.detail.pilot-2016 .price .top .text {padding-bottom: 15px;}
+	section.detail.hrv .price .top .text {padding-bottom: 15px;}
+/*	--------------------------------------------------
+	Fin Cars -
+	-------------------------------------------------- */
+	
+	@media only screen and (min-width: 900px) and (max-width: 1024px) {
+		footer {padding: 30px 30px 30px 30px;}
+		section.form .formfields ul.formbody>li.send {margin-top: 15px;}
+		section.form .formfields {padding: 70px 170px 40px 170px;}
+		footer .social {zoom: 0.8;}
+	}
+	
+	@media (max-width: 900px) {
+		.desktop {display: none !important;}
+		.mobile {display: block !important;}
+
+		header .logo {width: 65%;}
+		header .bella {right: 20px;}
+		header .honda {margin-top: 60px;}
+		header .honda .factory {padding: 0 10px 20px 10px;}
+        header .honda .factory h2 {font-size: 159%;}
+        header .honda .factory h1 {font-size: 256%;}
+
+        section.main {margin-top: 10px;}
+        section.main .cars {margin-bottom: 90px;}
+        section.main .cars .bxslider img {width: 80%;}
+        section.main .newcars .factory {padding: 50px 10px 0 10px; background: rgba(160,160,160,0.6);}
+        section.main .newcars .factory p {font-size: 130%;}
+        section.main .newcars .factory h1 {font-size: 160%;}
+        section.main .newcars .factory .newcarsImg {bottom:-130%}
+        section.main .newcars .triangle {background: url(../img/trianglef_mobile.png) no-repeat 50%;margin-top: -1px;}
+        section.main .newcars .factory a.hrv {width: 50%; left: 0;}
+		section.main .newcars .factory a.pilot-2016 {width: 50%; right: 0;}
+        section.main .tel {background: #1C7BB1; padding: 20px; text-align: center;}
+
+		section.detail .car {float: none; margin: auto; max-width: 460px;}
+		section.detail {margin-top: 25px;margin-bottom: 20px;}
+		section.detail .detail.mobile {text-align: center;}
+
+		section.form {margin-bottom: 0;}
+		section.form .formfields { background: transparent; height: 600px; padding: 25px 40px;}
+		section.form .formfields ul.formbody li { width: 100%;}
+		section.form .formfields span.title {background: #4172A2;display: block;padding: 10px 0;font-size: 130%;margin-right: -40px;margin-left: -40px;}
+		section.form .formfields span.title img {width: 25px;vertical-align: middle;}
+		section.form .slider.mobile {margin-bottom: 40px;}
+		section.form .triangle {display: none;}
+		section.form .formfields ul.formbody {margin-top: 30px;}
+		section.form .formfields a.btn_send {width: 100%;position: relative;}
+		section.form .formfields ul li.getUpdates {color: #343434;font-size: 75%;}
+		section.form .formfields ul li input[type="checkbox"] + label span {border: 1px solid #CDCCCC;}
+		section.form .formfields .label {font-size: 120%;height: 45px;line-height: 45px;}
+		.select-mobile {margin-bottom: 10px;}
+		section.form .tel {background: #1C7BB1;padding: 20px;text-align: center;}
+		section.form .formfields ul li.warning {margin-bottom: 10px; height: 30px; line-height: 30px; font-size: 120%;}
+
+		input[type="text"], input[type="password"], input[type="email"], input[type="date"], input[type="tel"], input[type="number"] {height: 45px;font-size: 120%;border: 2px solid #CAC9C9;}
+		.error input[type="text"], .error input[type="password"], .error input[type="email"], .error input[type="date"], .error input[type="tel"], .error input[type="number"], .error textarea {border: 2px solid #C1272D;}
+		
+		footer .logos {float: none;padding: 0 20px;width: 100%;margin: 0;margin-left: -7%;}
+		footer .logos li {width: 49%;text-align: left;height: 50px;}
+		footer .logos li:first-child {text-align: right;}
+		footer .social {float: none;text-align: center;margin-top: 40px;}
+		footer .social li {font-size: 85%;margin-right: 10px;text-align: center;}
+		footer .social li a i {width: 20px;height: 20px;background-size: cover;margin-bottom: -5px;margin-right: 5px;}
+		footer .social li.tw a i {background-position: -31px;}
+		footer .social li a:hover {opacity:1}
+		footer .social li a:hover i {border-radius:0}
+		footer hr {margin-top: 20px;border-top: 0;}
+		footer div > h1 {text-align: center;font-size: 110%;}
+		.bx-wrapper .bx-controls-direction a {top: 60%;}
+
+	}
+
+	@media (max-width: 600px) {
+		section.ok {padding: 0 20px; margin-top: 150px; font-size: 70%;}
+		section.ok h1 { margin-bottom: 50px; font-size: 200%;}
+		header .logo a img {width: 40%;}
+		section.ok p { font-size: 130%;}
+		header .honda .factory {height: 25px;}
+		header .honda .factory img { zoom: 0.6;}
+		header .honda .factory img.bottom { top: -60px;}
+	}
+
+	@media (max-width: 500px) {
+		header .bella {width:30%;}
+		section.ok {margin-top:70px;}
+		section.form .formfields {padding:15px 30px;}
+		section.form .formfields span.title {margin-left: -30px;margin-right: -30px;}
+		section.main .newcars .factory .newcarsImg {bottom:-90%}
+		footer {padding-top: 20px;}
+		.bx-wrapper .bx-pager.bx-default-pager a {margin:0 8px !important;}
+	}
+
+	@media (max-width: 400px){
+		section.detail .carDetail h3 {font-size: 400%;}
+		section.detail .carDetail p {font-size: 280%;}
+		section.form .formfields {padding:15px}
+		section.form .formfields span.title {margin-left: -15px;margin-right: -15px;}
+		footer .logos {margin-left: 0;}
+		footer .logos li:last-child a img {margin-top: 10px;}
+	}
+
+	@media (max-width: 360px){
+		section.main .newcars .factory .newcarsImg {bottom:-70%}
+	}
+
+	/* Samsung Galaxy S4 */
+	@media screen (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) and (device-width: 1080px) and (orientation: portrait) { 
+    	
+	}
+	@media screen (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) and (device-width: 1920px) and (orientation: landscape) { 
+		
+	}
+
+
+	/* iPad */
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+	}
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+		
+	}
+
+
+	/* iPhone 4 */
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+	}
+
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+	}
+
+	/* iPhone 5 */
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+		
+	}
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
+	}

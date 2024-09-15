@@ -1,0 +1,14 @@
+.form .formfields ul li input[type="checkbox"] {display: block; position: absolute; z-index: 2; top: 15px; left: 2px;}
+input[type="text"], input[type="password"], input[type="email"], input[type="date"], input[type="tel"], input[type="number"] {line-height: 44px;}
+.select-mobile select option {border: 0; background:red; height: 200px;}
+.form .formfields ul li.getUpdates {width: 100%; margin-left: -5px;}
+.form .formfields ul li input[type="checkbox"] + label span {background: transparent; margin-right: 2px;}
+.form .formfields ul li input[type="checkbox"] + label span:hover {background-color: transparent;}
+.form .formfields ul li input[type="checkbox"]:checked + label span:hover {background-color: transparent;}
+.form .formfields ul li.warning {background: #EB1919}
+.tlx .ilx, .tlx .mdx, .tlx .rdx {display: none;}
+.ilx .tlx, .ilx .mdx, .ilx .rdx {display: none;}
+.mdx .tlx, .mdx .ilx, .mdx .rdx {display: none;}
+.rdx .tlx, .rdx .ilx, .rdx .mdx {display: none;}
+.mouse {display: none !important;}
+section.detail .car .imgContainer .square {border: 2px solid #000;}

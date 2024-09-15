@@ -1,0 +1,170 @@
+	html, body {height: 100%;}
+
+	body {background: #fff;}
+
+	.h100 {height: 100%;}
+	.desktop {display: block !important;}
+	.mobile {display: none !important;}
+	.linktel {color: #3A393B;}
+	.linktel:hover {color:#666;}
+
+	::-webkit-input-placeholder {
+	   color: #000;
+	   opacity: 1;
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+	   color: #000;
+	   opacity: 1;  
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+	   color: #000;
+	   opacity: 1;  
+	}
+
+	:-ms-input-placeholder {  
+	   color: #000; 
+	   opacity: 1; 
+	}
+
+
+/*	--------------------------------------------------
+	Layout
+	-------------------------------------------------- */
+	section > .row {}
+	sup {font-size: 50%;}
+
+/*	--------------------------------------------------
+	Contenedor general - Da el ancho del contenido
+	-------------------------------------------------- */
+	.cont-general{ position: relative; left: 0; right: 0; margin: auto; max-width: 1280px;}
+	section{position: relative;}
+	.clear {clear: both;}
+
+/*	--------------------------------------------------
+	Header -
+	-------------------------------------------------- */	
+	header {background: #000; text-align: center;position: fixed;width: 100%;z-index: 2;}
+	header .logo {padding: 20px; font-size: 150%;}
+/*	--------------------------------------------------
+	Fin Header -
+	-------------------------------------------------- */	
+
+	nav {}
+	nav li {}
+	nav li a {}
+
+/*	--------------------------------------------------
+	Section - Main
+	-------------------------------------------------- */
+	section.main {height: calc(100% - 82px);}
+	section.main .preview {float: left; width: calc(100% - 300px);height: calc(100% - 82px);position: fixed;top: 59px;}
+	section.main .preview iframe {width: 90%; margin: auto; height: 90%; position: absolute; left: 0; right: 0; top: 30px; bottom: 0;}
+	section.main .preview iframe:before {content:=" "; position: absolute; width: 100px; height: 100px; background: red;}
+	section.main .preview .view {text-align: center; margin-top: 20px;}
+	section.main .preview .view ul li {width: 20px; height: 20px; background: url(../img/view.png) no-repeat; display: inline-block; cursor: pointer;}
+	section.main .preview .view ul li.desktopView {background-position: -20px; margin-left: 10px;}
+	section.main .preview .view ul li.gotosite {background-position: -40px; margin-left: 13px; position: relative;}
+	section.main .preview .view ul li.gotosite a {width: 100%; height: 100%; position: absolute; top: 0; left: 0;}
+	section.main aside {width: 300px; background: #000; float: right;top: 59px;position: relative;z-index: 1;}
+	section.main aside .filter {width: 100%; text-align: center; position: relative; z-index: 3;}
+	section.main aside .filter .title {padding: 20px 0; background: #ccc; font-family: Arial, Helvetica, sans-serif; font-size: 130%; font-weight: bold; position: relative; cursor: pointer; z-index: 3;}
+	section.main aside .filter .title:after {content: " "; position: absolute; border-top: 7px solid #fff; border-left: 7px solid transparent; border-right: 7px solid transparent; top: 50%; margin-top: -5px; margin-left: 70px; 
+	-webkit-transition: .3s;
+	   -moz-transition: .3s;
+	    -ms-transition: .3s;
+	     -o-transition: .3s;
+	        transition: .3s;}
+	section.main aside .filter .title.open:after {border-top: 0; border-bottom: 7px solid #fff;}
+	section.main aside .filter .title.open:hover:after {border-bottom-color: #333;}
+	section.main aside .filter .title:hover:after {border-top-color: #333}
+	section.main aside .filter ul {background: #333; position: absolute; width: 100%; display: none;}
+	section.main aside .filter ul li {padding: 15px 0 ; border-bottom: 1px solid #fff; cursor: pointer; 
+	-webkit-transition: .3s;
+	   -moz-transition: .3s;
+	    -ms-transition: .3s;
+	     -o-transition: .3s;
+	        transition: .3s;}
+	section.main aside .filter ul li:hover {background: #fff; color: #333;}
+	section.main aside .filter ul li:last-child {border: 0;}
+	section.main aside .templates {text-align: center; margin-top: 20px;}
+	section.main aside .templates li {margin-bottom: 20px; cursor: pointer; position: relative; overflow: hidden;}
+	section.main aside .templates li .subtitle {position: absolute; bottom: -50px; left: 0; width: 100%; background: rgba(0,0,0,.5); padding: 15px 0;
+	-webkit-transition: .3s;
+	   -moz-transition: .3s;
+	    -ms-transition: .3s;
+	     -o-transition: .3s;
+	        transition: .3s;}
+	section.main aside .templates li:hover .subtitle {bottom: 0;}
+/*	--------------------------------------------------
+	Fin Section - Main
+	-------------------------------------------------- */
+	    
+/*	--------------------------------------------------
+	Section - OK
+	-------------------------------------------------- */
+/*	--------------------------------------------------
+	Fin Section - OK
+	-------------------------------------------------- */
+
+/*	--------------------------------------------------
+	Footer -
+	-------------------------------------------------- */		
+	footer {}
+/*	--------------------------------------------------
+	Fin Footer -
+	-------------------------------------------------- */
+	
+	@media only screen and (min-width: 900px) and (max-width: 1200px) {
+	}
+	
+	@media (max-width: 900px) {
+		.desktop {display: none !important;}
+		.mobile {display: block !important;}
+	}
+
+	@media (max-width: 700px) {
+	}
+
+	@media (max-width: 500px) {
+	}
+
+	@media (max-width: 400px){
+	}
+
+	@media (max-width: 360px){
+	}
+
+	/* Samsung Galaxy S4 */
+	@media screen (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) and (device-width: 1080px) and (orientation: portrait) { 
+    	
+	}
+	@media screen (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) and (device-width: 1920px) and (orientation: landscape) { 
+		
+	}
+
+
+	/* iPad */
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+	}
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+		
+	}
+
+
+	/* iPhone 4 */
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+	}
+
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+	}
+
+	/* iPhone 5 */
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+		
+	}
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
+	}

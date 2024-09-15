@@ -1,0 +1,223 @@
+	html, body {}
+
+	body {background: #333;}
+
+	.h100 {height: 100%;}
+	.desktop {display: block !important;}
+	.mobile {display: none !important;}
+	.linktel {color: #3A393B;}
+	.linktel:hover {color:#666;}
+
+	::-webkit-input-placeholder {
+	   color: #000;
+	   opacity: 1;
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+	   color: #000;
+	   opacity: 1;  
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+	   color: #000;
+	   opacity: 1;  
+	}
+
+	:-ms-input-placeholder {  
+	   color: #000; 
+	   opacity: 1; 
+	}
+
+
+/*	--------------------------------------------------
+	Layout
+	-------------------------------------------------- */
+	section > .row {}
+	sup {font-size: 50%;}
+
+/*	--------------------------------------------------
+	Contenedor general - Da el ancho del contenido
+	-------------------------------------------------- */
+	.cont-general{ position: relative; left: 0; right: 0; margin: auto; max-width: 1280px;}
+	section{position: relative;}
+
+/*	--------------------------------------------------
+	Header -
+	-------------------------------------------------- */	
+	header {height: 670px; background: url(../img/main-bg.jpg) no-repeat 50%; background-size: cover; position: relative;}
+	header .acura {float: left;margin-left: 100px;margin-top: 40px;}
+	header .bella {float: right;margin-right: 100px;margin-top: 60px;}
+	header hr {position: absolute;bottom: 0;width: 50px;left: 0;right: 0;margin: auto;border-top: 0;border-bottom-width: 6px;}
+/*	--------------------------------------------------
+	Fin Header -
+	-------------------------------------------------- */	
+
+	nav {}
+	nav li {}
+	nav li a {}
+
+/*	--------------------------------------------------
+	Section - Form
+	-------------------------------------------------- */
+	section.form { clear: both;margin-top: 50px;margin-bottom: 120px;}
+	section.form .formfields { margin: auto; text-align: center; max-width: 615px;;}
+	section.form .formfields span.title {font-family: "blissbold", sans-serif; font-size: 215.3%; margin-top: 40px;}
+	section.form .formfields ul.formbody {margin-top: 50px;}
+	section.form .formfields ul.formbody>li {width: 48%;margin-right: 4%;float: left;margin-bottom: 10px;}
+	section.form .formfields ul.formbody>li.model {width: 100%;}
+	section.form .formfields ul.formbody>li:nth-child(even) {margin-right: 0;}
+	section.form .formfields ul.formbody>li.send {margin-top: 0px;position: relative;width: 100%;margin-bottom: 70px;}
+	section.form .formfields .label {text-align: left; font-family: "blisslight", sans-serif; font-size: 123.1%;}
+	section.form .formfields a.btn_send { width: 160px; height: 55px; background: #141414; font-family: "blissextrabold", sans-serif; font-size: 153.9%; line-height: 50px;z-index: 2;
+	-webkit-transition: .3s, border-width .1s;
+	   -moz-transition: .3s, border-width .1s;
+	    -ms-transition: .3s, border-width .1s;
+	     -o-transition: .3s, border-width .1s;
+	        transition: .3s, border-width .1s;
+	        margin-top: 20px;
+	        display: block;
+	        border: 4px solid #fff;
+	        margin: 18px auto 0 auto;}
+	section.form .formfields a.btn_send:hover {opacity:0.8; letter-spacing:2px; border-width:2px; line-height: 53px;}
+	section.form .formfields ul li.warning {height: 30px;text-align: center;line-height: 30px;font-family: "blissbold", sans-serif;font-size: 123.1%;width: 100%;color: #F13030;position: relative;margin-top: -50px;display: none;}
+	section.form .formfields ul li.success {height: 30px;text-align: center;line-height: 30px;font-family: "blissbold", sans-serif;font-size: 123.1%;width: 100%;margin-top: -50px;color: #0A960D;position: relative;display: none;}
+	section.form .formfields ul li.success:before {content:" ";border-bottom:9px solid #0A960D;width:9px;height:9px;display:block;border-left:9px solid transparent;border-right:9px solid transparent;position:absolute;right:0;left:0;margin:auto;top:-7px;}
+	section.form .formfields ul li.warning:before {content:" ";border-bottom:9px solid #F13030;width:9px;height:9px;display:block;border-left:9px solid transparent;border-right:9px solid transparent;position:absolute;right:0;left:0;margin:auto;top:-7px;}
+	section.form .formfields ul li.success span, section.form .formfields ul li.warning span {font-size: 130%;}
+	section.form .formfields ul li.getUpdates {color: #FFF; font-size: 123.1%;  position: relative; font-family: "blissregular", sans-serif;text-align: left;width: 100%;margin: 0;line-height: 28px;}
+	section.form .formfields ul li input[type="checkbox"] {display: none;}
+	section.form .formfields ul li input[type="checkbox"] + label span { width: 22px; height: 22px; cursor: pointer; background: #fff; margin-right: 10px; display: block; vertical-align: bottom;float: left;margin-top: 7px;}
+	section.form .formfields ul li input[type="checkbox"] + label span:hover {background-color:#ccc;}
+	section.form .formfields ul li input[type="checkbox"]:checked + label span:hover {background-color:#ccc;}
+	section.form .formfields ul li input[type="checkbox"]:checked + label span {background: url(../img/tick.png) no-repeat #fff 50% 40%;}
+	li.select {-webkit-appearance: none; outline:0 none; box-shadow:none; -moz-box-shadow:none; box-shadow:none; position:relative; background: #DAF0FA; -webkit-border-radius: 0;
+	        border-radius: 0;}
+	li.select select { 
+		-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; appearance: none; -moz-appearance: none; background: #DAF0FA; outline: 0; border-top:1px solid transparent; border-right:1px solid transparent; border-bottom: 1px solid transparent;
+		border-left:#1E7AB1 4px solid; width:100%; height:50px; float:left; padding:0 20px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; font-family:"Avenir Demi", sans-serif; font-size:160%; color:#353535;outline:0;
+	}
+	li.select:after { 
+		content:''; width:0; height:0; border-style:solid; border-width:6px 5px 0 5px; border-color:#333 transparent transparent transparent; 
+		position:absolute; right:10px; top:24px;
+	}
+	.select-mobile {-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; outline:0 none; box-shadow:none; -moz-box-shadow:none; box-shadow:none; position:relative; background:#DAF0FA;}
+	.select-mobile select { 
+		-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; appearance: none; -moz-appearance: none; background: #fff;
+		width:100%; height:50px; float:left;  padding:0 15px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; font-family:"blisslight", sans-serif; font-size:123.1%; color:#000;outline:0; text-indent: 5px; border:0;
+	}
+	.select-mobile:after {
+		content:'';
+		width:0;
+		height:0;
+		border-style:solid;
+		border-width:6px 5px 0 5px;
+		border-color:#333 transparent transparent transparent;
+		position:absolute;
+		right:10px;
+		top: 23px;
+	}
+
+	section.ok {padding: 170px 20px;}
+	section.ok h1 {text-align: center;font-family: "blissbold", sans-serif;font-size: 384.6%;}
+	section.ok hr {width: 20%;margin: 30px auto;}
+	section.ok p {text-align: center;font-family: "blissregular", sans-serif;font-size: 167%;}
+/*	--------------------------------------------------
+	Fin Section - Form
+	-------------------------------------------------- */
+
+/*	--------------------------------------------------
+	Footer -
+	-------------------------------------------------- */		
+	footer {background: #1A1A1A; height: 120px; clear: both; position: relative;}
+	footer .acura {position: absolute;bottom: 0px;top: 0;margin: auto;height: 50px;left: 105px;}
+	footer .social {position: absolute;right: 105px;top: 0;bottom: 0;margin: auto;height: 40px;}
+	footer .social li {display: inline-block;}
+	footer .social li a {width: 40px; height: 40px; display: block; background: url(../img/social.png) no-repeat; -webkit-transition: .4s;
+	   -moz-transition: .4s;
+	    -ms-transition: .4s;
+	     -o-transition: .4s;
+	        transition: .4s;}
+	footer .social li a.tw {background-position: -43px 0;}
+	footer .social li a.li {background-position: -87px 0;}
+	footer .social li a.pi {background-position: -131px 0;}
+	footer .social li a.in {background-position: -175px 0;}
+	footer .social li a:hover {background-position: 0 -47px;}
+	footer .social li a.tw:hover {background-position: -43px -47px;}
+	footer .social li a.li:hover {background-position: -87px -47px;}
+	footer .social li a.pi:hover {background-position: -131px -47px;}
+	footer .social li a.in:hover {background-position: -175px -47px;}
+/*	--------------------------------------------------
+	Fin Footer -
+	-------------------------------------------------- */
+	
+	@media only screen and (min-width: 900px) and (max-width: 1200px) {
+		header {height: 500px;}
+	}
+	
+	@media (max-width: 900px) {
+		.desktop {display: none !important;}
+		.mobile {display: block !important;}
+
+		section.form .formfields {padding: 0 20px;}
+		header {height: 410px;}
+	}
+
+	@media (max-width: 700px) {
+		header {height: 260px;background: url(../img/main-bg-mobile.jpg) no-repeat 50% 65%;background-size: cover;}
+		header .acura {margin-left: 15px;margin-top: 30px;width: 20%;}
+		header .bella {width: 20%;margin-right: 15px;margin-top: 40px;}
+
+		section.form {margin-bottom: 50px;}
+		section.form .formfields ul.formbody>li {width: 100%;float: none;margin-right: 0;}
+		section.form .formfields ul li.getUpdates {font-size: 90%;line-height: 37px;}
+		section.form .formfields ul.formbody>li.model {height: 50px;}
+
+		footer {height: 100px;}
+		footer .acura {left: 15px;}
+		footer .social {right: 15px;;}
+		footer .social li a {}
+	}
+
+	@media (max-width: 500px) {
+		header {height: 240px;}
+		header .acura, header .bella {width: 30%;}
+	}
+
+	@media (max-width: 400px){
+	}
+
+	@media (max-width: 360px){
+	}
+
+	/* Samsung Galaxy S4 */
+	@media screen (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) and (device-width: 1080px) and (orientation: portrait) { 
+    	
+	}
+	@media screen (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) and (device-width: 1920px) and (orientation: landscape) { 
+		
+	}
+
+
+	/* iPad */
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+	}
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+		
+	}
+
+
+	/* iPhone 4 */
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+	}
+
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+	}
+
+	/* iPhone 5 */
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+		
+	}
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
+	}

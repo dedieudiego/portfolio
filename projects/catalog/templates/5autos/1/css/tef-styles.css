@@ -1,0 +1,300 @@
+	html, body {}
+
+	body {background: url(../img/background.jpg) no-repeat #035895; background-size: 100%;}
+
+	.h100 {height: 100%;}
+	.desktop {display: block !important;}
+	.mobile {display: none !important;}
+
+	::-webkit-input-placeholder {
+	   color: #000;
+	   opacity: 1;
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+	   color: #000;
+	   opacity: 1;  
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+	   color: #000;
+	   opacity: 1;  
+	}
+
+	:-ms-input-placeholder {  
+	   color: #000; 
+	   opacity: 1; 
+	}
+
+
+/*	--------------------------------------------------
+	Layout
+	-------------------------------------------------- */
+	section > .row {}
+	sup {font-size: 50%;}
+
+/*	--------------------------------------------------
+	Contenedor general - Da el ancho del contenido
+	-------------------------------------------------- */
+	.cont-general{max-width: 1024px; position: relative; left: 0; right: 0; margin: auto;}
+	section{position: relative;}
+
+/*	--------------------------------------------------
+	Header -
+	-------------------------------------------------- */	
+	header{}
+
+/*	--------------------------------------------------
+	Fin Header -
+	-------------------------------------------------- */	
+
+	nav {}
+	nav li {}
+	nav li a {}
+
+/*	--------------------------------------------------
+	Section - Main
+	-------------------------------------------------- */
+	section.main { margin-top: 85px; margin-bottom: 40px;}
+	section.main .cars { text-align: center; z-index: 2; position: relative;;}
+	section.main .title { font-family: "acuraregular", sans-serif; font-size: 253.8%; text-align: center; line-height: 40px;}
+	section.main .specs { height: 225px;}
+	section.main .specs ul li { width: 20%; float: left; height: 230px;}
+	section.main .specs ul li .leftLine {width: 70%;height: 370px;position: relative;top: -194px;margin: auto;border-left: 1px solid #fff;z-index: 1;;}
+	section.main .specs ul li .leftLine.middle { top: -150px;}
+	section.main .specs ul li .specContainer { width: 80%; margin: auto; position: absolute; bottom: 0px; left: 10px;}
+	section.main .specs ul li h1 { font-family: "acuraregular", sans-serif; font-size: 290.3%;}
+	section.main .specs ul li h2 { font-family: "acuraregular", sans-serif; font-size: 130.7%; margin-bottom: 7px;}
+	section.main .specs ul li p { font-family: "gothammedium", sans-serif; font-size: 76.9%; margin: 7px 0;}
+	section.main .specs ul li span.mpg { font-family: "gothammedium", sans-serif; font-size: 170%; font-weight: 900;}
+	section.main .specs ul li span.mpgSubtitle { word-spacing: 15px;}
+	section.main .specs ul li .price { font-family: "gothammedium", sans-serif; font-size: 170.3%; margin-top: 7px;}
+	section.main .specs ul li .bonus { font-size: 110%; font-style: italic; line-height: 3px; margin-bottom: 15px;}
+	section.main .specs ul li:last-child .price { margin-bottom: 10px; margin-top: 9px;}
+	section.main .specs ul li:last-child .bonus { margin-bottom: 0; margin-top: 12px;}
+	section.main .specs ul li .seeMore { background-color: #6FA1D7; display: block; text-align: center; height: 20px; line-height: 20px; font-family: "gothammedium", sans-serif; -webkit-transition: ease all 0.3s;
+	   -moz-transition: ease all 0.3s;
+	    -ms-transition: ease all 0.3s;
+	     -o-transition: ease all 0.3s;
+	        transition: ease all 0.3s;}
+	section.main .specs ul li .seeMore:hover { height: 30px; line-height: 30px;}
+/*	--------------------------------------------------
+	Fin Section - Main
+	-------------------------------------------------- */
+	    
+/*	--------------------------------------------------
+	Section - Detail
+	-------------------------------------------------- */
+	section.detail.cont-general {max-width: 730px;}
+	section.detail {margin-top: 55px; margin-bottom: 100px;}
+	section.detail h1 { font-size: 261.5%; font-family: "gothamlight", sans-serif; text-align: center; text-transform: uppercase; font-weight: 600;}
+	section.detail hr { margin: 15px 0;}
+	section.detail .carDetail .carImage { float: left; margin-left: -50px;}
+	section.detail .carDetail .carInfo { float: right; width: 535px; height: 110px; background: rgba(116,188,218,0.5); margin-left: -90px; margin-top: 18px; position: relative; z-index: -1;}
+	section.detail .carDetail .carInfo .info { width: 415px; height: 75px; position: absolute; top: 0; bottom: 0; margin: auto; right: 0; padding: 0 25px;}
+	section.detail .carDetail .carInfo .info div { float: left;}
+	section.detail .carDetail .carInfo .info .text01 { font-family: "acuraregular", sans-serif; font-size: 290.3%; line-height: 20px; margin-top: 14px;}
+	section.detail .carDetail .carInfo .info .text01 span { font-size: 45%;}
+	section.detail .carDetail .carInfo .info .text02 { font-family: "gothammedium", sans-serif; font-size: 90%; line-height: 17px; border-left: 1px solid #fff; border-right: 1px solid #fff; margin: 10px 20px 0 20px; padding: 0 10px;}
+	section.detail .carDetail .carInfo .info .text02 span.mpg { font-size: 171%; font-weight: 900;}
+	section.detail .carDetail .carInfo .info .text02 span.mpgSubtitle { word-spacing: 20px;}
+	section.detail .carDetail .carInfo .info .text03 { font-family: "gothammedium", sans-serif; font-size: 172.3%; line-height: 18px; margin-top: 20px;}
+	section.detail .carDetail .carInfo .info .text03 span { font-size: 53.5%;}
+
+/*	--------------------------------------------------
+	Fin Section - Detail
+	-------------------------------------------------- */
+	
+/*	--------------------------------------------------
+	Section - Form
+	-------------------------------------------------- */
+	section.form { clear: both; padding-top: 1px;}
+	section.form.cont-general {max-width: 730px;}
+	section.form .formfields hr {border-bottom: 1px solid #16a9e3; border-top: 0; padding-top: 10px;}
+	section.form .formfields ul.formbody {margin-top: 50px;}
+	section.form .formfields ul.formbody>li {width: 352px;margin-bottom: 20px;float: left;}
+	section.form .formfields ul.formbody>li.error {border-bottom-color: red;}
+	section.form .formfields ul.formbody>li:nth-child(even) { float: right;}
+	section.form .formfields ul.formbody>li:nth-child(7) { clear: both;}
+	section.form .formfields ul.formbody>li:last-child {border-bottom: 0; width: 352px;position: relative;margin-top: 10px;}
+	section.form .formfields a.btn_send {margin: auto; width: 100%; height: 54px; display: block; text-align: center; line-height: 50px; font-size: 180%; -webkit-transition: ease all 0.3s; -moz-transition: ease all 0.3s; -ms-transition: ease all 0.3s; -o-transition: ease all 0.3s; transition: ease all 0.3s; background-color: #123988; margin-top: 0; border-bottom: 4px solid #02659b; font-family: "gothamlight", sans-serif; font-weight: 900;}
+	section.form .formfields a.btn_send:hover { border-bottom: 0px solid #02659b; margin-top: 4px; height: 50px;}
+	section.form .formfields ul li.warning { border-bottom: 0; background-color:rgba(235, 25 ,25, 0.8);text-align: left;line-height: 50px;font-family: "gothammedium", sans-serif;font-size: 95%;text-indent: 20px;height: 50px;clear: both;margin-top: 10px;display: none;}
+	section.form .formfields ul li.getUpdates {border-bottom: 0; color: #FFF; font-size: 90%;  position: relative; top: 2px; font-family: "gothammedium", sans-serif;width: 48%;margin-top: 0px;left: 0px;text-align: left;line-height: 25px;}
+	section.form .formfields ul li input[type="checkbox"] {display: none;}
+	section.form .formfields ul li input[type="checkbox"] + label span { width: 13px; height: 15px; cursor: pointer; background: #fff; margin-right: 10px; display: block; vertical-align: bottom;float: left;margin-top: 8px;}
+	section.form .formfields ul li input[type="checkbox"] + label span:hover {background-color:#ccc;}
+	section.form .formfields ul li input[type="checkbox"]:checked + label span:hover {background-color:#ccc;}
+	section.form .formfields ul li input[type="checkbox"]:checked + label span {background: url(../img/tick.png) no-repeat #fff 50% 40%; background-size:90%}
+
+	li.select {-webkit-appearance: none; outline:0 none; box-shadow:none; -moz-box-shadow:none; box-shadow:none; position:relative; background: #DAF0FA; -webkit-border-radius: 0;
+	        border-radius: 0;}
+	li.select select { 
+		-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; appearance: none; -moz-appearance: none; background: #DAF0FA; outline: 0; border-top:1px solid transparent; border-right:1px solid transparent; border-bottom: 1px solid transparent;
+		border-left:#1E7AB1 4px solid; width:100%; height:50px; float:left; padding:0 20px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; font-family:"gothammedium", sans-serif; font-size:160%; color:#353535;outline:0;
+	}
+	li.select:after { 
+		content:''; width:0; height:0; border-style:solid; border-width:6px 5px 0 5px; border-color:#333 transparent transparent transparent; 
+		position:absolute; right:10px; top:24px;
+	}
+	.select-mobile {-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; outline:0 none; box-shadow:none; -moz-box-shadow:none; box-shadow:none; background: #DAF0FA; position: relative;}
+	.select-mobile select { 
+		-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; appearance: none; -moz-appearance: none; background: #daecf4; border-right:#727272 1px solid; border-bottom:#727272 1px solid; border-left:#727272 1px solid; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; font-family:"PT Sans", sans-serif; font-size:130.7%; color:#353535;outline:0; text-indent: 10px; width: 100%; float: left; padding: 0 10px; height: 50px;
+	}
+	.select-mobile:after {
+		content:'';
+		width:0;
+		height:0;
+		border-style:solid;
+		border-width:6px 5px 0 5px;
+		border-color:#333 transparent transparent transparent;
+		position:absolute;
+		right:10px;
+		top: 23px;
+	}
+/*	--------------------------------------------------
+	Fin Section - Form
+	-------------------------------------------------- */
+	
+/*	--------------------------------------------------
+	Section - OK
+	-------------------------------------------------- */
+	section.ok { text-align: center; padding: 100px 0;}
+	section.ok h1 { font-size: 384.6%; font-family: "gothammedium", sans-serif;}
+	section.ok hr { width: 30%; margin: 30px auto;}
+	section.ok p { font-size: 169.2%; font-family: "gothammedium", sans-serif;}
+/*	--------------------------------------------------
+	Fin Section - OK
+	-------------------------------------------------- */
+
+/*	--------------------------------------------------
+	Footer -
+	-------------------------------------------------- */		
+	footer {background: #1d1d1d;padding: 20px;clear: both;}
+	footer .logo { float: left; margin-bottom: 10px }
+	footer .social { float: right;}
+	footer .social ul li { float: left; margin-right: 5px;}
+	footer .social ul li a { width: 37px; height: 37px; display: block; background: url(../img/social.png) no-repeat; -webkit-transition: ease all 0.3s;
+	   -moz-transition: ease all 0.3s;
+	    -ms-transition: ease all 0.3s;
+	     -o-transition: ease all 0.3s;
+	        transition: ease all 0.3s;}
+	footer .social ul li a:hover {background: url(../img/socialhover.png) no-repeat;}
+	footer .social ul li a.tw { background-position: -43px;}
+	footer .social ul li a.in { background-position: -87px;}
+	footer .social ul li a.yt { background-position: -132px;}
+	footer hr {padding-top: 20px;border-top: 0;margin-bottom: 20px;border-color: #343434;}
+	footer .bottomText { color: #5d5d5d; font-family: "PT Sans", sans-serif; font-size: 90%;}
+
+
+/*	--------------------------------------------------
+	Fin Footer -
+	-------------------------------------------------- */	
+	
+	@media only screen and (min-width: 900px) and (max-width: 1250px) {
+
+	}
+
+	@media (max-width: 900px) {
+		.desktop {display: none !important;}
+		.mobile {display: block !important;}
+
+		body { background-size: 100% 100%; background-attachment: initial;}
+		header { text-align: center;}
+		section.main .title { font-size: 190%; line-height: 30px; width: 90%; margin: auto;}
+
+		section.main.mobile ul.bxslider li {height: 350px;}
+		section.main.mobile .carImage { width: 60%; margin: auto;}
+		section.main.mobile .info { height: 75px; padding: 0 25px; max-width: 90%; margin: auto; margin-top: 35px;}
+		section.main.mobile .info .textContainer { float: none; width: 330px; margin: auto;}
+		section.main.mobile .info div { float: left;}
+		section.main.mobile .info .text01 { font-family: "acuraregular", sans-serif; font-size: 290.3%; line-height: 20px; margin-top: 14px;}
+		section.main.mobile .info .text01 span { font-size: 45%;}
+		section.main.mobile .info .text02 { font-family: "gothammedium", sans-serif; font-size: 90%; line-height: 17px; border-left: 1px solid #fff; border-right: 1px solid #fff; margin: 10px 20px 0 20px; padding: 0 10px;}
+		section.main.mobile .info .text02 span.mpg { font-size: 171%; font-weight: 900;}
+		section.main.mobile .info .text02 span.mpgSubtitle { word-spacing: 20px;}
+		section.main.mobile .info .text03 { font-family: "gothammedium", sans-serif; font-size: 172.3%; line-height: 18px; margin-top: 20px;}
+		section.main.mobile .info .text03 span { font-size: 53.5%;}
+		section.main.mobile .info .seeMore { display: block; background: #6ea1d7; height: 60px; clear: both; line-height: 60px; text-align: center; width: 80%; position: relative; top: 20px; font-family: "gothammedium", sans-serif; font-weight: 900; font-size: 200%; margin: auto;}
+		section.main.mobile .tel {width: 70%;margin: 20px auto 0 auto;}
+
+		section.detail.cont-general {margin-bottom: 30px;}
+		section.detail .carDetail .carImage {width: 100%;text-align: center;margin-left: 0;}
+		section.detail .title { font-family: "acuraregular", sans-serif; font-size: 183.8%; text-align: center; line-height: 35px; margin-bottom: 60px;}
+		section.detail .model {text-align: center;font-family: "acuraregular", sans-serif;font-size: 290.3%;}
+		section.detail .model  span {font-size: 45%;}
+		section.form .triangle {-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; filter: alpha(opacity=70); -moz-opacity: 0.7; -khtml-opacity: 0.7; opacity: 0.7;}
+		section.form .triangle img {margin-bottom: 0;}
+		section.form .formfields {background-color: rgba(88,142,184,0.7);height: 630px;padding-top: 50px;}
+		section.form .formfields h1 {font-size: 221.5%; font-family: "gothamlight", sans-serif; text-align: center; text-transform: uppercase; font-weight: 600;}
+		section.form .formfields hr {border-bottom-color: #fff;}
+		section.form .formfields ul.formbody {width: 90%; margin: 40px auto 0 auto;}
+		section.form .formfields ul.formbody>li {margin-bottom: 10px;width: 100%;}
+		section.form .formfields ul.formbody>li.error {margin-bottom: 5px;}
+		section.form .formfields ul li.warning {height: 25px;line-height: 25px;}
+		section.form .formfields ul.formbody>li:last-child {width: 100%;}
+		section.form .tel {padding: 40px 0;text-align: center;}
+		section.form .tel img {width: 85%;}
+
+		section.form .formfields.ok { height: auto; padding: 100px 30px 160px 30px; text-align: center;}
+		section.form .formfields.ok h1 { font-size: 200%; font-family: "gothammedium", sans-serif;}
+		section.form .formfields.ok hr {width: 50%;margin: 20px auto;}
+		section.form .formfields.ok p {font-family: "gothammedium", sans-serif;font-size: 140%;}
+	}
+
+	@media (max-width: 600px) {
+		section.main.mobile .info .seeMore {width: 100%; height: 73px; font-size: 200%; line-height: 73px;}
+	}
+
+	@media (max-width: 500px) {
+		section.main.mobile .slider .bx-wrapper .bx-pager {bottom: 180px;}
+		section.main.mobile .tel {width: 80%;margin-top: 10px;}
+
+		section.detail .title {padding: 0 15px;}
+		
+	}
+
+	@media (max-width: 400px) {
+		section.main.mobile .slider .bx-wrapper .bx-pager { bottom: 204px;}
+		section.main.mobile .info { max-width: 100%;}
+		section.main.mobile .info .textContainer { width: 100%;}
+		section.main.mobile .info .text01 { font-size: 220%; line-height: 16px; margin-top: 25px;}
+		section.main.mobile .info .text02 { font-size: 83%; margin: 10px;}
+		section.main.mobile .info .text03 { font-size: 155%;}
+		section.main.mobile .tel { width: 90%; margin-top: 20px;}
+
+		section.form .formfields { height: 680px;}
+	}
+
+	/* Samsung Galaxy S4 */
+	@media screen (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) and (device-width: 1080px) and (orientation: portrait) { 
+    	
+	}
+	@media screen (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) and (device-width: 1920px) and (orientation: landscape) { 
+		
+	}
+
+	/* iPad */
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+		
+	}
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+		
+	}
+
+
+	/* iPhone 4 */
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+	
+	}
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
+	}
+
+	/* iPhone 5 */
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+	
+	}
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
+	}

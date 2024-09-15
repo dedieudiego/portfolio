@@ -1,0 +1,506 @@
+	html, body {}
+
+	body {background: #fff}
+
+	.h100 {height: 100%;}
+	.desktop {display: block !important;}
+	.mobile {display: none !important;}
+	.linktel {color: #3A393B;}
+	.linktel:hover {color:#666;}
+
+	::-webkit-input-placeholder {
+	   color: #000;
+	   opacity: 1;
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+	   color: #000;
+	   opacity: 1;  
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+	   color: #000;
+	   opacity: 1;  
+	}
+
+	:-ms-input-placeholder {  
+	   color: #000; 
+	   opacity: 1; 
+	}
+
+
+/*	--------------------------------------------------
+	Layout
+	-------------------------------------------------- */
+	section > .row {}
+	sup {font-size: 50%;}
+
+/*	--------------------------------------------------
+	Contenedor general - Da el ancho del contenido
+	-------------------------------------------------- */
+	.cont-general{ position: relative; left: 0; right: 0; margin: auto; max-width: 1280px;}
+	section{position: relative;}
+	.clear {clear: both;}
+
+/*	--------------------------------------------------
+	Header -
+	-------------------------------------------------- */	
+	header {background: url(../img/main-bg.jpg) no-repeat;height: 600px;}
+	header .overlay {position: absolute; right: 0; top: 0;}
+	header .acura {float: left;background: #fff;height: 100px;color: #2B3A67;font-size: 215.3%;font-family: "acuralight", sans-serif;line-height: 100px;position: relative; z-index: 2; width: 654px;}
+	header .acura:after {content:" ";display:block;position:absolute;border-bottom:100px solid transparent;border-left:60px solid #fff;top:0;right:-60px;}
+	header .acura img { margin-top: 33px; margin-left: 20px; margin-right: 40px;}
+	header .bella {float: right;margin-top: 33px;margin-right: 55px; position:relative; z-index: 2;}
+	header .mpg {position: absolute;bottom: 35px;left: 40px;}
+	header .reliable {position: absolute; right: 40px; bottom: 35px; font-family: "acuraregular", sans-serif; font-size: 289.5%; text-align: right;}
+	header .reliable span {font-size: 142.8%;}
+	header .reliable img {margin-top: 10px;}
+	header .mdxTitle {position: absolute; right: 200px; left: 0; bottom: 45px; margin: auto; font-size: 637.4%; font-family: "acuraregular", sans-serif; width: 370px;}
+	header .mdx {position: absolute;right: 0;left: 0;bottom: -105px;max-width: 715px;margin: auto;}
+	header .ok {display: none;}
+/*	--------------------------------------------------
+	Fin Header -
+	-------------------------------------------------- */	
+
+	nav {}
+	nav li {}
+	nav li a {}
+
+/*	--------------------------------------------------
+	Section - Form
+	-------------------------------------------------- */
+	
+/*	--------------------------------------------------
+	Fin Section - Form
+	-------------------------------------------------- */
+	    
+
+/*	--------------------------------------------------
+	Section - Form2
+	-------------------------------------------------- */
+	@media (min-width: 900px) {
+		section.form {position: absolute;top: 110px;}
+		section.form .formfields {width: 335px; position: relative;float: right;margin-right: 30px;}
+		section.form .formfields .line {display: none;}
+		section.form .formfields span.title {font-family: "gothammedium", sans-serif;font-size: 200%;color: #Fff;font-style: italic;padding-left: 20px;}
+		section.form .formfields ul.formbody {margin-top: 20px;}
+		section.form .formfields ul.formbody>li {width: 100%;margin-bottom: 0px;position: relative;}
+		section.form .formfields ul.formbody>li:nth-child(1) {}
+		section.form .formfields ul.formbody>li:nth-child(2) {}
+		section.form .formfields ul.formbody>li.model {width: 100%;}
+		section.form .formfields ul.formbody>li:nth-child(even) {margin-right: 0;}
+		section.form .formfields ul.formbody>li.send {margin-top: -10px;position: relative;width: 148px;margin-bottom: 70px;float: right;}
+		section.form .formfields .label {text-align: left; font-family: "blisslight", sans-serif; font-size: 123.1%;}
+		section.form .formfields a.btn_send {
+		width: 145px;
+		height: 50px;
+		font-family: "blissbold", sans-serif;
+		font-size: 182%;
+		line-height: 50px;
+		z-index: 2;
+		border: 1px solid #fff;
+		-webkit-transition: .3s, border-width .1s;
+		-moz-transition: .3s, border-width .1s;
+		-ms-transition: .3s, border-width .1s;
+		-o-transition: .3s, border-width .1s;
+		transition: .3s, border-width .1s;
+		margin-top: 20px;
+		display: block;
+		margin: 18px auto 0 auto;
+		-webkit-transition: .3s;
+		-moz-transition: .3s;
+		-ms-transition: .3s;
+		-o-transition: .3s;
+		transition: .3s;
+		text-align: center;
+		border-width: 1px 1px 1px 0;
+		position: relative;
+		}
+		section.form .formfields a.btn_send:after {content:" "; position: absolute; width: 20px; height: 50px; top: -1px; border: 1px solid #fff;left: -10px;border-width: 1px 0 1px 1px;-webkit-transform: skew(-20deg);
+		   -moz-transform: skew(-20deg);
+		    -ms-transform: skew(-20deg);
+		     -o-transform: skew(-20deg);
+		        transform: skew(-20deg); -webkit-transition: .3s;
+		   -moz-transition: .3s;
+		    -ms-transition: .3s;
+		     -o-transition: .3s;
+		        transition: .3s;}
+		section.form .formfields a.btn_send span {
+		-webkit-transition: .3s;
+		-moz-transition: .3s;
+		-ms-transition: .3s;
+		-o-transition: .3s;
+		transition: .3s;
+		display: block;
+		color: #fff;
+		text-indent: -10px;
+		}
+	    section.form .formfields a.btn_send:hover {background: #2B3A67;}
+	    section.form .formfields a.btn_send:hover:after {background: #2B3A67;}
+	    section.form .formfields a.btn_send:hover span {color: #FFF;}
+		section.form .formfields ul li.warning {height: 30px;text-align: center;line-height: 30px;font-family: "blissbold", sans-serif;font-size: 123.1%;width: 100%;color: #F13030;position: relative;display: none; clear: both; top: -40px;}
+		section.form .formfields ul li.success {height: 30px;text-align: center;line-height: 30px;font-family: "blissbold", sans-serif;font-size: 123.1%;width: 100%;margin-top: -50px;color: #0A960D;position: relative;display: none;}
+		section.form .formfields ul li.success:before {content:" ";border-bottom:9px solid #0A960D;width:9px;height:9px;display:block;border-left:9px solid transparent;border-right:9px solid transparent;position:absolute;right:0;left:0;margin:auto;top:-7px;}
+		section.form .formfields ul li.warning:before {content:" ";border-bottom:9px solid #F13030;width:9px;height:9px;display:block;border-left:9px solid transparent;border-right:9px solid transparent;position:absolute;right:0;left:0;margin:auto;top:-7px;}
+		section.form .formfields ul li.success span, section.form .formfields ul li.warning span {font-size: 130%;}
+		section.form .formfields ul li.getUpdates {color: #fff; font-size: 123.1%;  position: relative; font-family: "blissregular", sans-serif;text-align: left;width: 100%;margin: 0;line-height: 38px;}
+		section.form .formfields ul li input[type="checkbox"] {display: none;}
+		section.form .formfields ul li input[type="checkbox"] + label span { width: 22px; height: 22px; cursor: pointer; margin-right: 10px; display: block; vertical-align: bottom;float: left;margin-top: 7px;border: 1px solid #CCCCCC;}
+		section.form .formfields ul li input[type="checkbox"] + label span:hover {background-color:#ccc;}
+		section.form .formfields ul li input[type="checkbox"]:checked + label span:hover {background-color:#ccc;}
+		section.form .formfields ul li input[type="checkbox"]:checked + label span {background: url(../img/tick-w.png) no-repeat 50% 40%;}
+		li.select {-webkit-appearance: none; outline:0 none; box-shadow:none; -moz-box-shadow:none; box-shadow:none; position:relative; background: #DAF0FA; -webkit-border-radius: 0;
+		        border-radius: 0;}
+		li.select select { 
+			-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; appearance: none; -moz-appearance: none; background: #DAF0FA; outline: 0; border-top:1px solid transparent; border-right:1px solid transparent; border-bottom: 1px solid transparent;
+			border-left:#1E7AB1 4px solid; width:100%; height:50px; float:left; padding:0 20px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; font-family:"Avenir Demi", sans-serif; font-size:160%; color:#353535;outline:0;
+		}
+		li.select:after { 
+			content:''; width:0; height:0; border-style:solid; border-width:6px 5px 0 5px; border-color:#333 transparent transparent transparent; 
+			position:absolute; right:10px; top:24px;
+		}
+		.select-mobile {-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; outline:0 none; box-shadow:none; -moz-box-shadow:none; box-shadow:none; position:relative; background:#DAF0FA;}
+		.select-mobile select { 
+			-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; appearance: none; -moz-appearance: none; float:left;  padding:0 15px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; font-family:"blisslight", sans-serif; font-size:123.1%; color:#4D4D4D;outline:0; text-indent: 5px; border:1px solid #ccc; background:#fff; width:100%; height:50px;
+		}
+		.select-mobile:after {
+			content:'';
+			width:0;
+			height:0;
+			border-style:solid;
+			border-width:6px 5px 0 5px;
+			border-color:#333 transparent transparent transparent;
+			position:absolute;
+			right:10px;
+			top: 23px;
+		}
+		section.form .formfields ul.formbody>li.error:after, section.form .formfields ul.formbody>li.error:before {border-color:#C1272D; border-width:2px}
+		::-webkit-input-placeholder {
+		   color: #fff;
+		   opacity: 1;
+		}
+
+		:-moz-placeholder { /* Firefox 18- */
+		   color: #fff;
+		   opacity: 1;  
+		}
+
+		::-moz-placeholder {  /* Firefox 19+ */
+		   color: #fff;
+		   opacity: 1;  
+		}
+
+		:-ms-input-placeholder {  
+		   color: #fff; 
+		   opacity: 1; 
+		}
+	}
+/*	--------------------------------------------------
+	Fin Section - Form2
+	-------------------------------------------------- */
+
+	
+/*	--------------------------------------------------
+	Section - Slider
+	-------------------------------------------------- */
+	section.slider {clear: both; margin-top: 150px;}
+	section.slider .title {position: absolute;bottom: -120px;right: 0;background: #fff;width: 615px;height: 185px;color: #2B3A67;font-family: "gothammedium", sans-serif;font-style: italic; padding: 30px 0;}
+	section.slider .title:before {content:" ";border-top:65px solid transparent;position:absolute;left:-50px;top:0;border-right:50px solid #fff;}
+	section.slider .title ul li {margin-bottom: 10px; font-size: 123.1%;}
+	section.slider .title ul li:last-child {margin-bottom: 0;}
+	section.slider .platinum {position: relative;margin-top: -60px;float: left;}
+	section.slider .platinum .list {width: 365px;height: 65px;position: absolute;bottom: 90px;margin: auto;left: 0px;right: 40px;}
+	section.slider .platinum .list span {font-family: "acuraregular", sans-serif;font-size: 123%;margin-bottom: 20px;display: block;;}
+	section.slider .platinum .list ul.left {float: left; text-align: left;}
+	section.slider .platinum .list ul.right {float: right; text-align: left;}
+	section.slider .platinum .list li {font-family: "acuraregular", sans-serif;color: #5A5B5D;margin-bottom: 10px;font-size: 110%;}
+	section.slider .specs {margin-top: 40px;float: left;margin-left: 20px;}
+	section.slider .specs ul li {font-family: "gothammedium", sans-serif;color: #6D6E70;font-size: 123%;font-style: italic;margin-bottom: 10px;}
+
+	section.slider .bx-wrapper:nth-child(2) {display: none;}
+/*	--------------------------------------------------
+	Fin Section - Slider
+	-------------------------------------------------- */
+	    
+/*	--------------------------------------------------
+	Section - OK
+	-------------------------------------------------- */
+	.ok header .mpg, .ok header .ilx {display: none !important;}	
+	.ok header .ok {display: block;width: 100%;height: 100%; position: relative; background: rgba(0,0,0,0.4);;}
+	.ok header .ok .message {text-align: center;position: absolute;max-width: 800px;top: 0;bottom: 0;left: 0;right: 0;margin: auto;height: 220px;}
+	.ok header .ok img {margin-bottom: 20px;}
+	.ok header .ok h1 {font-size: 292.3%;font-family: "gothammedium", sans-serif;font-style: italic;margin-bottom: 20px;}
+	.ok header .ok p, .ok header .ok h2 {font-size: 169.2%;font-family: "blisslight", sans-serif;}
+/*	--------------------------------------------------
+	Fin Section - OK
+	-------------------------------------------------- */
+
+/*	--------------------------------------------------
+	Footer -
+	-------------------------------------------------- */		
+	footer {padding: 0 90px;margin: 140px auto 20px !important;}
+	.ok footer {margin: 40px auto 20px !important;}
+	footer .bella {float: left;}
+	footer .bella span {color: #666666;font-family: "gothambook", sans-serif;display: block;float: left;line-height: 35px;}
+	footer .bella img {float: left;margin-right: 25px;}
+	footer .social {float: right; position: relative; top: -20px;}
+	footer .social ul li {display: inline-block;margin-right: 5px;background: url(../img/social-circle.png) no-repeat;font-size: 0;}
+	footer .social ul li:last-child {margin-right: 0;}
+	footer .social ul li a {display: block;width: 38px;height: 38px;background: url(../img/social.png) no-repeat; background-position:0 0;}
+	footer .social ul li.tw a {background-position: -45px 0;}
+	footer .social ul li.yt a {background-position: -93px 0;}
+	footer .social ul li.in a {background-position: -139px 0;}
+	footer .bottom {font-size: 92.3%;color: #808080;font-family: Arial, Helvetica, sans-serif;clear: both;padding-top: 20px;}
+
+/* Animation */
+	footer .social ul li {
+				animation: social .4s steps(18, end);
+		-webkit-animation: social .4s steps(18, end);
+		   -moz-animation: social .4s steps(18, end);
+	}
+	footer .social ul li:hover {
+				animation: social_hover .4s steps(19, end);
+		   -moz-animation: social_hover .4s steps(19, end);
+		-webkit-animation: social_hover .4s steps(19, end);
+		background-position: 0 -684px}
+
+
+	@keyframes social {
+		from {background-position:0 -684px}
+		to {background-position:0 0}
+	}
+
+	@-webkit-keyframes social {
+		from {background-position:0 -684px}
+		to {background-position:0 0}
+	}
+
+	@-moz-keyframes social {
+		from {background-position:0 -684px}
+		to {background-position:0 0}
+	}
+
+	@keyframes social_hover {
+		from {background-position:0 0}
+		to {background-position:0 -722px}
+	}
+
+	@-moz-keyframes social_hover {
+		from {background-position:0 0}
+		to {background-position:0 -722px}
+	}
+
+	@-webkit-keyframes social_hover {
+		from {background-position:0 0}
+		to {background-position:0 -722px}
+	}
+/*	--------------------------------------------------
+	Fin Footer -
+	-------------------------------------------------- */
+	
+	@media only screen and (min-width: 900px) and (max-width: 1000px) {
+		header .reliable {bottom: 60px;}
+		header .mpg {bottom: 60px;}
+	}
+	
+	@media (max-width: 900px) {
+		.desktop {display: none !important;}
+		.mobile {display: block !important;}
+
+		section.form { clear: both;margin-top: 130px;}
+	section.form .formfields { margin: auto; text-align: center; max-width: 620px; position: relative;}
+	section.form .formfields .line {position: absolute; width: 175px; height: 4px; background: #97A0A6; left: 0; right: 0; margin: auto; top: -35px;}
+	section.form .formfields span.title {font-family: "acuralight", sans-serif; font-size: 241.2%; margin-top: 40px; color: #2B3A67;}
+	section.form .formfields ul.formbody {margin-top: 50px;}
+	section.form .formfields ul.formbody>li {width: 48%;margin-right: 4%;float: left;margin-bottom: 10px;position: relative;}
+	section.form .formfields ul.formbody>li:nth-child(1) {width: 49%;}
+	section.form .formfields ul.formbody>li:nth-child(2) {width: 47%;}
+	section.form .formfields ul.formbody>li.model {width: 100%;}
+	section.form .formfields ul.formbody>li:nth-child(even) {margin-right: 0;}
+	section.form .formfields ul.formbody>li.send {margin-top: 30px;position: relative;width: 100%;margin-bottom: 70px;}
+	section.form .formfields .label {text-align: left; font-family: "blisslight", sans-serif; font-size: 123.1%;}
+	section.form .formfields a.btn_send { width: 195px; height: 50px; font-family: "blissbold", sans-serif; font-size: 182%; line-height: 50px;z-index: 2; border: 1px solid #2B3A67;
+	-webkit-transition: .3s, border-width .1s;
+	   -moz-transition: .3s, border-width .1s;
+	    -ms-transition: .3s, border-width .1s;
+	     -o-transition: .3s, border-width .1s;
+	        transition: .3s, border-width .1s;
+	        margin-top: 20px;
+	        display: block;
+	        margin: 18px auto 0 auto;
+	        -webkit-transition: .3s;
+	           -moz-transition: .3s;
+	            -ms-transition: .3s;
+	             -o-transition: .3s;
+	                transition: .3s;}
+	section.form .formfields a.btn_send span {
+	-webkit-transition: .3s;
+	   -moz-transition: .3s;
+	    -ms-transition: .3s;
+	     -o-transition: .3s;
+	        transition: .3s;
+	        display: block; color: #2B3A67;}
+    section.form .formfields a.btn_send:hover {background: #2B3A67;}
+    section.form .formfields a.btn_send:hover span {color: #FFF;}
+	section.form .formfields ul li.warning {height: 30px;text-align: center;line-height: 30px;font-family: "blissbold", sans-serif;font-size: 123.1%;width: 100%;color: #F13030;position: relative;margin-top: -50px;display: none;}
+	section.form .formfields ul li.success {height: 30px;text-align: center;line-height: 30px;font-family: "blissbold", sans-serif;font-size: 123.1%;width: 100%;margin-top: -50px;color: #0A960D;position: relative;display: none;}
+	section.form .formfields ul li.success:before {content:" ";border-bottom:9px solid #0A960D;width:9px;height:9px;display:block;border-left:9px solid transparent;border-right:9px solid transparent;position:absolute;right:0;left:0;margin:auto;top:-7px;}
+	section.form .formfields ul li.warning:before {content:" ";border-bottom:9px solid #F13030;width:9px;height:9px;display:block;border-left:9px solid transparent;border-right:9px solid transparent;position:absolute;right:0;left:0;margin:auto;top:-7px;}
+	section.form .formfields ul li.success span, section.form .formfields ul li.warning span {font-size: 130%;}
+	section.form .formfields ul li.getUpdates {color: #4D4D4D; font-size: 123.1%;  position: relative; font-family: "blissregular", sans-serif;text-align: left;width: 100%;margin: 0;line-height: 28px;}
+	section.form .formfields ul li input[type="checkbox"] {display: none;}
+	section.form .formfields ul li input[type="checkbox"] + label span { width: 22px; height: 22px; cursor: pointer; background: #fff; margin-right: 10px; display: block; vertical-align: bottom;float: left;margin-top: 7px;border: 1px solid #CCCCCC;}
+	section.form .formfields ul li input[type="checkbox"] + label span:hover {background-color:#ccc;}
+	section.form .formfields ul li input[type="checkbox"]:checked + label span:hover {background-color:#ccc;}
+	section.form .formfields ul li input[type="checkbox"]:checked + label span {background: url(../img/tick.png) no-repeat #fff 50% 40%;}
+	li.select {-webkit-appearance: none; outline:0 none; box-shadow:none; -moz-box-shadow:none; box-shadow:none; position:relative; background: #DAF0FA; -webkit-border-radius: 0;
+	        border-radius: 0;}
+	li.select select { 
+		-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; appearance: none; -moz-appearance: none; background: #DAF0FA; outline: 0; border-top:1px solid transparent; border-right:1px solid transparent; border-bottom: 1px solid transparent;
+		border-left:#1E7AB1 4px solid; width:100%; height:50px; float:left; padding:0 20px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; font-family:"Avenir Demi", sans-serif; font-size:160%; color:#353535;outline:0;
+	}
+	li.select:after { 
+		content:''; width:0; height:0; border-style:solid; border-width:6px 5px 0 5px; border-color:#333 transparent transparent transparent; 
+		position:absolute; right:10px; top:24px;
+	}
+	.select-mobile {-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; outline:0 none; box-shadow:none; -moz-box-shadow:none; box-shadow:none; position:relative; background:#DAF0FA;}
+	.select-mobile select { 
+		-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; appearance: none; -moz-appearance: none; float:left;  padding:0 15px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; font-family:"blisslight", sans-serif; font-size:123.1%; color:#4D4D4D;outline:0; text-indent: 5px; border:1px solid #ccc; background:#fff; width:100%; height:50px;
+	}
+	.select-mobile:after {
+		content:'';
+		width:0;
+		height:0;
+		border-style:solid;
+		border-width:6px 5px 0 5px;
+		border-color:#333 transparent transparent transparent;
+		position:absolute;
+		right:10px;
+		top: 23px;
+	}
+
+	section.form .formfields ul.formbody>li:first-child:after {content:" ";display:block;position:absolute;width:20px;height:50px;background:#fff;top:0;transform:skew(20deg);border:1px solid #ccc;right:-8px;border-left:0;}
+	section.form .formfields ul.formbody>li:nth-child(2):before {content:" ";display:block;position:absolute;width:20px;height:50px;background:#fff;top:0;transform:skew(20deg);border:1px solid #ccc;left:-8px;border-right:0;}
+	section.form .formfields ul.formbody>li:nth-child(3):after {content:" ";display:block;position:absolute;width:20px;height:50px;background:#fff;top:0;transform:skew(20deg);border:1px solid #ccc;right:-8px;border-left:0;}
+	section.form .formfields ul.formbody>li:nth-child(4):before {content:" ";display:block;position:absolute;width:20px;height:50px;background:#fff;top:0;transform:skew(20deg);border:1px solid #ccc;left:-8px;border-right:0;}
+	section.form .formfields ul.formbody>li.error:after, section.form .formfields ul.formbody>li.error:before {border-color:#C1272D; border-width:2px}
+
+		header {background:url(../img/main-bg-mobile.jpg) no-repeat; height: 330px; background-size:cover; background-position:0 50%;}
+		header .acura {width: auto;}
+		header .acura span {display: none;}
+		header > span {background: #fff;font-family: "acuralight", sans-serif;font-size: 138.4%;text-align: center;color: #2B3A67;padding: 10px 0;}
+		header .mdx {bottom: -130px;padding: 0 30px;text-align: center;}
+		header .mdxTitle {font-size: 270%; right: 0; width: 160px;bottom: 30px;}
+		header .reliable {width: 120px; font-size: 160%;right: 10px;bottom: 65px;}
+		header .reliable img {width: 80%; margin-top: 5px;}
+		header .mpg {width: 70px; left: 10px;bottom: 67px;}
+
+		section.form {margin-top: 250px;}
+		section.form .formfields span.title {font-size: 170%;}
+		section.form .formfields .line {top: -20px;}
+
+		section.slider .title {display: none;}
+		section.slider .title:before {border-bottom: 41px solid transparent;top: -1px;}
+		section.slider .platinum {margin-top: 0;float: none;}
+		section.slider .platinum img {width: 100%;}
+		section.slider .specs {float: none;margin-left: 0;padding: 0 30px;}
+		section.slider .specs ul li {text-indent:0 !important;font-size:100%;}
+		section.slider .bx-wrapper:first-child {display: none;}
+		section.slider .bx-wrapper:nth-child(2) {display: block;}
+
+		section.dealer {margin-top: 40px;}
+		section.dealer .cta {border: 1px solid #2B3A67;width: 80%;margin: auto;height: 50px;line-height: 50px;text-align: center;font-family: "blissbold", sans-serif;font-size: 130.7%;cursor: pointer;}
+		section.dealer .cta span {color: #2B3A67;}
+		section.dealer .dealers {width: 84%;margin: auto;padding: 0 20px;margin-top: 15px;display: none;}
+		section.dealer .dealers ul li {border-bottom: 2px solid #6D6E70;padding-bottom: 15px;}
+		section.dealer .dealers ul li a {font-family: "gothammedium", sans-serif;font-style: italic;font-size: 138.4%;color: #6D6E70;}
+		section.dealer .dealers ul li img {width: 20px; height: 25px; vertical-align: sub;margin-right: 15px;}
+		section.dealer .dealers ul li:last-child {text-indent: 20px;}
+
+		footer {padding: 0 20px; margin-top: 40px !important;}
+		footer .bella span {display: none;}
+		footer > span {font-family: "gothambook", sans-serif;color: #666666;font-size: 84.6%;clear: both;padding-top: 20px;line-height: 16px;}
+		footer .bottom {font-size: 80%;}
+
+		.ok header .ok {height: 83%;}
+	}
+
+	@media (max-width: 700px) {
+		header .mdx {bottom: -130px;}
+		header .bella {margin-right: 20px;}
+		header .acura:after {right: -59px;}
+
+		section.form {padding: 0 20px; margin-top: 185px;}
+		section.form .formfields ul.formbody {margin-top: 30px;}
+		section.form .formfields ul.formbody>li {width: 100% !important;}
+		section.form .formfields ul.formbody>li:before, section.form .formfields ul.formbody>li:after {display: none !important;}
+
+		.ok header .ok .message {width: auto;padding: 0 10px;top: 80px;}
+		.ok header .ok h1 {font-size: 153.8%;}
+		.ok header .ok p, .ok header .ok h2 {font-size: 115.3%;}
+
+		.bx-wrapper .bx-next {right: 20px;zoom: 0.6;width: 45px !important;}
+		.bx-wrapper .bx-prev {left: 10px;zoom: 0.6;width: 45px !important;}
+	}
+
+	@media (max-width: 500px) {
+		header .mdx {bottom: -75px; width: 300px;}
+		header .acura {height: 55px;width: 124px;}
+		header .acura:after {border-bottom: 55px solid transparent;border-left-width: 35px;right: -34px;}
+		header .acura img {margin: 16px 10px;width: 90%;position: relative;z-index: 2;}
+		header .bella {margin-right: 20px;margin-top: 15px;width: 30%;}
+
+		section.form .formfields ul li.getUpdates {font-size: 100%;}
+
+		.ok header .ok img {width: 20%;}
+		.ok header .ok .message {top: 60px;}
+	}
+
+	@media (max-width: 360px){
+		section.form {margin-top: 110px;}
+		header {background-position: -40px 50%;}
+		header .mdxTitle {bottom: 20px;}
+		footer .social {
+		   -webkit-transform: scale(.8);
+		   -moz-transform: scale(.8);
+		   -ms-transform: scale(.8);
+		   -o-transform: scale(.8);
+		   transform: scale(.8);
+		   margin-right: -20px;
+		   top: -50px;
+		   margin-bottom: -40px;
+		   }
+	}
+
+	/* Samsung Galaxy S4 */
+	@media screen (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) and (device-width: 1080px) and (orientation: portrait) { 
+    	
+	}
+	@media screen (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) and (device-width: 1920px) and (orientation: landscape) { 
+		
+	}
+
+
+	/* iPad */
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+	}
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+		
+	}
+
+
+	/* iPhone 4 */
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+	}
+
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+	}
+
+	/* iPhone 5 */
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+		
+	}
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
+	}

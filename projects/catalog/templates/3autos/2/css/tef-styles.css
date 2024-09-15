@@ -1,0 +1,342 @@
+	html, body {}
+
+	body {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d5444f+0,920223+100 */
+background: rgb(213,68,79); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNkNTQ0NGYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjOTIwMjIzIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-radial-gradient(center, ellipse cover,  rgba(213,68,79,1) 0%, rgba(146,2,35,1) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(213,68,79,1) 0%,rgba(146,2,35,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(213,68,79,1) 0%,rgba(146,2,35,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5444f', endColorstr='#920223',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+}
+
+	.h100 {height: 100%;}
+	.desktop {display: block !important;}
+	.mobile {display: none !important;}
+	.linktel {color: #3A393B;}
+	.linktel:hover {color:#666;}
+
+	::-webkit-input-placeholder {
+	   color: #FFE6C9;
+	   opacity: 1;
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+	   color: #FFE6C9;
+	   opacity: 1;  
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+	   color: #FFE6C9;
+	   opacity: 1;  
+	}
+
+	:-ms-input-placeholder {  
+	   color: #FFE6C9; 
+	   opacity: 1; 
+	}
+
+
+/*	--------------------------------------------------
+	Layout
+	-------------------------------------------------- */
+	section > .row {}
+	sup {font-size: 50%;}
+	.lights {background: url(../img/bg.jpg) no-repeat; background-size: cover; width: 100%; height: 100%; position: absolute;}
+
+/*	--------------------------------------------------
+	Contenedor general - Da el ancho del contenido
+	-------------------------------------------------- */
+	.cont-general{ position: relative; left: 0; right: 0; margin: auto; max-width: 1280px; padding: 0 20px;}
+	section{position: relative;}
+	.clear {clear: both;}
+
+/*	--------------------------------------------------
+	Header -
+	-------------------------------------------------- */	
+	header {}
+	header .logo {margin-left: 30px;}
+	header .slogan {text-align: center; margin-top: -90px;}
+	header hr {border-color: #FFE6C9; width: 340px; margin: auto; border-top: 0; opacity: .4;}
+	header .title {color: #fff;width: 235px; font-size: 140.3%; font-family: "Interstate", sans-serif; margin: 15px auto 7px;}
+/*	--------------------------------------------------
+	Fin Header -
+	-------------------------------------------------- */	
+
+	nav {}
+	nav li {}
+	nav li a {}
+
+/*	--------------------------------------------------
+	Section - Main
+	-------------------------------------------------- */
+	section.main {margin-top: 45px;}
+	section.main .cars {text-align: center;}
+	section.main .cars ul li {display: inline-block; width: 33%;}
+	section.main .cars .car a {
+	-webkit-transition: .4s;
+	   -moz-transition: .4s;
+	    -ms-transition: .4s;
+	     -o-transition: .4s;
+	        transition: .4s;
+	}
+	section.main .cars .car a:hover {opacity: .7;}
+	section.main .cars .model {font-size: 242.3%; font-family: "mullerextrabold", sans-serif; font-style: italic; margin-bottom: 10px;}
+	section.main .cars .model span {font-family: "mullerthin", sans-serif; font-style: italic;}
+	section.main .cars a.more { display: block; background: #fff; width: 185px; margin: 20px auto 0; color: #9A0230; height: 35px; line-height: 35px; position: relative; text-indent: -35px; font-size: 69.2%; font-family: "mullerextrabold", sans-serif;
+	-webkit-transition: .3s;
+	   -moz-transition: .3s;
+	    -ms-transition: .3s;
+	     -o-transition: .3s;
+	        transition: .3s;}
+	section.main .cars a.more:after {content: " "; background: url(../img/btn.png) no-repeat 50% #333; width: 35px; height: 35px; position: absolute; right: 0;
+	-webkit-transition: .3s;
+	   -moz-transition: .3s;
+	    -ms-transition: .3s;
+	     -o-transition: .3s;
+	        transition: .3s;}
+	section.main .cars a.more:hover {text-indent: -60px;}
+	section.main .cars a.more:hover:after {width: 60px;}
+	section.main .subtitle { margin-top: 30px; font-size: 123.1%; color: #FFE6C9; font-family: "interstatelight", sans-serif; text-align: center;}
+	section.main .subtitle span {font-family: "interstatebold", sans-serif;}
+	section.main .social {float: right; margin-top: -30px;}
+	section.main .social .follow {font-family: "interstatebold", sans-serif; font-size: 93%; color: #FFE6C9; position: relative; top: 17px;}
+	section.main .social ul li {display: inline-block; margin-right: 5px;}
+	section.main .social ul li:last-child {margin-right: 0;}
+	section.main .social ul li a {font-size: 0; width: 25px; height: 25px; display: block; background: url(../img/social.png) no-repeat #333;
+	-webkit-border-radius: 15px;
+	        border-radius: 15px;
+	        -webkit-transition: .3s;
+	           -moz-transition: .3s;
+	            -ms-transition: .3s;
+	             -o-transition: .3s;
+	                transition: .3s;}
+    section.main .social ul li a:hover {background: url(../img/social-hover.png) no-repeat #FFE6C9}
+    section.main .social ul li.fb a {background-position: 9px 7px;}
+    section.main .social ul li.tw a {background-position: -24px 7px;}
+    section.main .social ul li.yt a {background-position: -56px 7px;}
+    section.main .social ul li.in a {background-position: -90px 7px;}
+
+    /* DETAIL */
+    section.main .l {float: left; width: 20%; position: relative;}
+    section.main .l .price {font-family: "mullerthin", sans-serif; font-size: 174.6%; font-style: italic; margin-bottom: 10px;}
+    section.main .l .price span {font-family: "mullerextrabold", sans-serif; font-size: 216.8%; font-style: normal;}
+    section.main .l .price .symbol {font-family: "interstatebold", sans-serif;}
+    section.main .l hr {border-color: #EBEBEB; border-top: 0;}
+    section.main .l hr.last {width: 95%; float: right;}
+    section.main .l .model {font-family: "mullerextrabold", sans-serif; font-size: 373.9%; font-style: italic; margin: 10px 0;}
+    section.main .l .model span {font-family: "mullerthin", sans-serif;}
+    section.main .l .mpg {font-size: 98.6%; font-family: "mullerextrabold", sans-serif; border: 1px solid #EBEBEB; border-radius: 10px; padding: 10px 20px; width: 115px; margin-bottom: 25px;}
+    .mazda6 section.main .l .mpg {width: 115px;}
+    section.main .l .specs .bonus {font-family: "interstatebold", sans-serif; font-size: 123.1%; line-height: 20px; float: left; position: absolute; bottom: 5px;}
+    .mazda3 section.main .l .specs .bonus {bottom: -20px;}
+    section.main .l .specs .gold {float: right;}
+    section.main .r {float: left;width: 61%;text-align: center;}
+
+    /* CARS */
+    .cx-5 .mazda6, .cx-5 .mazda3 {display: none;}
+    .mazda6 .cx-5, .mazda6 .mazda3 {display: none;}
+    .mazda3 .cx-5, .mazda3 .mazda6 {display: none;}
+
+    /* OK */
+    section.main .ok {width: 46.5%; margin: auto;}
+    section.main .ok .tick {text-align: center;height: 1px;border-bottom: 1px solid #fff;margin-bottom: 40px;}
+    section.main .ok .tick img {margin-top: -29px;}
+    section.main .ok .msg {font-family: "mullerthin", sans-serif; font-size: 401.7%; text-align: center; font-style: italic; line-height: 40px;}
+    section.main .ok .msg span {font-family: "mullerextrabold", sans-serif; font-size: 68%; text-shadow: 5px 5px 15px #A9102D;}
+    section.main .ok .carok {text-align: center;height: 1px;border-bottom: 1px solid #fff;margin-top: 35px;margin-bottom: 210px;}
+    section.main .ok .carok img {margin-top: -50px;}
+    .mazda6 section.main .ok .carok img, .mazda3 section.main .ok .carok img {margin-top: -25px;}
+/*	--------------------------------------------------
+	Section - Fin Main
+	-------------------------------------------------- */
+
+/*	--------------------------------------------------
+	Section - Form
+	-------------------------------------------------- */
+	section.main .form {float: right; width: 19%;}
+	section.main .form .formfields { margin: auto; text-align: center; max-width: 620px;;}
+	section.main .form .formfields span.title {font-family: "interstatebold", sans-serif; font-size: 116%; color: #9A0230; background: #FFE6C9; display: block; text-transform: uppercase; height: 28px; line-height: 28px;}
+	section.main .form .formfields ul.formbody {margin-top: 6px;}
+	section.main .form .formfields ul.formbody>li {width: 100%;position: relative;}
+	section.main .form .formfields ul.formbody>li.model {width: 100%;}
+	section.main .form .formfields ul.formbody>li.send {margin-top: 30px;position: relative;width: 100%;}
+	section.main .form .formfields .label {text-align: left; font-family: "interstatelight", sans-serif; font-size: 123.1%;}
+	section.main .form .formfields a.btn_send { width: 100%; height: 33px; background: #333333; font-family: "interstatebold", sans-serif; font-size: 104.7%; line-height: 33px;z-index: 2;
+	-webkit-transition: .3s;
+	   -moz-transition: .3s;
+	    -ms-transition: .3s;
+	     -o-transition: .3s;
+	        transition: .3s;
+	        display: block;
+	        color: #FFE6C9;}
+	section.main .form .formfields a.btn_send:hover {background:#000;}
+	section.main .form .formfields ul li.warning {text-align: center;line-height: 30px;width: 100%;color: #fff;height: 30px;font-size: 103.1%;font-family: "interstatelight", sans-serif;position: relative;margin-top: 20px;display: none;}
+	section.main .form .formfields ul li.success {height: 30px;text-align: center;line-height: 30px;font-family: "blissbold", sans-serif;font-size: 123.1%;width: 100%;margin-top: -50px;color: #0A960D;position: relative;display: none;}
+	section.main .form .formfields ul li.success:before {content:" ";border-bottom:9px solid #0A960D;width:9px;height:9px;display:block;border-left:9px solid transparent;border-right:9px solid transparent;position:absolute;right:0;left:0;margin:auto;top:-7px;}
+	section.main .form .formfields ul li.warning:before {content:" ";border-bottom:7px solid #fff;width:6px;height:9px;display:block;border-left:6px solid transparent;border-right:6px solid transparent;position:absolute;right:0;left:0;margin:auto;top:-7px;}
+	section.main .form .formfields ul li.success span, section.main .form .formfields ul li.warning span {font-size: 130%;}
+	section.main .form .formfields ul li.getUpdates {color: #FFE6C9; font-size: 90%;  position: relative; font-family: "interstatelight", sans-serif;text-align: left;width: 100%;margin-top: 15px;}
+	section.main .form .formfields ul li input[type="checkbox"] {display: none;}
+	section.main .form .formfields ul li input[type="checkbox"] + label span { opacity: .5; width: 13px; height: 13px; cursor: pointer; margin-right: 10px; display: block; vertical-align: bottom;float: left;border: 3px solid #FFE6C9;margin-top: 1px;}
+	section.main .form .formfields ul li input[type="checkbox"] + label span:hover {background-color:#666;}
+	section.main .form .formfields ul li input[type="checkbox"]:checked + label span:hover {background-color:#666;}
+	section.main .form .formfields ul li input[type="checkbox"]:checked + label span {background: #000; opacity: 1;}
+	li.select {-webkit-appearance: none; outline:0 none; box-shadow:none; -moz-box-shadow:none; box-shadow:none; position:relative; background: #DAF0FA; -webkit-border-radius: 0;
+	        border-radius: 0;}
+	li.select select { 
+		-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; appearance: none; -moz-appearance: none; background: #DAF0FA; outline: 0; border-top:1px solid transparent; border-right:1px solid transparent; border-bottom: 1px solid transparent;
+		border-left:#1E7AB1 4px solid; width:100%; height:50px; float:left; padding:0 20px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; font-family:"Avenir Demi", sans-serif; font-size:160%; color:#353535;outline:0;
+	}
+	li.select:after { 
+		content:''; width:0; height:0; border-style:solid; border-width:6px 5px 0 5px; border-color:#333 transparent transparent transparent; 
+		position:absolute; right:10px; top:24px;
+	}
+	.select-mobile {-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; outline:0 none; box-shadow:none; -moz-box-shadow:none; box-shadow:none; position:relative;}
+	.select-mobile select { 
+		-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; appearance: none; -moz-appearance: none; float:left;  padding:0 15px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; font-family:"blisslight", sans-serif; font-size:123.1%; color:#4D4D4D;outline:0; text-indent: 5px; border:1px solid #ccc; background:#fff; width:100%; height:50px;
+	}
+	.select-mobile:after {
+		content:'';
+		width:0;
+		height:0;
+		border-style:solid;
+		border-width:6px 5px 0 5px;
+		border-color:#333 transparent transparent transparent;
+		position:absolute;
+		right:10px;
+		top: 23px;
+		display: none;
+	}
+/*	--------------------------------------------------
+	Fin Section - Form
+	-------------------------------------------------- */
+
+/*	--------------------------------------------------
+	Footer -
+	-------------------------------------------------- */		
+	footer {background: #EBEBEB; padding: 20px 0; margin-top: 30px; position: relative;}
+	footer:before {content: ""; position: absolute; top: 0; border-top: 7px solid #F93549; border-right: 10px solid transparent; border-left: 10px solid transparent;right: 0;left: 0;width: 10px;margin: auto;}
+	footer .footerTop {color: #9A0230; text-align: center; font-family: "interstatebold", sans-serif; font-size: 69.2%; margin-bottom: 10px; line-height: 15px;}
+	footer hr {border-color: #9A0230; border-top: 0}
+	footer .footerBottom {color: #9A0230; text-align: justify; font-family: Arial, Helvetica, sans-serif; font-size: 69.2%; margin-top: 10px;}
+/*	--------------------------------------------------
+	Fin Footer -
+	-------------------------------------------------- */
+	
+	@media only screen and (min-width: 900px) and (max-width: 1200px) {
+	}
+	
+	@media (max-width: 900px) {
+		.desktop {display: none !important;}
+		.mobile {display: block !important;}
+
+		.select-mobile:after {display: block;}
+		::-webkit-input-placeholder {
+		   color: #960230;
+		   opacity: 1;
+		}
+
+		:-moz-placeholder { /* Firefox 18- */
+		   color: #960230;
+		   opacity: 1;  
+		}
+
+		::-moz-placeholder {  /* Firefox 19+ */
+		   color: #960230;
+		   opacity: 1;  
+		}
+
+		:-ms-input-placeholder {  
+		   color: #960230; 
+		   opacity: 1; 
+		}
+		.error ::-webkit-input-placeholder { color:#960230;}
+		.error ::-moz-placeholder { color:#960230;}
+		.error :-ms-input-placeholder { color:#960230;}
+		.error input:-moz-placeholder { color:#960230;}
+		.error :-ms-input-placeholder { color:#960230;}
+
+		header.cont-general {padding: 0;}
+		header .slogan {width: 80%;margin-top: -20px;margin-left: 60px;}
+		header .title {color: #960230; background: #fff; width: 100%; text-align: center; padding: 10px 0;}
+		header hr {display: none;}
+
+		.slider {padding: 0 20px;}
+
+		section.main.cont-general {padding: 0;}
+		section.main .form {width: 100%;margin-top: 30px;padding: 40px 25px; background: #EDEDED; margin-bottom: 30px; position: relative;}
+		section.main .form:before {content: " "; position: absolute; display: block; border-top: 10px solid #BB0634; border-right: 10px solid transparent; border-left: 10px solid transparent; top: 0; left: 50%; margin-left: -10px;}
+		section.main .form:after {content: " "; position: absolute; display: block; border-top: 10px solid #EDEDED; border-right: 10px solid transparent; border-left: 10px solid transparent; left: 50%; margin-left: -10px; bottom: -10px;}
+		section.main .form .formfields span.title {color: #FFF; background: #960230; height: 35px; line-height: 35px;}
+		input[type="text"], input[type="password"], input[type="email"], input[type="date"], input[type="tel"], input[type="number"] { height: 37px; color: #960230; border-color: #960230;}
+		input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="date"]:focus, input[type="tel"]:focus, input[type="number"]:focus, textarea:focus {border-width: 2px; font-weight: bold;}
+		.selectric {border-color: #960230 !important;}
+		.selectric .label {height: 37px !important; line-height: 37px !important; color: #960230 !important;}
+		section.main .form .formfields ul li.getUpdates {color: #960230;}
+		section.main .form .formfields ul li input[type="checkbox"] + label span {border-color: #960230; border-width: 2px;}
+		section.main .form .formfields a.btn_send {color: #FFF; height: 45px; line-height: 45px;}
+		section.main .subtitle {color: #FFF;font-size: 200%;padding: 0 20px;}
+		section.main hr {width: 90%; border-top: 0; border-color: #fff; margin: 20px auto;}
+		section.main .social {float: none; margin-top: 0;}
+		section.main .social ul {width: 207px;margin: auto;}
+		section.main .social .follow {display: block;top: 0px;text-align: center;color: #fff;font-size: 130%;}
+		section.main .social ul li a {width: 45px; height: 45px; -webkit-border-radius: 30px; border-radius: 30px; background: url(../img/social-mobile.png) no-repeat #333; background-size: 550%;}
+		section.main .social ul li a:hover {background: url(../img/social-mobile.png) no-repeat #333; background-size: 550%;}
+		section.main .social ul li.fb a {background-position: 16px;;}
+		section.main .social ul li.tw a {background-position: -61px;}
+		section.main .social ul li.yt a {background-position: -137px;}
+		section.main .social ul li.in a {background-position: -215px;}
+
+		footer {background: none;margin-top: 0px;}
+		footer:before {display: none;}
+		footer .footerTop {color: #FFF; text-align: justify; font-family: "interstateregular", sans-serif; font-size: 86%;}
+		footer hr {display: none;}
+		footer .footerBottom {color: #FFF; text-align: justify;}
+	}
+
+	@media (max-width: 700px) {
+	}
+
+	@media (max-width: 500px) {
+		header .logo {width: 60px;margin-left: 20px;}
+	}
+
+	@media (max-width: 400px){
+	}
+
+	@media (max-width: 360px){
+	}
+
+	/* Samsung Galaxy S4 */
+	@media screen (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) and (device-width: 1080px) and (orientation: portrait) { 
+    	
+	}
+	@media screen (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) and (device-width: 1920px) and (orientation: landscape) { 
+		
+	}
+
+
+	/* iPad */
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+	}
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+		
+	}
+
+
+	/* iPhone 4 */
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+	}
+
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+	}
+
+	/* iPhone 5 */
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+		
+	}
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
+	}							

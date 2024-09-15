@@ -1,0 +1,19 @@
+section.main .cars li .info .right .top, section.main .cars li .info .right .bottom, section.detail.pilot .price .bottom, section.detail.pilot .bonus {behavior:url(http://compratuhonda.com/2015/factoryevent/theme/landing/css/pie.htc)}
+section.detail .bonus, section.detail .price .bottom {behavior:url(http://compratuhonda.com/2015/factoryevent/theme/landing/css/pie.htc)}
+section.form .formfields ul.formbody li.ie8 {margin-right: 0;}
+section.form .formfields ul li.warning {background:#9D1E21}
+section.form .formfields ul li.getUpdates {height: 20px; line-height: 2px; margin-top: 15px;}
+section.form .formfields ul li input[type="checkbox"] {display: block; position: absolute;}
+section.form .formfields ul li input[type="checkbox"] + label span {background: transparent; margin-right: 2px;}
+section.form .formfields ul li input[type="checkbox"] + label span:hover {background-color: transparent;}
+section.form .formfields ul li input[type="checkbox"]:checked + label span:hover {background-color: transparent;}
+input[type="text"], 
+input[type="password"], 
+input[type="email"], 
+input[type="date"], 
+input[type="tel"], 
+input[type="number"], 
+textarea {line-height: 48px;}
+.select-mobile select {padding-bottom: 14px;}
+.bx-wrapper .bx-prev {background-position: -25px 50%;}
+.bx-wrapper .bx-next {background-position: -170px 50%;}

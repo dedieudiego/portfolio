@@ -1,0 +1,15 @@
+input[type="text"], 
+	input[type="password"], 
+	input[type="email"], 
+	input[type="date"], 
+	input[type="tel"], 
+	input[type="number"], 
+	textarea { 
+		line-height: 43px;
+	}
+	section.ok {padding-left: 0; padding-right: 0;}
+	section.form .formContainer ul li.getUpdates {position:relative;}
+	section.form .formContainer ul li input[type="checkbox"] {display: block; position: absolute; z-index: 2; top: 7px; left: 3px;}
+section.form .formContainer ul li input[type="checkbox"] + label span {border:0;background: transparent; margin-right: 2px;}
+section.form .formContainer ul li input[type="checkbox"] + label span:hover {background-color: transparent;}
+section.form .formContainer ul li input[type="checkbox"]:checked + label span:hover {background-color: transparent;}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 7]>    <html class="no-js lt-ie10 lt-ie9 lt-ie8" lang="es"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie10 lt-ie9" lang="es"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js lt-ie10" lang="es"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
+    <head>
+      <meta charset="utf-8" />
+
+      <meta name="rating" content="general" />
+      <meta name="Revisit-After" content="1 Days"/>
+      <meta name="robots" content="index,follow" />
+      <meta name="author" content="Diego De dieu" />
+
+      <meta name="title" content="Templates catalog" />
+      <meta name="keywords" content="" />
+      <meta name="description" content="" />
+
+      <meta property="og:title" content="" />
+      <meta property="og:description" content="" />
+      <meta property="og:url" content="" />
+      <meta property="og:image" content="" />
+
+      <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+
+      <title>Templates catalog</title>
+
+      <link href="img/favicon.png" rel="shortcut icon"/>
+
+      <link rel="stylesheet" href="css/tef-reset.css" />
+      <link rel="stylesheet" href="css/jquery.bxslider.css" />
+      <link rel="stylesheet" href="css/tef-styles.css" />
+      
+      <!-- Included Main JS Files -->
+      <script src="js/lib/jquery/tef-modernizr.js"></script>
+      <script src="js/lib/jquery/jquery-1.9.1.js"></script>
+      <script src="js/lib/jquery/jquery.bxslider.js"></script>
+    </head>
+   <body>
+      <header>
+        <div class="logo">Templates catalog</div>
+      </header>
+
+      <section class="main">
+        <div class="preview">
+          <div class="view">
+            <ul>
+              <li class="mobileView"></li>
+              <li class="desktopView"></li>
+              <li class="gotosite"><a href="templates/1auto/1/@originales/index.html" target="_blank"></a></li>
+            </ul>
+          </div>
+          <iframe src="templates/1auto/1/@originales/index.html" frameborder="0"></iframe>
+        </div>
+        <aside>
+          <!-- <div class="filter">
+            <div class="title">FILTER</div>
+            <ul>
+              <li>LANDING</li>
+              <li>SPA</li>
+              <li>WORDPRESS</li>
+              <li>TEMPLATE-BASED</li>
+              <li>ALL</li>
+            </ul>
+          </div> -->
+          <ul class="templates">
+            <li class="landing">
+              <img data-src="templates/1auto/1/@originales/index.html" src="img/thumbs/1.jpg" alt="">
+              <div class="subtitle">1 CAR</div>
+            </li>
+            <li class="landing">
+              <img data-src="templates/1auto/2/@originales/index.html" src="img/thumbs/6.jpg" alt="">
+              <div class="subtitle">1 CAR</div>
+            </li>
+            <li class="landing">
+              <img data-src="templates/1auto/3/@originales/index.html" src="img/thumbs/12.jpg" alt="">
+              <div class="subtitle">1 CAR</div>
+            </li>
+            <li class="landing">
+              <img data-src="templates/1auto/4/@originales/index.html" src="img/thumbs/14.jpg" alt="">
+              <div class="subtitle">1 CAR</div>
+            </li>
+            <li class="landing">
+              <img data-src="templates/2autos/1/@originales/index.html" src="img/thumbs/4.jpg" alt="">
+              <div class="subtitle">2 CARS</div>
+            </li>
+            <li class="landing">
+              <img data-src="templates/3autos/1/@originales/index.html" src="img/thumbs/10.jpg" alt="">
+              <div class="subtitle">3 CARS</div>
+            </li>
+            <li class="landing">
+              <img data-src="templates/3autos/2/@originales/index.html" src="img/thumbs/11.jpg" alt="">
+              <div class="subtitle">3 CARS</div>
+            </li>
+            <li class="landing">
+              <img data-src="templates/4autos/1/@originales/index.html" src="img/thumbs/5.jpg" alt="">
+              <div class="subtitle">4 CARS</div>
+            </li>
+            <li class="landing">
+              <img data-src="templates/4autos/2/@originales/index.html" src="img/thumbs/9.jpg" alt="">
+              <div class="subtitle">4 CARS</div>
+            </li>
+            <li class="landing">
+              <img data-src="templates/5autos/1/@originales/index.html" src="img/thumbs/2.jpg" alt="">
+              <div class="subtitle">5 CARS</div>
+            </li>
+            <li class="landing">
+              <img data-src="templates/5autos/2/@originales/index.html" src="img/thumbs/13.jpg" alt="">
+              <div class="subtitle">5 CARS</div>
+            </li>
+            <li class="landing">
+              <img data-src="templates/6autos/1/@originales/index.html" src="img/thumbs/3.jpg" alt="">
+              <div class="subtitle">6 CARS</div>
+            </li>
+            <li class="landing">
+              <img data-src="templates/6autos/2/@originales/index.html" src="img/thumbs/7.jpg" alt="">
+              <div class="subtitle">6 CARS</div>
+            </li>
+            <li class="landing">
+              <img data-src="templates/productos/@originales/index.html" src="img/thumbs/8.jpg" alt="">
+              <div class="subtitle">PRODUCTS</div>
+            </li>
+          </ul>
+        </aside>
+      </section>
+
+      <footer class="cont-general">
+      </footer>
+      <script>
+         $(document).ready(function(){
+           $('.mobileView').on('click', function(){
+            $('iframe').css('width', '320px');
+           });
+           $('.desktopView').on('click', function(){
+            $('iframe').css('width', '90%');
+           });
+           $('.filter').find('.title').on('click', function(){
+            $(this).next().slideToggle();
+            $(this).toggleClass("open")
+           });
+           $('.templates').find('li').on('click', function(){
+            var sitio = $(this).find('img').data('src');
+            if ($(this).hasClass('link')) {
+              window.open(sitio);
+            } else {
+              $('iframe').attr('src', sitio);
+              $('.gotosite').find('a').attr('href', sitio)
+            };
+           });
+           $('.filter').find('li').on('click', function(){
+            var cat = $(this).text().toLowerCase();
+            if (cat == "all") {
+              $('.templates').find('li').fadeIn();
+              $(this).parent().slideUp();
+              $('.open').removeClass('open');
+            } else {
+              $('.templates').find('li').fadeOut('700');
+              setTimeout( function(){
+                $('.templates').find('.' + cat).fadeIn();
+              },500);
+              $(this).parent().slideUp();
+              $('.open').removeClass('open');
+            };
+           });
+         });
+       </script>
+   </body>
+</html>

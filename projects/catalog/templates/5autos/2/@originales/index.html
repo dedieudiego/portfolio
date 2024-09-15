@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 7]>    <html class="no-js lt-ie10 lt-ie9 lt-ie8" lang="es"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie10 lt-ie9" lang="es"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js lt-ie10" lang="es"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
+    <head>
+      <meta charset="utf-8" />
+
+      <meta name="rating" content="general" />
+      <meta name="Revisit-After" content="1 Days"/>
+      <meta name="robots" content="index,follow" />
+      <meta name="author" content="Diego De Dieu" />
+
+      <meta name="title" content="Thef" />
+      <meta name="keywords" content="" />
+      <meta name="description" content="" />
+
+      <meta property="og:title" content="" />
+      <meta property="og:description" content="" />
+      <meta property="og:url" content="" />
+      <meta property="og:image" content="" />
+
+      <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+
+      <title>Acura</title>
+
+      <link href="../img/favicon.png" rel="shortcut icon"/>
+
+      <link rel="stylesheet" href="../css/tef-reset.css" />
+      <link rel="stylesheet" href="../css/tef-styles.css" />
+      <link rel="stylesheet" href="../css/selectric.css" />
+      <!--[if lte IE 8]>
+            <link rel="stylesheet" type="text/css" href="../css/tef-styles-ie8.css" />
+        <![endif]-->
+      
+      <!-- Included Main JS Files -->
+      <script src="../js/lib/jquery/tef-modernizr.js"></script>
+      <script src="../js/lib/jquery/jquery-1.9.1.js"></script>
+      <script src="../js/lib/jquery/placeholders.min.js"></script>
+      <script type="text/javascript" src="../js/lib/jquery/jquery.selectric.js"></script>
+
+      <script type="text/javascript">
+         $(document).ready(function(){
+           $(function(){
+              $('select').selectric();
+            });
+         });
+      </script>
+    </head>
+   <body>
+      <header>
+        <div class="cont-general">
+          <div class="acura"><a href="#"><img src="http://placehold.it/171x90/ffffff/000000?text=LOGO" alt="Logo"></a></div>
+          <div class="bella"><a href="#"><img src="http://placehold.it/118x37/ffffff/000000?text=LOGO" alt="Logo 2"></a></div>
+        </div>
+        <hr>
+      </header>
+
+      <section class="form">
+        <div class="formcontainer">
+            <div class="formfields">
+               <span class="title">Request a test drive</span>
+                      <ul class="formbody">
+                        <li><input type="text" placeholder="Name" /></li>
+                          <li><input type="text" placeholder="Last Name" /></li>
+                          <li class="error"><input type="text" placeholder="E-mail" /></li>
+                          <li><input type="text" placeholder="Phone" /></li>
+                          <li class="model">
+                            <div class="select-mobile">
+                            <select placeholder="Test">
+                              <option value="San Juan">Modelo XXX 2016</option>
+                              <option value="Bayamón">Modelo XXX 2015</option>
+                              <option value="Toa Baja">Modelo XXX 2016</option>
+                              <option value="Vega Baja">Modelo XXX 2016</option>
+                              <option value="Manatí">Modelo XXX 2016</option>
+                            </select>
+                            </div>
+                          </li>
+                          <li class="getUpdates"><input type="checkbox" name="acceptInfo" id="c1"><label for="c1"><span></span></label>Get updates on new products and promotions</li>
+                          <li class="send"><a href="ok.html" class="btn_send">SUBMIT</a></li>
+                          <li class="warning"><span>&#10008;</span> Mensaje de error</li>
+                          <li class="success"><span>&#10004;</span> Mensaje de completado</li>
+                      </ul>
+            </div>
+         </div>
+      </section>
+
+      <footer>
+        <div class="cont-general h100">
+          <div class="acura"><img src="http://placehold.it/85x45/666666/000000?text=LOGO" alt="Acura"></div>
+          <div class="social">
+            <ul>
+              <li><a class="fb" href="#"></a></li>
+              <li><a class="tw" href="#"></a></li>
+              <li><a class="li" href="#"></a></li>
+              <li><a class="pi" href="#"></a></li>
+              <li><a class="in" href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+   </body>
+</html>

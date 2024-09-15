@@ -1,0 +1,19 @@
+.form .formfields ul li input[type="checkbox"] {display: block; position: absolute; z-index: 2; top: 12px; left: 2px;}
+input[type="text"], input[type="password"], input[type="email"], input[type="date"], input[type="tel"], input[type="number"] {line-height: 44px;}
+.select-mobile select option {border: 0; background:red; height: 200px;}
+.form .formfields ul li.getUpdates {width: 100%; margin-left: -5px;}
+.form .formfields ul li input[type="checkbox"] + label span {background: transparent; margin-right: 2px;}
+.form .formfields ul li input[type="checkbox"] + label span:hover {background-color: transparent;}
+.form .formfields ul li input[type="checkbox"]:checked + label span:hover {background-color: transparent;}
+.form .formfields ul li.warning {background: #EB1919}
+.mazda6 .cx-5, .mazda6 .mazda3, .mazda6 .rdx {display: none;}
+.cx-5 .mazda6, .cx-5 .mazda3, .cx-5 .rdx {display: none;}
+.mazda3 .mazda6, .mazda3 .cx-5, .mazda3 .rdx {display: none;}
+section.detail .specs h2 {display: none;}
+.mazda6 section.detail .specs .frase1 h2 {display: block;}
+.cx-5 section.detail .specs .frase2 h2 {display: block;}
+.mazda3 section.detail .specs .frase3 h2 {display: block;}
+.selectric .label {color: #2D4B79}
+section.detail .mouse {display: none !important;}
+section.ok {background: none;}
+section.ok .msg {top: -150%;}

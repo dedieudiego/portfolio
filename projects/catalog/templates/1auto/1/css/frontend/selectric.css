@@ -1,0 +1,104 @@
+/*======================================================================
+Selectric
+======================================================================*/
+.selectricWrapper { position:relative; margin:0 0 0; width:100%; cursor:pointer; }
+.selectricResponsive { width: 100%; }
+
+.button{display:none;}
+.selectricWrapper *:hover,
+.selectricWrapper *:active { outline:0 none; }
+
+
+.selectric { 
+	position:relative; background-color:#fff; height:50px; padding:0 22px; border-left:4px solid #1782C0;
+	-webkit-transition:border 0.3s; -moz-transition:border 0.3s; transition:border 0.3s;
+}
+.selectric:before { 
+	content: " "; position: absolute; top:21px; right:20px; width:0; height:0; border: 6px solid transparent; border-top-color: #ccc; border-bottom: none;
+	-webkit-transition:border 0.3s; -moz-transition:border 0.3s; transition:border 0.3s;
+}
+.selectric .label {
+	position:relative; display:block; white-space:nowrap; overflow:hidden; width:100%; line-height:43px; margin:0; border:0; 
+	font-family:"Avenir Next LT W01 Demi", sans-serif; font-size:1em; color:#353535;
+}
+
+.selectricHover .selectric { border-left:4px solid #1782C0; }
+.selectricHover .selectric:before { border-top-color: #878787; }
+
+
+.selectricOpen { z-index: 9999; }
+.selectricOpen .selectricItems { display: block; }
+
+.selectricDisabled {
+	filter: alpha(opacity=50); opacity: 0.5; cursor: default;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.selectricHideSelect { position:relative; overflow: hidden; width: 0; height:0; }
+.selectricHideSelect select { position: absolute; left: -100%; display: none; }
+
+.selectricInput {
+	position: absolute !important;
+	top: 0 !important;
+	left: 0 !important;
+	overflow: hidden !important;
+	clip: rect(0, 0, 0, 0) !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 1px !important;
+	height: 1px !important;
+	outline: none !important;
+	border: none !important;
+	*font: 0/0 a !important;
+	background: none !important;
+}
+
+.selectricTempShow {
+	position: absolute !important;
+	visibility: hidden !important;
+	display: block !important;
+}
+
+/* Items box */
+.selectricItems {
+	display: none;
+	position: absolute;
+	top:100%;
+	left: 0;
+	z-index: 0;
+	background:#fff;
+}
+.selectricItems .selectricScroll {
+	height: 100%;
+	overflow: auto;
+}
+.selectricAbove .selectricItems {
+	top: auto;
+	bottom: 100%;
+}
+.selectricItems ul, 
+.selectricItems li {
+	padding: 0;
+	margin: 0;
+}
+.selectricItems li {
+	display: block; width:100%; cursor: pointer; padding:12px 22px; margin-bottom:1px; background:#FFFFFF;
+	 font-family:"Avenir Next LT W01 Demi", sans-serif; font-size:1em; color:#353535; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;
+}
+.selectricItems li.selected {
+	color: #666;
+}
+.selectricItems li:hover {
+	background: #1782C0;
+	color: #fff;
+}
+.selectricItems li.disabled {
+	background: #F5F5F5;
+	color: #BBB;
+	border-top-color: #FAFAFA;
+	cursor: default;
+}

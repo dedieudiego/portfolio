@@ -1,0 +1,10 @@
+input[type="text"], input[type="password"], input[type="email"], input[type="date"], input[type="tel"], input[type="number"] {line-height: 44px;}
+section.detail .formfields ul li input[type="checkbox"] {display: block; position: absolute; z-index: 2; top: 9px; left: 2px;}
+section.detail .formfields ul li input[type="checkbox"] + label span {background: transparent; margin-right: 2px;}
+section.detail .formfields ul li input[type="checkbox"] + label span:hover {background-color: transparent;}
+section.detail .formfields ul li input[type="checkbox"]:checked + label span:hover {background-color: transparent;}
+footer .top .r {width: 400px;}
+header .l, header .r, section.main .offers, section.main .assistance .r {font-family: "Open Sans"; font-weight: 700; font-style: italic;}
+section.main .date {font-family: "Open Sans"; font-weight: 800; font-style: italic;}
+section.main .assistance .l {font-family: "Open Sans"; font-weight: 700; font-style: normal;}
+section.detail .formfields ul li.warning span {font-family: "Open Sans"; font-weight: 800; font-style: normal;}

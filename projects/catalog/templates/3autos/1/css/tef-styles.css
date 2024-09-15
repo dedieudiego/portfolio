@@ -1,0 +1,410 @@
+	html, body {}
+
+	body {background: url(../img/bg.jpg) 50% #eee no-repeat; background-size:cover;}
+
+	.h100 {height: 100%;}
+	.desktop {display: block !important;}
+	.mobile {display: none !important;}
+	.linktel {color: #3A393B;}
+	.linktel:hover {color:#666;}
+
+	::-webkit-input-placeholder {
+	   color: #000;
+	   opacity: 1;
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+	   color: #000;
+	   opacity: 1;  
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+	   color: #000;
+	   opacity: 1;  
+	}
+
+	:-ms-input-placeholder {  
+	   color: #000; 
+	   opacity: 1; 
+	}
+
+
+/*	--------------------------------------------------
+	Layout
+	-------------------------------------------------- */
+	section > .row {}
+	sup {font-size: 50%;}
+
+/*	--------------------------------------------------
+	Contenedor general - Da el ancho del contenido
+	-------------------------------------------------- */
+	.cont-general{ position: relative; left: 0; right: 0; margin: auto; max-width: 1280px;}
+	section{position: relative;}
+	.clear {clear: both;}
+
+/*	--------------------------------------------------
+	Header -
+	-------------------------------------------------- */	
+	header {}
+	header .logo {text-align: center; font-family: "avant", sans-serif; color: #00355b; font-size: 370.5%;margin-top: 20px;}
+	header .logo span {color: #008AC7; font-family: "avantbold", sans-serif;}
+/*	--------------------------------------------------
+	Fin Header -
+	-------------------------------------------------- */	
+
+	.navContainer { height:90%; position:absolute; right:0; top:0; bottom: 0; margin: auto; width: 1280px;}
+	nav {position: absolute;top: 52%;right: 20px; border-right: 1px solid #b9b9b9; padding-right: 10px;}
+	nav ul li { margin-bottom: 25px; position: relative; cursor: pointer;
+	-webkit-transition: .3s;
+	   -moz-transition: .3s;
+	    -ms-transition: .3s;
+	     -o-transition: .3s;
+	        transition: .3s;
+	        text-align: right;}
+	nav ul li:last-child {margin-bottom: 0;}
+	nav ul li span {font-family: "Roboto", sans-serif; font-weight: 500; font-size: 107.5%; color: #000; text-transform: uppercase; cursor: pointer; width: 100px; display: block;
+    -webkit-transition: .3s;
+	   -moz-transition: .3s;
+	    -ms-transition: .3s;
+	     -o-transition: .3s;
+	        transition: .3s;}
+	nav ul li i {cursor: pointer; display:block; width:5px; height:10px; position:absolute; top:10px; right:-13px; margin-top:-8px; background: #B9B9B9;}
+	nav ul li.selected i {background: #008AC7;}
+	nav ul li.selected span, nav ul li:hover span {color: #008AC7;}
+
+/*	--------------------------------------------------
+	Section - Detail
+	-------------------------------------------------- */
+	section.detail {margin: 10px auto 0 auto;}
+	section.detail .titleMain { font-size: 123%; font-family: "avantbold", sans-serif; text-align: center; color: #2d4b79; background: #fff; padding: 10px 0;margin-bottom: -60px;}
+	section.detail .title span {color:#000; font-size: 162.5%;}
+	section.detail .car {position: relative; height: 390px; margin-top: -50px;}
+	section.detail .car .imgContainer {width: 735px; height: 380px; position: absolute; right: 120px;}
+	section.detail .car .imgContainer .square {text-align: right; float: right; border: 2px solid #000; padding: 20px 20px;}
+	section.detail .car .imgContainer .model {font-family: "acuraregular", sans-serif; font-size: 193.3%; text-transform: uppercase; color: #000;}
+	section.detail .car .imgContainer .price {font-family: "gothammedium", sans-serif; font-size: 515.9%;}	
+	section.detail .car .imgContainer .price span {font-size: 70%; top: -12px; position: relative;}
+	section.detail .car .imgContainer p {font-family: "gothammedium", sans-serif; font-size: 151%; color: #000;}	
+	section.detail .car .imgContainer img {left: 0; bottom: 0; top: initial;}
+	section.detail .car img {position: absolute;
+	-webkit-transition: .5s;
+	   -moz-transition: .5s;
+	    -ms-transition: .5s;
+	     -o-transition: .5s;
+	        transition: .5s;
+	        top: 0;
+	        right: 150px;}
+    .mazda3 section.detail .car img.mazda3.txt,
+    .mazda6 section.detail .car img.mazda6.txt,
+    .cx-5 section.detail .car img.cx-5.txt {-webkit-transition-delay: .4s;
+       -moz-transition-delay: .4s;
+        -ms-transition-delay: .4s;
+         -o-transition-delay: .4s;
+            transition-delay: .4s;}
+	section.detail .scroll {width: 100%;}
+	section.detail .mouse {width: 20px; margin: auto; text-align: center; position: relative;top: -15px;}
+	section.detail .mouse .top {margin-bottom: 5px;}
+	section.detail .mouse .bottom {margin-top: 0; position: absolute; bottom: -5px; left: 0; right: 0; margin: auto; animation: scroll 4s infinite; -moz-animation: scroll 4s infinite; -webkit-animation: scroll 4s infinite;}
+
+	@keyframes scroll {
+		0%, 80%, 90%, 100% {bottom: -5px;}
+		85%, 95% {bottom: -15px;}
+	}
+	@-moz-keyframes scroll {
+		0%, 80%, 90%, 100% {bottom: -5px;}
+		85%, 95% {bottom: -15px;}
+	}
+	@-webkit-keyframes scroll {
+		0%, 80%, 90%, 100% {bottom: -5px;}
+		85%, 95% {bottom: -15px;}
+	}
+
+	section.detail .specs {text-align: center;height: 75px; background: #2D4B79; color: #fff; font-size: 106.7%; font-family: "acuraregular", sans-serif; font-weight: bold; margin-right: 130px;margin-top: 10px; position: relative; width: 100%;}
+	section.detail .specs div {position: absolute; right: 0; top: 0; left: 0; bottom: 0; margin: auto; height: 55px; line-height: 26px; font-family: "Roboto", sans-serif; font-weight: 300; text-transform: uppercase; font-size: 130.7%;}
+	section.detail .specs div span {font-style: italic; font-weight: 400;}
+	section.detail .specs div h2 {font-family: "Roboto", sans-serif; font-weight: 500; font-size: 129.4%; text-transform: uppercase;}
+
+	section.detail .specs .frase1 h2 {margin-left: -25px; opacity:0; animation: frase 15s infinite; -moz-animation: frase 15s infinite; -webkit-animation: frase 15s infinite;}
+	section.detail .specs .frase2 h2 {margin-left: -25px; opacity:0; animation: frase 15s 5s infinite; -moz-animation: frase 15s 5s infinite; -webkit-animation: frase 15s 5s infinite;}
+	section.detail .specs .frase3 h2 {margin-left: -25px; opacity:0; animation: frase 15s 10s infinite; -moz-animation: frase 15s 10s infinite; -webkit-animation: frase 15s 10s infinite;}
+
+	@keyframes frase {
+		from, 33% {margin-left: -15px; opacity:0}
+		3%, 30% {margin-left: 0; opacity:1}
+	}
+
+	@-moz-keyframes frase {
+		from, 33% {margin-left: -15px; opacity:0}
+		3%, 30% {margin-left: 0; opacity:1}
+	}
+
+	@-webkit-keyframes frase {
+		from, 33% {margin-left: -15px; opacity:0}
+		3%, 30% {margin-left: 0; opacity:1}
+	}
+
+	.dealers {display: none;}
+
+	.detail .tel-iphone, .detail .tel-iphone:hover, .detail .tel-iphone:visited {color:#000 !important;}
+
+	/* CARS */
+	.mazda6 .cx-5, .mazda6 .mazda3, .mazda6 .rdx {opacity: 0;}
+	.cx-5 .mazda6, .cx-5 .mazda3, .cx-5 .rdx {opacity: 0;}
+	.mazda3 .mazda6, .mazda3 .cx-5, .mazda3 .rdx {opacity: 0;}
+
+	.mazda6 section.detail .car img.mazda6 {right: 90px;}
+	.cx-5 section.detail .car img.cx-5 {right: 120px;}
+	.mazda3 section.detail .car img.mazda3 {right: 90px;}
+/*	--------------------------------------------------
+	Section - Detail
+	-------------------------------------------------- */
+	    
+/*	--------------------------------------------------
+	Section - OK
+	-------------------------------------------------- */
+	section.ok {position: fixed; background: url(../img/bg-ok.png) no-repeat; background-size: cover; width: 100%; height: 100%; top: 0; left: 0; z-index: -1; opacity: 0;
+	-webkit-transition: opacity .3s;
+	   -moz-transition: opacity .3s;
+	    -ms-transition: opacity .3s;
+	     -o-transition: opacity .3s;
+	        transition: opacity .3s;}
+	section.ok.active {opacity: 1; z-index: 2;}
+	section.ok .msg {background: #0f1b2d; background: rgba(15,27,45,.8); position: absolute; top: -130%; bottom: 0; left: 0; right: 0; margin: auto; width: 466px; height: 230px; text-align: center; padding: 58px 47px; border:1px solid #008ac7; box-shadow: 0px 0px 0px 10px rgba(21,40,68,.5); -webkit-box-shadow: 0px 0px 0px 10px rgba(21,40,68,.5);
+	-webkit-transition: .5s .3s;
+	   -moz-transition: .5s .3s;
+	    -ms-transition: .5s .3s;
+	     -o-transition: .5s .3s;
+	        transition: .5s .3s;}
+	section.ok.active .msg {top: 0;}
+	section.ok h1 {font-family: "Roboto", sans-serif; color: #008AC7; font-weight: 500; font-size: 192.3%; margin-bottom: 15px; opacity: 0;
+	-webkit-transition: .3s .8s;
+	   -moz-transition: .3s .8s;
+	    -ms-transition: .3s .8s;
+	     -o-transition: .3s .8s;
+	        transition: .3s .8s; position: relative; top:-15px}
+	section.ok p {font-family: "Roboto", sans-serif; color: #fff; font-weight: 100; font-size: 138.4%; opacity: 0;
+	-webkit-transition: .3s 1s;
+	   -moz-transition: .3s 1s;
+	    -ms-transition: .3s 1s;
+	     -o-transition: .3s 1s;
+	        transition: .3s 1s; position: relative; bottom: -15px;}
+	section.ok.active h1 {opacity: 1; top: 0;}
+	section.ok.active p {opacity: 1; bottom: 0;}
+/*	--------------------------------------------------
+	Section - OK
+	-------------------------------------------------- */
+	    
+/*	--------------------------------------------------
+	Section - Form
+	-------------------------------------------------- */
+	.formTitle {height: 60px; background: #008AC7; width: 28%; position: absolute;top: 66px; left: 1px;}
+	.form { clear: both;margin-top: 90px;position: relative;z-index: 2;}
+	.form .formfields { max-width:325px; margin-left:30px;}
+	.form .formfields span.title { color: #fff; text-transform: uppercase; margin-top: 40px; font-size: 169.2%; font-family: "Roboto", sans-serif; font-weight: 700; display: block; height: 60px; line-height: 60px; text-indent: 20px; background: #008AC7;}
+	.form .formfields ul.formbody {margin-top: 15px;}
+	.form .formfields ul.formbody>li {width: 100%;margin-right: 4%;float: left;margin-bottom: 4px;position: relative;}
+	.form .formfields ul.formbody>li.model {width: 100%;}
+	.form .formfields ul.formbody>li:nth-child(even) {margin-right: 0;}
+	.form .formfields ul.formbody>li.send {position: relative;width: 100%;}
+	.form .formfields .label {text-align: left; font-family: "Roboto", sans-serif; font-weight: 400; font-size: 112%;}
+	.form .formfields a.btn_send { font-family: "Roboto", sans-serif;font-weight: 700;position:relative; width: 100%; height: 45px;background: url(../img/more.png) no-repeat 61% #2d4b79; display: block; text-align: center; line-height: 45px; font-size: 127.1%; margin-top: 5px; -webkit-transition: ease all 0.3s; -moz-transition: ease all 0.3s; -ms-transition: ease all 0.3s; -o-transition: ease all 0.3s; transition: ease all 0.3s; overflow: hidden;text-indent: -10px;}
+	.form .formfields a.btn_send:before {content:" "; display: block; position: absolute; height: 100%; width: 20px; background: rgba(150,150,150,.2); top: 0; left: -20px;
+	-webkit-transition: .4s;
+	-o-transition: .4s;
+	transition: .4s;}
+	.form .formfields a.btn_send:after {content:" "; display: block; position: absolute; height: 100%; width: 0px; background: rgba(150,150,150,.3); top: 0; right: 0px;
+	-webkit-transition: .3s .3s;
+	-o-transition: .3s .3s;
+	transition: .3s .3s;}
+	.form .formfields a.btn_send:hover:before {left: 350px;}
+	.form .formfields a.btn_send:hover:after {width: 350px;}
+	.form .formfields ul li.warning {line-height: 30px;font-family: "acuraregular", sans-serif;position: relative;margin-top: 20px;color: #F13030;width: 100%;font-size: 123.1%;text-align: center;height: 30px;display: none;}
+	.form .formfields ul li.success {height: 30px;text-align: center;line-height: 30px;font-family: "blissbold", sans-serif;font-size: 123.1%;width: 100%;margin-top: -50px;color: #0A960D;position: relative;display: none;}
+	.form .formfields ul li.success:before {content:" ";border-bottom:9px solid #0A960D;width:9px;height:9px;display:block;border-left:9px solid transparent;border-right:9px solid transparent;position:absolute;right:0;left:0;margin:auto;top:-7px;}
+	.form .formfields ul li.warning:before {content:" ";border-bottom:9px solid #F13030;width:9px;height:9px;display:block;border-left:9px solid transparent;border-right:9px solid transparent;position:absolute;right:0;left:0;margin:auto;top:-7px;}
+	.form .formfields ul li.success span, .form .formfields ul li.warning span { font-size:130%;}
+	.form .formfields ul li.getUpdates {color: #4D4D4D; font-size: 95%;  position: relative; font-family: "Roboto", sans-serif;text-align: left;width: 100%;margin: 0;line-height: 24px;}
+	.form .formfields ul li input[type="checkbox"] {display: none;}
+	.form .formfields ul li input[type="checkbox"] + label span { width: 20px; height: 20px; cursor: pointer; margin-right: 10px; display: block; vertical-align: bottom;float: left;margin-top: 7px;border: 3px solid rgba(0,0,0,0.4);}
+	.form .formfields ul li input[type="checkbox"] + label span:hover {background-color:rgba(0,0,0,.1);}
+	.form .formfields ul li input[type="checkbox"]:checked + label span:hover {background-color:rgba(0,0,0,.1);}
+	.form .formfields ul li input[type="checkbox"]:checked + label span {background: url(../img/tick.png) no-repeat 50%;}
+	li.select {-webkit-appearance: none; outline:0 none; box-shadow:none; -moz-box-shadow:none; box-shadow:none; position:relative; background: #DAF0FA; -webkit-border-radius: 0;
+	        border-radius: 0;}
+	li.select select { 
+		-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; appearance: none; -moz-appearance: none; background: #DAF0FA; outline: 0; border-top:1px solid transparent; border-right:1px solid transparent; border-bottom: 1px solid transparent;
+		border-left:#1E7AB1 4px solid; width:100%; height:50px; float:left; padding:0 20px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; font-family:"Avenir Demi", sans-serif; font-size:160%; color:#353535;outline:0;
+	}
+	li.select:after { 
+		content:''; width:0; height:0; border-style:solid; border-width:6px 5px 0 5px; border-color:#333 transparent transparent transparent; 
+		position:absolute; right:10px; top:24px;
+	}
+	.select-mobile {-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; outline:0 none; box-shadow:none; -moz-box-shadow:none; box-shadow:none; position:relative;}
+	.select-mobile select { 
+		-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; appearance: none; -moz-appearance: none; float:left;  padding:0 15px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; font-family:"Roboto", sans-serif; font-size:112%; color:#000;outline:0; border:1px solid #dbdbdc; background:#f5f5f5; width:100%; height:50px; text-indent: 5px;
+	}
+	.select-mobile:after {
+		content:'';
+		width:0;
+		height:0;
+		border-style:solid;
+		border-width:6px 5px 0 5px;
+		border-color:#333 transparent transparent transparent;
+		position:absolute;
+		right:10px;
+		top: 23px;
+		display: none;
+	}
+/*	--------------------------------------------------
+	Fin Section - Form
+	-------------------------------------------------- */
+	    
+/*	--------------------------------------------------
+	Section - OK
+	-------------------------------------------------- */
+/*	--------------------------------------------------
+	Fin Section - OK
+	-------------------------------------------------- */
+
+/*	--------------------------------------------------
+	Footer -
+	-------------------------------------------------- */		
+	footer > .cont-general {padding: 10px 20px;}
+	footer .logo { float: left; margin-bottom: 10px;}
+	footer .gray {background: #B5B5B5;padding: 10px 0; width: 100%;}
+	footer .gray .brand {padding-left: 20px;}
+	footer .gray .brand img {padding-right: 25px; border-right: 1px solid #aaaaaa;}
+	footer .gray .brand p {font-family: "Roboto", sans-serif; font-weight: 700; font-style: italic; color: #797979; display: inline-block; text-transform: uppercase; font-size: 92.3%; vertical-align: bottom; padding-left: 25px;}
+	footer .social { float: right; margin-top: 5px; padding-right: 20px;}
+	footer .social ul li { float: left; margin-right: 15px; -webkit-transition: .3s;
+	   -moz-transition: .3s;
+	    -ms-transition: .3s;
+	     -o-transition: .3s;
+	        transition: .3s;}
+	footer .social ul li:hover {opacity:0.7;}
+	footer .social ul li:last-child {margin-right: 0;}
+	footer .social ul li a { width: 24px; height: 16px; display: block; background: url(../img/social.png) no-repeat; -webkit-transition: ease all 0.3s;
+	   -moz-transition: ease all 0.3s;
+	    -ms-transition: ease all 0.3s;
+	     -o-transition: ease all 0.3s;
+	        transition: ease all 0.3s;}
+	footer .social ul li a:hover {}
+	footer .social ul li.fb a { background-position: -43px;} /* FACEBOOK */
+	footer .social ul li.in a { background-position: -87px;} /* INSTAGRAM */
+	footer .social ul li.tw a { background-position: -132px;} /* TWITTER */
+	footer hr {padding-top: 20px;border-top: 0;margin-bottom: 20px;border-color: #266591;}
+	footer .concesionarias {color: #797979; font-family: "Roboto", sans-serif; font-weight: 500; font-size: 92.3%; text-align: justify;}
+	footer .bottomText {text-align: justify; font-family: "Roboto", sans-serif; color: #7d7d7d; font-size: 84.6%; margin-top: 15px;}
+	.tel-iphone {color:#fff; cursor: default;}
+	.tel-iphone:hover {color:#fff;}
+	.tel-iphone:visited {color:#fff !important;}
+/*	--------------------------------------------------
+	Fin Footer -
+	-------------------------------------------------- */
+	
+	@media only screen and (min-width: 900px) and (max-width: 1200px) {
+		.mazda6 section.detail .car img.mazda6 {right: 0px; padding-left: 360px;}
+		.cx-5 section.detail .car img.cx-5 {right: 0px; padding-left: 360px;}
+		.mazda3 section.detail .car img.mazda3 {right: 0px; padding-left: 360px;}
+	}
+	@media only screen and (min-width: 900px) and (max-width: 1280px) {
+		.navContainer {width: auto;}
+	}
+	@media (max-width: 1440px) {
+		.navContainer {right: 20px;}
+	}
+	@media (max-height: 800px) {
+		footer {display: none;}
+		.mazda3 footer {display: block;}
+		nav {top: 65%;}
+		.mazda3 nav {top: 52%;}
+	}
+	
+	@media (max-width: 900px) {
+		.desktop {display: none !important;}
+		.mobile {display: block !important;}
+
+		.select-mobile:after {display: block;}
+
+		header .logo {font-size: 164%; width: 85%; margin: 15px auto 0;}
+
+		section.detail {margin-top: 8px;}
+		section.detail .titleMain {font-size: 89%; margin-bottom: 0;}
+		section.detail .slider {margin-top: 15px; padding: 0 15px;}
+		section.detail .specs {font-size: 98%; margin-top: 4px; height: 85px;}
+		section.detail .specs div {font-size: 110%; height: 68px; line-height: inherit;}
+		section.detail .specs div h2 {margin-top: 5px; padding: 0 10px; font-size: 110%;}
+
+		.dealersCta {width: 100%; text-align: center; clear: both; padding-top: 20px;}
+		.dealersCta a {font-size: 138.4%; font-family: "Roboto", sans-serif; font-weight: 500; color: #333;}
+		.dealersCta img {width: 35px; vertical-align: middle; margin-right: 5px;}
+		.dealers {width: 70%; margin: 20px auto 0;}
+		.dealers li {margin-bottom: 20px;}
+		.dealers li a {color: #333; font-family: "Roboto", sans-serif; font-weight: 500; font-size: 110%;}
+
+		.form {margin-top: 10px;}
+		.form .formfields span.title {text-align: center; text-indent: 0; margin-top: 0px; height: 40px; line-height: 40px;}
+		.form .formfields {width: 100%; max-width: 100%; margin-left: 0; margin: auto;}
+		.form .formfields ul.formbody {width: 95%; margin: 20px auto 0;}
+		.form .formfields a.btn_send:hover:before {left: 100%;}
+		.form .formfields a.btn_send:hover:after {width: 100%;}
+		.form .formfields ul li.warning {position: fixed; top: 0; text-align: center; background: #F13030; color: #fff; height: 40px; line-height: 40px; margin: 0; left: 0;}
+		.form .formfields ul li.warning:before {display: none;}
+
+		footer {clear: both; margin-top: 20px; display: block !important;}
+		footer .gray {padding: 0;}
+		footer .social {position: relative; float: none; height: 45px; background: #797979;}
+		footer .social ul {position: absolute; right: 0; left: 0; margin: auto; top: 0; bottom: 0; width: 141px; height: 16px;}
+		footer .social ul li a {background: url(../img/social-m.png) no-repeat;}
+		footer .gray .brand {text-align: center; padding: 15px 0;}
+		footer .gray .brand img {padding-right: 0; border-right:0; padding-bottom: 10px;}
+		footer .gray .brand p {padding:0 15px; border-top: 1px solid #aaaaaa; padding-top: 10px; width: 90%;}
+	}
+
+	@media (max-width: 600px) {
+		section.ok.active {z-index: 100;}
+		section.ok .msg {width: 90%; height: 60%;}
+	}
+
+	@media (max-width: 500px) {
+	}
+
+	@media (max-width: 400px){
+		footer .logo {width: 40%;}
+	}
+
+	@media (max-width: 360px){
+	}
+
+	/* Samsung Galaxy S4 */
+	@media screen (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) and (device-width: 1080px) and (orientation: portrait) { 
+    	
+	}
+	@media screen (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) and (device-width: 1920px) and (orientation: landscape) { 
+		
+	}
+
+
+	/* iPad */
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+	}
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+		
+	}
+
+
+	/* iPhone 4 */
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+	}
+
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+	}
+
+	/* iPhone 5 */
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+		
+	}
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
+	}

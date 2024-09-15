@@ -1,0 +1,314 @@
+	html, body {}
+
+	body {background:#eeeeee}
+
+	.h100 {height: 100%;}
+	.desktop {display:block !important;}
+	.mobile {display:none !important;}
+	.linktel {color: #3A393B; cursor: default;}
+	.linktel:hover {color:#3A393B;}
+	iframe {display: none;}
+
+	::-webkit-input-placeholder {
+	   color: #000;
+	   opacity: 1;
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+	   color: #000;
+	   opacity: 1;  
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+	   color: #000;
+	   opacity: 1;  
+	}
+
+	:-ms-input-placeholder {  
+	   color: #000; 
+	   opacity: 1; 
+	}
+
+
+/*	--------------------------------------------------
+	Layout
+	-------------------------------------------------- */
+	sup {font-size: 50%;}
+
+/*	--------------------------------------------------
+	Contenedor general - Da el ancho del contenido
+	-------------------------------------------------- */
+	.cont-general{ position: relative; left: 0; margin: auto; right: 0; padding:0 40px; max-width:1280px; height:100%;}
+	section{position:relative;}
+
+/*	--------------------------------------------------
+	Header -
+	-------------------------------------------------- */	
+	header {background:url(../img/main-bg.jpg) no-repeat;background-position:50% 20%; position: relative; background-size: cover; height: 700px;}
+	header .honda {float:left;}
+	header .bella {float: right;margin-top: 30px;}
+	header .form { clear: both; float: right; width: 420px; padding: 15px 30px; background: rgba(0,0,0,0.4); margin-top: 20px;}
+	header .formfields .title {background:#1b7ab0;margin-bottom:3px;height:48px;line-height:48px;font-size:116%;position:relative;border-radius:0 10px 0 0; -webkit-border-radius:0 10px 0 0; -o-border-radius:0 10px 0 0; -moz-border-radius:0 10px 0 0; text-indent:18px; font-family:"Antenna-Medium", sans-serif;}
+	header .formfields .title span {display:block;position:absolute;background:#3cbded;height:48px;padding-top:12px;left:-52px;border-radius:10px 0 0 10px; -webkit-border-radius:10px 0 0 10px; -o-border-radius:10px 0 0 10px; -moz-border-radius:10px 0 0 10px; width:52px; text-indent:0; text-align:center;}
+	header .formfields ul li input {height:48px;font-size:108%;font-family:"Antenna-Light", sans-serif;}
+	header .formfields ul li.warning {clear:both;margin-top:60px;background:#e60000;text-align:center;padding:10px 0;border-radius:10px; -o-border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; -ms-border-radius:10px; font-size:85%; font-family:"Antenna-Bold", sans-serif; display:none;}
+	header .formfields ul li.getUpdates {float:left;width:200px;margin-top:3px;font-family:"Antenna-Thin", sans-serif;font-size:85%;}
+	header .formfields ul li.send {float:right;margin-top:3px;}
+	header .formfields ul li.send a.btn_send {overflow: hidden;background:#ee7b00;width:130px;height:44px;display:block;text-align:center;line-height:44px;font-size:131%;border-radius:0 0 10px 10px; -moz-border-radius:0 0 10px 10px; -webkit-border-radius:0 0 10px 10px; -o-border-radius:0 0 10px 10px; position:relative; z-index:0; font-family:"Antenna-Medium", sans-serif;}
+	header .formfields ul li.send a.btn_send:before {content:" ";display:block;background:#1b7ab0;width:130px;height:22px;position:absolute;top:-22px;z-index:-1;
+	-webkit-transition: .2s;
+	   -moz-transition: .2s;
+	    -ms-transition: .2s;
+	     -o-transition: .2s;
+	        transition: .2s;}
+	header .formfields ul li.send a.btn_send:after {content:" ";display:block;background:#1b7ab0;width:130px;height:22px;position:absolute;bottom:-22px;z-index:-1;
+	-webkit-transition: .2s .1s;
+	   -moz-transition: .2s .1s;
+	    -ms-transition: .2s .1s;
+	     -o-transition: .2s .1s;
+	        transition: .2s .1s;}
+	header .formfields ul li.send a.btn_send:hover:before {top: 22px}
+	header .formfields ul li.send a.btn_send:hover:after {bottom: 22px}
+	header .price { height: 110px; position: absolute; bottom: 90px; width: 556px; z-index: 2;}
+	header .price .l {float:left;background:#1b7ab0;height:100%;width:60%;padding:24px 33px 24px 0;font-size:223%;font-family:"Antenna-Bold", sans-serif;}
+	header .price .l span {font-size:69%;font-family:"Antenna-Light", sans-serif;}
+	header .price .r {float:right;background:#3cbded;height:100%;width:40%;font-size:304.6%;padding:0px 50px;border-radius:0 15px 15px 0; -o-border-radius:0 15px 15px 0; -webkit-border-radius:0 15px 15px 0; -moz-border-radius:0 15px 15px 0; font-family:"Antenna-Bold", sans-serif;}
+	header .price .r span {font-size:30.3%;color:#196086;font-family:"Antenna-Light", sans-serif;}
+	header .price .r span.bottom {display:block;margin-left:33px;}
+	header .priceext {background:#1b7ab0;height:110px;position:absolute;bottom:90px;width:30%;z-index:1;;;}
+/*	--------------------------------------------------
+	Fin Header -
+	-------------------------------------------------- */	
+
+	nav {}
+	nav li {}
+	nav li a {}
+
+/*	--------------------------------------------------
+	Section - Main
+	-------------------------------------------------- */
+	section.main {margin-top:-40px;}
+	section.main .prizes {text-align:center;}
+	section.main .prizes ul li {width: 23%; height: 400px; display: inline-block; margin-right: 35px; vertical-align: middle;}
+	section.main .prizes ul li:last-child {margin-right: 0;}
+	section.main .prizes ul li .top {height: 200px; background: url(http://placehold.it/165x90/1b7ab0/ffffff?text=IMG) 50% 50% no-repeat #fff; border-top: 4px solid #1b7ab0;}
+	section.main .prizes ul li:first-child .top {background: url(http://placehold.it/165x90/1b7ab0/ffffff?text=IMG) 50% 50% no-repeat #fff;}
+	section.main .prizes ul li:last-child .top {background: url(http://placehold.it/165x90/1b7ab0/ffffff?text=IMG) 50% 50% no-repeat #fff;}
+	section.main .prizes ul li .bottom { background: #313131; font-size: 90%; padding: 25px; line-height: 22px; text-align: left; font-family: "Antenna-Thin", sans-serif; min-height: 200px;}
+	section.main .slider {background: #161616;padding: 140px 0;margin-bottom: -55px;margin-top: -70px;}
+	.bx-wrapper .bx-controls-direction a:hover {background-color:#3C8CB9}
+	section.main .slider ul.bxslider {margin-left:25%;}
+	section.main .features {width:77.7%;margin:auto;margin-bottom:30px;}
+	section.main .features .top {background:#464646;border-top:4px solid #1b7ab0;padding:40px 60px;}
+	section.main .features .top h1 {font-size: 230.7%;font-family: "Antenna-Bold", sans-serif;}
+	section.main .features .bottom {background:#fff;padding:70px 60px 70px 80px;height:285px;}
+	section.main .features .bottom ul {float:left;list-style:initial;color:#1b7ab0;}
+	section.main .features .bottom ul:last-child {float: right;}
+	section.main .features .bottom ul li {margin-bottom:25px;font-size:140%;}
+	section.main .features .bottom ul li span {color:#464646;font-family:"Antenna-Light", sans-serif;}
+	section.main .blue {background:#1b7ab0;border-top:4px solid #15628d;padding:20px 0;}
+	section.main .blue a {display:block;background:#2f99d5;width:520px;height:72px;text-align:center;line-height:72px;margin:auto;border-radius:15px; -o-border-radius:15px; -webkit-border-radius:15px; -moz-border-radius:15px; font-size:142%;position: relative;overflow: hidden;z-index: 0;
+	-webkit-transition: .3s .2s;
+	   -moz-transition: .3s .2s;
+	    -ms-transition: .3s .2s;
+	     -o-transition: .3s .2s;
+	        transition: .3s .2s;
+	        text-transform: uppercase;
+	        font-family: "Antenna-Bold", sans-serif;}
+	section.main .blue a:before {content:" ";width: 100%;height: 100%;background: #fff;display: block;position: absolute;left: -520px; z-index: -1; -webkit-transition: .3s ease-in-out;
+	   -moz-transition: .3s ease-in-out;
+	    -ms-transition: .3s ease-in-out;
+	     -o-transition: .3s ease-in-out;
+	        transition: .3s ease-in-out;}	
+	section.main .blue a:hover {color: #2f99d5;}
+	section.main .blue a:hover:before {left: 0;}
+/*	--------------------------------------------------
+	Fin Section - Main
+	-------------------------------------------------- */    
+	    
+/*	--------------------------------------------------
+	Section - Form
+	-------------------------------------------------- */
+	header .formfields ul li input[type="checkbox"] {display: none;}
+	header .formfields ul li input[type="checkbox"] + label span { width: 15px; height: 15px; cursor: pointer; background: #fff; margin-right: 10px; display: block; vertical-align: bottom;float: left;margin-top: 8px;border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px;}
+	header .formfields ul li input[type="checkbox"] + label span:hover {background-color:#ccc;}
+	header .formfields ul li input[type="checkbox"]:checked + label span:hover {background-color:#ccc;}
+	header .formfields ul li input[type="checkbox"]:checked + label span {background: url(../img/tick.png) no-repeat #fff 50% 50%;}
+	li.select {-webkit-appearance: none; outline:0 none; box-shadow:none; -moz-box-shadow:none; box-shadow:none; position:relative; background: #DAF0FA; -webkit-border-radius: 0;
+	        border-radius: 0;}
+	li.select select { 
+		-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; appearance: none; -moz-appearance: none; background: #DAF0FA; outline: 0; border-top:1px solid transparent; border-right:1px solid transparent; border-bottom: 1px solid transparent;
+		border-left:#1E7AB1 4px solid; width:100%; height:50px; float:left; padding:0 20px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; font-family:"Avenir Demi", sans-serif; font-size:160%; color:#353535;outline:0;
+	}
+	li.select:after { 
+		content:''; width:0; height:0; border-style:solid; border-width:6px 5px 0 5px; border-color:#333 transparent transparent transparent; 
+		position:absolute; right:10px; top:24px;
+	}
+	.select-mobile {-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; outline:0 none; box-shadow:none; -moz-box-shadow:none; box-shadow:none; position:relative; background:#DAF0FA;}
+	.select-mobile select { 
+		-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; appearance: none; -moz-appearance: none; -moz-box-sizing:border-box; background:#fff; width:100%; height:44px; float:left; padding:0 10px; box-sizing:border-box; -webkit-box-sizing:border-box; font-family:"Antenna-Light", sans-serif; font-size:108%; color:#000; outline:0; text-indent:5px; border:0; /*border-top:2px solid #CAC9C9; border-color:#CAC9C9; border-bottom:2px solid #CAC9C9; border-left:2px solid #CAC9C9; border-right:2px solid #CAC9C9;*/
+	}
+	.select-mobile:after {
+		content:'';
+		width:0;
+		height:0;
+		border-style:solid;
+		border-width:6px 5px 0 5px;
+		position:absolute;
+		right:10px;
+		top: 23px;
+		border-color: #333 transparent transparent transparent;
+	}
+/*	--------------------------------------------------
+	Fin Section - Form
+	-------------------------------------------------- */
+	
+/*	--------------------------------------------------
+	Section - OK
+	-------------------------------------------------- */
+	header .ok {width: 590px; height: 270px; background: rgba(0,0,0,.75); position: absolute; border-radius: 15px 0 0 15px; -o-border-radius: 15px 0 0 15px; -moz-border-radius: 15px 0 0 15px; -webkit-border-radius: 15px 0 0 15px; right: 0; bottom: 80px; padding: 32px 0 32px 35px;}
+	header .ok .title {background:#1b7ab0;position:relative;height:90px;font-size:167%;padding-left:30px;padding-top:25px;font-family:"Antenna-Medium", sans-serif;;}
+	header .ok .title span {display:block;position:absolute;width:80px;height:100%;background:#3cbded;text-align:center;padding-top:25px;border-radius:15px 0 0 15px; -o-border-radius:15px 0 0 15px; -moz-border-radius:15px 0 0 15px; -webkit-border-radius:15px 0 0 15px; left:-80px; top:0;}
+	header .ok .message {font-size:138.5%;padding-left:30px;font-family:"Antenna-Thin", sans-serif;margin-top:40px;}
+/*	--------------------------------------------------
+	Fin Section - OK
+	-------------------------------------------------- */  
+
+/*	--------------------------------------------------
+	Footer -
+	-------------------------------------------------- */		
+	footer {background: #313131; border-top: 4px solid #161616; height: 106px;}
+	footer .logos {float:left;margin-top:30px;}
+	footer .logos img {padding-top:5px;}
+	footer .logos .bella {float:left;border-right:1px solid #fff;padding-right:20px;margin-right:20px;}
+	footer .logos .honda {float:left;}
+	footer .social {float:right;margin-top:35px;}
+	footer .social ul li { display: inline-block; vertical-align: middle; font-size: 123.1%; font-family: "Antenna-Thin", sans-serif;}
+	footer .social ul li.media {-webkit-transition: .3s;
+	   -moz-transition: .3s;
+	    -ms-transition: .3s;
+	     -o-transition: .3s;
+	        transition: .3s;}
+	footer .social ul li.media:hover {margin-top: -10px;}
+	footer .social ul li a {background:url(../img/social.png) no-repeat;width:32px;height:32px;display:block;}
+	footer .social ul li:first-child {margin-right: 20px;}
+	footer .social ul li:last-child {margin-right: 0;}
+	footer .social ul li a.tw {background-position:-35px 0;}
+	footer .social ul li a.yt {background-position:-70px 0;}
+	footer .social ul li a.in {background-position:-105px 0;}
+/*	--------------------------------------------------
+	Fin Footer -
+	-------------------------------------------------- */
+	
+	@media only screen and (min-width: 900px) and (max-width: 1050px) {
+		header .form {margin-top:-20px;}
+		section.main .slider {margin-top:-20px;}
+		section.main .prizes ul li {width: 30%;}
+	}
+
+	@media only screen and (min-width: 900px) and (max-width: 1200px) {
+		section.main .features .bottom ul {float: none !important;}
+		section.main .features .bottom {height: auto;}
+		.bx-wrapper .bx-next {right:26.2%}
+	}
+
+	@media (min-width: 2000px) {
+		.bx-wrapper .bx-prev {left:0}
+		.bx-wrapper .bx-next {right:0}
+	}
+	
+	@media (max-width: 900px) {
+		.desktop {display: none !important;}
+		.mobile {display: block !important;}
+		.cont-general {padding: 0;}
+
+		header {background: url(../img/main-bg-mobile.jpg) 50% 50% no-repeat;background-size: cover; height: 450px;}
+		header .bella {margin-right: 25px;}
+		header .price {width: 90%;bottom: -10px;}
+		header .price .l {width: 100%;height: 72px;padding: 12px 30px;border-radius: 0 15px 0 0; -o-border-radius: 0 15px 0 0; -webkit-border-radius: 0 15px 0 0; -moz-border-radius: 0 15px 0 0; font-size: 170%; }
+		header .price .r {width: 100%;border-radius: 0 0 15px 0; -o-border-radius: 0 0 15px 0; -moz-border-radius: 0 0 15px 0; -webkit-border-radius: 0 0 15px 0; height: 52px; padding: 8px 30px; font-size: 250%; }
+		header .price .r span.bottom {display: inline;margin-left: 0;}
+		header .priceext  {display: none;}
+
+		header .form {padding: 20px 0;width: 100%;background: #dcdcdc;height: 420px;border-top: 50px solid white;margin-top: 0;}
+		header .formfields .title {border-radius: initial;font-size: 100%;}
+		header .formfields .title span {position: initial;float: left;border-radius: initial;}
+		header .formfields ul li.getUpdates {color: #696969;margin-left: 10px;font-family: "Antenna-Light", sans-serif;width: 170px;}
+		header .formfields ul li.warning {margin-top: 105px;border-radius: initial;}
+
+		.prizes.mobile {margin-bottom: -100px;position: relative;z-index: 2;margin-top: 40px;}
+		.prizes.mobile .bx-viewport {padding-right: 15%;padding-left: 15%;}
+		section.main {margin-top: 0;padding-top: 100px;}
+		section.main .slider {padding-bottom: 80px;border-top: 40px solid #fff;}
+		section.main .slider .bx-viewport {padding-right: 5%; padding-left: 5%;}
+		section.main .features {width: 100%;margin-top: 90px;}
+		section.main .features .top {padding: 0;height: 80px;text-indent: 30px;}
+		section.main .features .top h1 {line-height: 80px;}
+		section.main .features .bottom {padding: 30px 25px 30px 50px;height: auto;}
+		section.main .features .bottom ul {float: none !important;}
+		section.main .features .bottom ul li {margin-bottom: 10px;font-size: 130%;}
+		section.main .blue a {width: 90%; height: auto; line-height: initial; padding: 30px 20px; font-size: 150%;}
+		section.main .blue a:hover {color:#fff;}
+		section.main .blue a:before {display: none;}
+		
+		section.main .slider ul.bxslider {margin-left: 0;}
+		.bx-wrapper .bx-controls-direction a {height: 35px;width: 38px;background-size: 340%;top: 60%;;}
+		.bx-wrapper .bx-prev {background-position: 13px; left: 0;}
+		.bx-wrapper .bx-next {background-position: -106px; right: 0;}
+
+		header .ok {width: 85%;bottom: 30px;height: auto;}
+		header .ok .title {font-size: 122%;padding-top: 22px;padding-right: 20px;}
+		header .ok .message {font-size: 120%;padding-right: 20px;padding-left: 0;margin-top: 20px;line-height: 18px;}
+		header .ok .title span {width: 60px;left: -60px;}
+		
+		footer {height: auto; padding-bottom: 20px;}
+		footer .logos {float: none;width: 226px;margin: 25px auto;height: 35px;}
+		footer .social {float: none;text-align: center;}
+		footer .social ul li:first-child {display: block;margin-bottom: 10px;margin-right: 0;}
+		footer .social ul li.media:hover {margin-top: 0px;}
+	}
+
+	@media (max-width: 600px) {
+	}
+
+	@media (max-width: 500px) {
+	}
+
+	@media (max-width: 400px){
+	}
+
+	@media (max-width: 360px){
+	}
+
+	/* Samsung Galaxy S4 */
+	@media screen (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) and (device-width: 1080px) and (orientation: portrait) { 
+    	
+	}
+	@media screen (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) and (device-width: 1920px) and (orientation: landscape) { 
+		
+	}
+
+
+	/* iPad */
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+	}
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+		
+	}
+
+
+	/* iPhone 4 */
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+	}
+
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+	}
+
+	/* iPhone 5 */
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+		
+	}
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
+	}

@@ -1,0 +1,42 @@
+#AuthType Basic
+#AuthName "Password Protected Area"
+#AuthUserFile /var/www/site08/public_html/.htpasswd
+#Require valid-user
+
+RewriteEngine on
+
+# FORCE www
+#RewriteCond %{HTTP_HOST}	!^www\.                                                                                         [NC]
+#RewriteRule ^(.*)$			https://www.%{HTTP_HOST}%{REQUEST_URI}                                                          [L,R=301]
+
+# FORCE https
+#RewriteCond %{HTTPS} 		off
+#RewriteRule ^(.*)$			https://%{HTTP_HOST}%{REQUEST_URI} 																[L,R=301]
+
+# ADD LAST BACK SLASH IF NOT ANY 
+RewriteCond %{REQUEST_URI}                              !^(.*)/$
+RewriteCond %{REQUEST_URI}                              !^(.*)(\.)(.*)$
+RewriteRule ^(.*)$                                      http://%{HTTP_HOST}%{REQUEST_URI}/                                  [L,R=301]
+
+# php_value max_execution_time		20000
+# php_value upload_max_filesize		3M
+# php_value memory_limit			16M
+# php_value post_max_size			15M
+php_flag magic_quotes_gpc off
+
+# NO LISTING OF FOLDERS
+#Options -Indexes
+
+# ERROR RULES
+ErrorDocument 403                                       /gente_bella/error/
+ErrorDocument 404                                       /gente_bella/error/
+
+# FRONTEND RULES
+RewriteRule ^error/$                                    app/error.php                                                       [NC,L]
+RewriteRule ^$                                          app/home.php                                                        [NC,L]
+RewriteRule ^historia/([0-9])-(.*)/$                    app/home.php?storyID=$1                                             [NC,L]
+RewriteRule ^close/$                                    app/window_close.php                                                [NC,L]
+RewriteRule ^ajax/get-section/$                         app/ajax/site_get_section.php                                       [NC,L]
+RewriteRule ^ajax/get-story/$                           app/ajax/site_get_story.php                                         [NC,L]
+RewriteRule ^html/js/(.*)/$                             app/minify/js.php?id=$1                                             [NC,L]
+RewriteRule ^html/css/$                                 app/minify/css.php                                                  [NC,L]

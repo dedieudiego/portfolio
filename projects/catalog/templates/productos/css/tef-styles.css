@@ -1,0 +1,303 @@
+	html, body {}
+
+	body {background:url(../img/background.jpg) repeat-x #fff;}
+
+	.h100 {height: 100%;}
+	.desktop {display: block !important;}
+	.mobile {display: none !important;}
+
+	::-webkit-input-placeholder {
+	   color: #000;
+	   opacity: 1;
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+	   color: #000;
+	   opacity: 1;  
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+	   color: #000;
+	   opacity: 1;  
+	}
+
+	:-ms-input-placeholder {  
+	   color: #000; 
+	   opacity: 1; 
+	}
+
+
+/*	--------------------------------------------------
+	Layout
+	-------------------------------------------------- */
+	section > .row {}
+	sup {font-size: 50%;}
+
+/*	--------------------------------------------------
+	Contenedor general - Da el ancho del contenido
+	-------------------------------------------------- */
+	.cont-general{max-width: 1280px; position: relative; left: 0; right: 0; margin: auto;}
+	section{position: relative;}
+
+/*	--------------------------------------------------
+	Header -
+	-------------------------------------------------- */	
+	header{background:#EF1B2B; border-bottom: 2px solid #FFED01;}
+	header .logo {padding: 40px;}
+
+/*	--------------------------------------------------
+	Fin Header -
+	-------------------------------------------------- */	
+
+	nav {}
+	nav li {}
+	nav li a {}
+
+/*	--------------------------------------------------
+	Section - Main
+	-------------------------------------------------- */
+	section.main {margin-top: 115px;}
+	section.main .generadores ul li {width:25%;float:left;color:#C5452E;margin-bottom:70px;text-align:left;}
+	section.main .generadores ul li .container {width:250px;margin:auto;}
+	section.main .generadores ul li h2 {font-family:"camelotitalic", sans-serif;font-size:200%;}
+	section.main .generadores ul li p {color:#1A1A1A;font-family:"latoregular", sans-serif;font-size:115.3%;}
+	section.main .generadores ul li hr {margin:5px 0;border-color:#808080;border-top:0;}
+	section.main .generadores ul li .price {font-family:"camelotitalic", sans-serif;font-size:246.1%;}
+	section.main .generadores ul li .price span {font-family:"latoregular", sans-serif;font-size:50%;vertical-align:middle;}
+	
+/*	--------------------------------------------------
+	Fin Section - Main
+	-------------------------------------------------- */
+	    
+/*	--------------------------------------------------
+	Section - Ok
+	-------------------------------------------------- */
+	section.ok {text-align: center;background: #EF1B2B;padding: 150px 10px;}
+	section.ok h1 {font-size: 338.4%;font-family: "camelotitalic", sans-serif;}
+	section.ok h2 {font-family: "camelotitalic", sans-serif;font-size: 261.5%;color: #FFED01;}
+/*	--------------------------------------------------
+	Fin Section - Ok
+	-------------------------------------------------- */
+	
+/*	--------------------------------------------------
+	Section - Form
+	-------------------------------------------------- */
+	section.form .headImage {border-bottom:20px solid #EF1B2B;background:url(../img/head.jpg);height:282px;position:relative;}
+	section.form .title {font-family:"camelotitalic", sans-serif;font-size:284.6%;position:absolute;bottom:0;top:0;margin:auto;height:37px;left:50px;}
+	section.form .formContainer.desktop {width:450px;height:470px;background-color:#fff;padding:60px;position:absolute;top:-100px;right:30px;border-radius:0 15px 15px 15px;-moz-border-radius:0 15px 15px 15px;-webkit-border-radius:0 15px 15px 15px;-o-border-radius:0 15px 15px 15px;-ms-border-radius:0 15px 15px 15px;box-shadow:0px 7px 15px #ccc;}
+	section.form .formContainer h2 {color:#D4011F;font-family:"latobold", sans-serif;font-size:169.2%;margin-bottom:25px;}
+
+	section.form .formContainer ul.formbody>li.error {border-bottom-color: red;}
+	section.form .formContainer ul.formbody>li:last-child {position: relative;margin-top: 20px;border-bottom: 0;width: 100%;}
+	section.form .formContainer .label {text-align: left; font-family: "interstateregularitalic", sans-serif; font-size: 116%;}
+	section.form .formContainer a.btn_send { width: 170px; height: 43px; background: #EF1B2B; display: block; text-align: center; font-size: 169.2%; -webkit-transition: ease all 0.3s; -moz-transition: ease all 0.3s; -ms-transition: ease all 0.3s; -o-transition: ease all 0.3s; transition: ease all 0.3s; margin: 20px auto 0 auto; line-height: 43px; font-family: "camelotregular", sans-serif;}
+	section.form .formContainer a.btn_send:hover {background-color:#AF172A;}
+	section.form .formContainer ul li.warning { border-bottom: 0; background-color:rgba(235, 25 ,25, 0.8);height: 25px;text-align: left;line-height: 25px;font-family: "latoregular", sans-serif;text-indent: 23px;margin-bottom: -15px;display: none;}
+	section.form .formContainer ul li.getUpdates {border-bottom: 0; color: #333333; font-size: 107.6%; font-family: "latoregular", sans-serif; margin-top: 25px;}
+	section.form .formContainer ul li input[type="checkbox"] {display: none;}
+	section.form .formContainer ul li input[type="checkbox"] + label span { width: 25px; height: 25px; cursor: pointer; margin-right: 10px; display: block; vertical-align: bottom;float: left;margin-top: 3px;background: #fff;border: 1px solid #999999;}
+	section.form .formContainer ul li input[type="checkbox"] + label span:hover {background-color:#ccc;}
+	section.form .formContainer ul li input[type="checkbox"]:checked + label span:hover {background-color:#ccc;}
+	section.form .formContainer ul li input[type="checkbox"]:checked + label span {background: url(../img/tick.png) no-repeat #fff 50% 40%;}
+
+	section.form .discount {height:215px;width:300px;background-color:#EF1B2B;position:absolute;right:400px;bottom:0;text-align:center;-moz-border-radius:15px 0;-o-border-radius:15px 0;-ms-border-radius:15px 0;-webkit-border-radius:15px 0;border-radius:15px 0; transform:skew(-10deg); -moz-transform:skew(-10deg);-o-transform:skew(-10deg);-webkit-transform:skew(-10deg);-ms-transform:skew(-10deg);padding:24px 95px 24px 25px;}
+	section.form .discount h1 {font-family:"camelotitalic", sans-serif;font-size:500%; -moz-transform:skew(10deg);-o-transform:skew(10deg);-ms-transform:skew(10deg);transform:skew(10deg);text-indent:-23px;margin-bottom:-8px;}
+	section.form .discount h1 sup {font-size:70%;vertical-align:text-top;margin-top:7px;}
+	section.form .discount p {font-family:"camelotitalic", sans-serif;font-size:123%;transform:skew(10deg); -moz-transform:skew(10deg);-o-transform:skew(10deg);-webkit-transform:skew(10deg);-ms-transform:skew(10deg);line-height:16px;}
+	section.form .discount p span {font-size:184.6%;color:#FFED01;line-height:24px;;}
+
+	li.select {-webkit-appearance: none; outline:0 none; box-shadow:none; -moz-box-shadow:none; box-shadow:none; position:relative; background: #DAF0FA; -webkit-border-radius: 0;
+	        border-radius: 0;}
+	li.select select { 
+		-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; appearance: none; -moz-appearance: none; background: #DAF0FA; outline: 0; border-top:1px solid transparent; border-right:1px solid transparent; border-bottom: 1px solid transparent;
+		border-left:#1E7AB1 4px solid; width:100%; height:50px; float:left; padding:0 20px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; font-family:"solidomedium", sans-serif; font-size:160%; color:#353535;outline:0;
+	}
+	li.select:after { 
+		content:''; width:0; height:0; border-style:solid; border-width:6px 5px 0 5px; border-color:#333 transparent transparent transparent; 
+		position:absolute; right:10px; top:24px;
+	}
+	.select-mobile {-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; outline:0 none; box-shadow:none; -moz-box-shadow:none; box-shadow:none; position:relative; background: #DAF0FA;}
+	.select-mobile select { 
+		-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; appearance: none; -moz-appearance: none; background: #DAF0FA;
+		width:100%; height:50px; float:left; border-right:#727272 1px solid; border-bottom:#727272 1px solid; border-left:#727272 1px solid;  padding:0 10px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; font-family:"solidomedium", sans-serif; font-size:160%; color:#353535;outline:0; text-indent: 5px;
+	}
+	.select-mobile:after {
+		content:'';
+		width:0;
+		height:0;
+		border-style:solid;
+		border-width:6px 5px 0 5px;
+		border-color:#333 transparent transparent transparent;
+		position:absolute;
+		right:10px;
+		top: 23px;
+	}
+/*	--------------------------------------------------
+	Fin Section - Form
+	-------------------------------------------------- */
+
+/*	--------------------------------------------------
+	Footer -
+	-------------------------------------------------- */		
+	footer {color:#1A1A1A;padding:35px;}
+	footer .leftText {width:520px;float:left;}
+	footer .leftText .warranty {border:2px solid #EF1B2B;width:160px;height:160px;float:left;padding:20px 10px 20px 4px;border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;-o-border-radius:15px;font-size:223%;font-family:Arial, Helvetica, sans-serif;text-align:center;line-height:22px;}
+	footer .leftText .warranty span {font-size:85%;margin-left:13px;}
+	footer .leftText .warranty img {margin-top:10px;}
+	footer .leftText .items {float:left;font-family:"latobold", sans-serif;margin-top:20px;}
+	footer .leftText .items ul li {font-size:116.7%;margin-left:30px;margin-bottom:10px;}
+	footer .leftText .items ul li:last-child {color:#C5453E;}
+	footer .rightText {float:right;width:290px;text-align:right;margin-bottom:60px;}
+	footer .rightText img {margin-bottom:15px;}
+	footer .rightText p {font-family:"latoregular", sans-serif;color:#1A1A1A;font-size:114.3%;}
+	footer .rightText span {color:#1A1A1A;font-family:"latoregular", sans-serif;font-size:184.6%;line-height:30px;}
+	footer .rightText a {color:#1A1A1A;font-family:"latoregular", sans-serif;font-size:115.3%;vertical-align:text-bottom;line-height:50px; -webkit-transition: ease all 0.3s;
+	   -moz-transition: ease all 0.3s;
+	    -ms-transition: ease all 0.3s;
+	     -o-transition: ease all 0.3s;
+	        transition: ease all 0.3s;}
+	footer .rightText a:hover {color:#3b5998;}
+	footer .rightText a:hover .fb {background-color: #3b5998;}
+	footer .rightText .fb {background:url(../img/facebook.png) no-repeat 50% #555354;padding:18px 18px;border-radius:30px;font-size:0%;margin-right:10px;-webkit-transition: ease all 0.3s;
+	   -moz-transition: ease all 0.3s;
+	    -ms-transition: ease all 0.3s;
+	     -o-transition: ease all 0.3s;
+	        transition: ease all 0.3s;}
+	footer .bottomText {clear:both;}
+	footer .bottomText .bella {float:left;font-family:"latobolditalic", sans-serif;font-size:115.3%;color:#202748;margin-bottom:15px;}
+	footer .bottomText .sections {float:right;font-family:"latoregular", sans-serif;font-size:169.2%;color:#1A1A1A;}
+	footer .bottomText hr {margin-bottom:15px;width:103%;margin-left:-20px;}
+	footer .bottomText .littleText {clear:both;font-family:"latolight", sans-serif;}
+
+/*	--------------------------------------------------
+	Fin Footer -
+	-------------------------------------------------- */	
+	
+	@media only screen and (min-width: 900px) and (max-width: 1250px) {
+		section.form .title {width:270px;left:10px;height:74px;}
+		section.main .generadores ul li .container {width:88%;}
+	}
+
+	@media (max-width: 900px) {
+		.desktop {display: none !important;}
+		.mobile {display: block !important;}
+
+		section.main {margin-top: 20px;}
+		section.main .generadores ul li {width:50%;}
+		section.main .generadores ul li .container {width:auto;max-width:250px;}
+
+		section.form .headImage {overflow:hidden;}
+		section.form .title {font-size:170%;height:20px;}
+		section.form .discount {right:-80px;}
+		section.form .formContainer.mobile {padding: 40px;}
+		section.form .formContainer ul li input[type="checkbox"] + label span {margin-top: -6px;}
+		section.form .formContainer ul li.warning {margin-bottom: 10px;}
+		section.form .formContainer a.btn_send {width: 300px;height: 52px;line-height: 52px;}
+
+		footer .leftText {float:none;}
+		footer .rightText {float:none;padding-top:50px;clear:both;width:500px;}
+		footer .rightText img {float:left;margin-right:20px;}
+		footer .rightText p {text-align:left;line-height:21px;}
+		footer .rightText span {float:left;margin-top:15px;}
+		footer .bottomText a {color:#1A1A1A;font-family:"latoregular", sans-serif;font-size:115.3%;vertical-align:text-bottom; -webkit-transition: ease all 0.3s;
+		   -moz-transition: ease all 0.3s;
+		    -ms-transition: ease all 0.3s;
+		     -o-transition: ease all 0.3s;
+		        transition: ease all 0.3s;
+		        float: right;}
+		footer .bottomText a:hover {color:#3b5998;}
+		footer .bottomText a:hover .fb {background-color: #3b5998;}
+		footer .bottomText .fb {background:url(../img/facebook.png) no-repeat 50% #555354;padding:18px 18px;border-radius:30px;font-size:0%;margin-right:10px;vertical-align:middle;-webkit-transition: ease all 0.3s;
+		   -moz-transition: ease all 0.3s;
+		    -ms-transition: ease all 0.3s;
+		     -o-transition: ease all 0.3s;
+		        transition: ease all 0.3s;}
+		footer .bottomText {width:100%;margin-top:100px;}
+		footer .bottomText .sections {float:none;clear:both;text-align:center;padding-top:30px;}
+		footer .bottomText hr {margin:40px 0;}
+	}
+
+	@media (max-width: 600px) {
+		section.main .generadores ul li .container {width: 80%;}
+		section.form .title {left: 10px;font-size: 130%;}
+
+		footer .leftText {width: 100%;}
+		footer .leftText .items ul li {font-size: 95%;}
+		footer .rightText {width: 100%;}
+	}
+
+	@media (max-width: 500px) {
+		section.form .formContainer ul li input[type="checkbox"] + label span {margin-top:-5px;}
+		section.form .discount {width:250px;height:200px;}
+		section.form .discount h1 {font-size:370%;margin-bottom:0px;}
+		section.form .discount p {font-size:95%;}
+
+		footer {padding:15px;}
+		footer .leftText {margin:0;width:320px;}
+		footer .leftText .warranty {width:85px;height:85px;font-size:110%;line-height:11px;padding:10px;}
+		footer .leftText .warranty span {margin-left:7px;}
+		footer .leftText .warranty img {width:75%;margin-top:1px;}
+		footer .leftText .items {margin-top:10px;}
+		footer .leftText .items ul li {font-size:80%;margin-left:10px;margin-bottom:4px;}
+		footer .rightText img {width:45%;}
+		footer .rightText p {font-size:95%;line-height:16px;margin-top:-5px;}
+		footer .rightText span {font-size:140%;margin-top:-5px;}
+		footer .bottomText .bella {font-size:100%;width:150px;}
+		footer .bottomText .bella img {width:80%;vertical-align:middle;}
+		footer .bottomText .bella a {width: 60px;}
+		footer .bottomText a {font-size:100%;}
+		footer .bottomText .fb {margin-right:5px;}
+
+		section.ok {padding: 150px 25px;}
+		section.ok h1 {font-size: 250%;}
+		section.ok h2 {font-size: 180%;}
+	}
+
+	@media (max-width: 400px) {
+		section.main .generadores ul li h2 {font-size:180%;}
+		section.main .generadores ul li p {font-size:95%;}
+		section.main .generadores ul li .price {position:relative;top:20px;font-size:210%;}
+		section.main .generadores ul li .price span {position:relative;top:-41px;font-size:45%;display:block;}
+
+		section.form .title {width:150px;height:35px; left:22px;}
+		section.form .formContainer.mobile {padding:25px;}
+		section.form .formContainer a.btn_send {width:90%;}
+		section.form .formContainer ul li input[type="checkbox"] + label span {margin-top:2px;}
+	}
+
+	@media (max-width: 360px) {
+		
+	}
+
+	/* Samsung Galaxy S4 */
+	@media screen (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) and (device-width: 1080px) and (orientation: portrait) { 
+    	
+	}
+	@media screen (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) and (device-width: 1920px) and (orientation: landscape) { 
+		
+	}
+
+	/* iPad */
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+		
+	}
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+		
+	}
+
+
+	/* iPhone 4 */
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+	
+	}
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
+	}
+
+	/* iPhone 5 */
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+	
+	}
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
+	}

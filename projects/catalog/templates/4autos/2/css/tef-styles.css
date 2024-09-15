@@ -1,0 +1,354 @@
+	html, body {}
+
+	body {background:url(../img/background.jpg) 0 62px no-repeat #f5fcfe; background-size: 100%; font-family: "solidoregular", sans-serif;}
+
+	.h100 {height: 100%;}
+	.desktop {display: block !important;}
+	.mobile {display: none !important;}
+	.linktel {color: #3A393B;}
+	.linktel:hover {color:#666;}
+
+	::-webkit-input-placeholder {
+	   color: #000;
+	   opacity: 1;
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+	   color: #000;
+	   opacity: 1;  
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+	   color: #000;
+	   opacity: 1;  
+	}
+
+	:-ms-input-placeholder {  
+	   color: #000; 
+	   opacity: 1; 
+	}
+
+
+/*	--------------------------------------------------
+	Layout
+	-------------------------------------------------- */
+	section > .row {}
+	sup {font-size: 50%;}
+
+/*	--------------------------------------------------
+	Contenedor general - Da el ancho del contenido
+	-------------------------------------------------- */
+	.cont-general{max-width: 1280px; position: relative; left: 0; right: 0; margin: auto;}
+	section{position: relative;}
+
+/*	--------------------------------------------------
+	Header -
+	-------------------------------------------------- */	
+	header{background: #00B6F1; height: 64px;}
+	header .logo {margin: auto; max-width: 460px;}
+	header .logo img {margin-top: 15px;}
+	header .goback {margin-right: 20px; position: absolute; right: 0; top: 20px; font-family: "solidomedium", sans-serif; font-size: 230.7%; -webkit-transition: ease all 0.3s;
+	   -moz-transition: ease all 0.3s;
+	    -ms-transition: ease all 0.3s;
+	     -o-transition: ease all 0.3s;
+	        transition: ease all 0.3s;}
+	header .goback img {margin-right: 10px;}
+	header .goback:hover {right: 10px;}
+
+/*	--------------------------------------------------
+	Fin Header -
+	-------------------------------------------------- */	
+
+	nav {}
+	nav li {}
+	nav li a {}
+
+/*	--------------------------------------------------
+	Section - Main
+	-------------------------------------------------- */
+	section.main {margin-top: 140px;}
+	section.main .titles {font-family: "solidobold", sans-serif; height: 75px;}
+	section.main .titles .title01 {width: 50%; float: left;}
+	section.main .titles .title02 {width: 50%; float: right;}
+	section.main .titles .title {width: 280px; font-size: 384%;text-shadow: 2px 2px 4px rgba(0,0,0,0.3); margin: auto;}
+	section.main .titles span {font-size: 44%; letter-spacing: 14px;display: block;}
+	section.main .titles span.price {float: right; font-size: 160%; letter-spacing: 0; margin-top: -70px;}
+	section.main .cars {margin-top: 90px; position: relative}
+	section.main .bonus .badge {position: absolute; top:-20px; background: #01A3EA; border: 4px solid #015B9B; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; width: 100px; height: 100px; text-align: center; font-family: "solidobook", sans-serif; font-size: 231%;padding-top: 9px;transform: rotate(-10deg); -webkit-transform: rotate(-10deg); -moz-transform: rotate(-10deg);}
+	section.main .bonus .badge span {font-family: "solidobold", sans-serif; font-size: 133.3%;}
+	section.main .bonus .pilot {left: 21%;}
+	section.main .bonus .accord {left: 40%;}
+	section.main .bonus .civic {right: 41%;}
+	section.main .bonus .fit {right: 23%;}
+	section.main .specs .model-container {width: 25%; float: left;}
+	section.main .specs .model {width: 147px; color: #3A393B; margin: auto; font-family: "solidomedium", sans-serif;}
+	section.main .specs .model .title {font-size: 230.7%;}
+	section.main .specs .model .price {font-size: 461.5%; font-family: "solidobold", sans-serif; letter-spacing: 1px;}
+	section.main .specs .model .price span {font-size: 33.3%; display: block; text-align: right; font-family: "solidomedium", sans-serif; letter-spacing: 0;}
+	section.main .specs .model .seeMore {width: 147px; height: 42px; background: url(../img/more.png) no-repeat 50% -40px #01A3EA; display: block; text-align: center; line-height: 42px; font-size: 182%; margin-top: 20px; -webkit-transition: ease all 0.3s; -moz-transition: ease all 0.3s; -ms-transition: ease all 0.3s; -o-transition: ease all 0.3s; transition: ease all 0.3s; overflow: hidden; background-size: 15%;}
+	section.main .specs .model .seeMore:hover {background-position: 50%; line-height: 130px; background-size: 15%;}
+/*	--------------------------------------------------
+	Fin Section - Main
+	-------------------------------------------------- */
+	    
+/*	--------------------------------------------------
+	Section - Detail
+	-------------------------------------------------- */
+	section.detail {margin-top: 220px;}
+	section.detail .car {max-width: 580px; float: left; margin-left: 100px;}
+	section.detail .carDetail { width: calc(100% - 680px);float: right;display: block;margin-top: 50px;padding-left: 30px;}
+	section.detail .carDetail p {color: #333; font-family: "solidolight", sans-serif; font-size: 323%;}
+	section.detail .carDetail h3 {color: #333; font-family: "solidomedium", sans-serif; font-size: 553.8%;}
+	section.detail .bonus .badge {position: absolute; top: -30px; left: 120px; background: #01A3EA; border: 4px solid #015B9B; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; width: 140px; height: 140px; text-align: center; font-family: "solidobook", sans-serif; font-size: 330%;padding-top: 13px;transform: rotate(-10deg); -webkit-transform: rotate(-10deg); -moz-transform: rotate(-10deg);}
+	section.detail .bonus .badge span {font-family: "solidobold", sans-serif; font-size: 133.3%;}
+/*	--------------------------------------------------
+	Fin Section - Detail
+	-------------------------------------------------- */
+	    
+/*	--------------------------------------------------
+	Section - OK
+	-------------------------------------------------- */
+	section.ok {margin-top: 220px; padding:70px 0; text-align: center;}
+	section.ok h1 {font-family: "solidomedium", sans-serif; color: #333; font-size: 553.8%;}
+	section.ok hr {border-color: #015B9B; width: 180px; margin: 40px auto;}
+	section.ok p {font-family: "solidolight", sans-serif; color: #333; font-size: 323%;}
+/*	--------------------------------------------------
+	Fin Section - OK
+	-------------------------------------------------- */	    
+	    
+/*	--------------------------------------------------
+	Section - Form
+	-------------------------------------------------- */
+	section.form {margin-top: 50px; clear: both;margin-bottom: 40px;}
+	section.form .triangle {max-width: 795px; height: 40px; background: url(../img/triangle.png) no-repeat 50%; margin:0 auto -1px auto;}
+	section.form .formfields {max-width: 795px; height: 490px; background: #015B9B; margin: auto; text-align: center; padding: 40px 76px;}
+	section.form .formfields span.title {font-family: "solidolight", sans-serif; font-size: 230.7%; letter-spacing: 8px; margin-top: 40px;}
+	section.form .formfields ul.formbody {margin-top: 50px;}
+	section.form .formfields ul.formbody>li {width: 48%; margin-right: 4%; float: left;margin-bottom: 10px;}
+	section.form .formfields ul.formbody>li:nth-child(even) {margin-right: 0;}
+	section.form .formfields ul.formbody>li:last-child {width: 100%;position: relative;margin-top: 20px;}
+	section.form .formfields .label {text-align: left; font-family: "solidomedium", sans-serif; font-size: 160%;}
+	section.form .formfields a.btn_send {margin: auto; width: 190px; height: 60px; background: #00B6F1; display: block; font-family: "solidomedium", sans-serif; font-size: 261.5%; line-height: 60px;margin-top: 0;z-index: 2;position: absolute;left: 0;right: 0; -webkit-transition: ease all 0.3s;
+	   -moz-transition: ease all 0.3s;
+	    -ms-transition: ease all 0.3s;
+	     -o-transition: ease all 0.3s;
+	        transition: ease all 0.3s;}
+	section.form .formfields a.btn_send:hover {margin-top: 5px;}
+	section.form .formfields span.shadow {display: block; width: 190px; height: 5px; background-color: rgba(0,0,0,0.2); position: absolute; right: 0; left: 0; margin: auto; top: 60px;z-index: 0;}
+	section.form .formfields ul li.warning {display: none; background-color:rgba(235, 25 ,25, 0.8);height: 48px;text-align: left;line-height: 48px;font-family: "solidomedium", sans-serif;font-size: 160%;text-indent: 20px;}
+	section.form .formfields ul li.getUpdates {color: #FFF; font-size: 174%;  position: relative; top: 2px; font-family: "solidolight", sans-serif;width: 100%;margin-top: 0px;left: 0px;text-align: left;line-height: 28px;}
+	section.form .formfields ul li input[type="checkbox"] {display: none;}
+	section.form .formfields ul li input[type="checkbox"] + label span { width: 22px; height: 22px; cursor: pointer; background: #fff; margin-right: 10px; display: block; vertical-align: bottom;float: left;margin-top: 8px;}
+	section.form .formfields ul li input[type="checkbox"] + label span:hover {background-color:#ccc;}
+	section.form .formfields ul li input[type="checkbox"]:checked + label span:hover {background-color:#ccc;}
+	section.form .formfields ul li input[type="checkbox"]:checked + label span {background: url(../img/tick.png) no-repeat #fff 50% 40%;}
+	li.select {-webkit-appearance: none; outline:0 none; box-shadow:none; -moz-box-shadow:none; box-shadow:none; position:relative; background: #DAF0FA; -webkit-border-radius: 0;
+	        border-radius: 0;}
+	li.select select { 
+		-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; appearance: none; -moz-appearance: none; background: #DAF0FA; outline: 0; border-top:1px solid transparent; border-right:1px solid transparent; border-bottom: 1px solid transparent;
+		border-left:#1E7AB1 4px solid; width:100%; height:50px; float:left; padding:0 20px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; font-family:"solidomedium", sans-serif; font-size:160%; color:#353535;outline:0;
+	}
+	li.select:after { 
+		content:''; width:0; height:0; border-style:solid; border-width:6px 5px 0 5px; border-color:#333 transparent transparent transparent; 
+		position:absolute; right:10px; top:24px;
+	}
+	.select-mobile {-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; outline:0 none; box-shadow:none; -moz-box-shadow:none; box-shadow:none; position:relative; background: #DAF0FA;}
+	.select-mobile select { 
+		-webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; appearance: none; -moz-appearance: none; background: #DAF0FA;
+		width:100%; height:50px; float:left; border-right:#727272 1px solid; border-bottom:#727272 1px solid; border-left:#727272 1px solid;  padding:0 10px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; font-family:"solidomedium", sans-serif; font-size:160%; color:#353535;outline:0; text-indent: 5px;
+	}
+	.select-mobile:after {
+		content:'';
+		width:0;
+		height:0;
+		border-style:solid;
+		border-width:6px 5px 0 5px;
+		border-color:#333 transparent transparent transparent;
+		position:absolute;
+		right:10px;
+		top: 23px;
+	}
+/*	--------------------------------------------------
+	Fin Section - Form
+	-------------------------------------------------- */
+
+/*	--------------------------------------------------
+	Footer -
+	-------------------------------------------------- */		
+	footer {clear: both; padding-top: 50px; padding: 0 10px;}
+	footer .gold {text-align: center; padding-top: 20px;}
+	footer .gold img {margin-bottom: 15px;}
+	footer .gold h3 {font-family: "solidobold", sans-serif; color: #3A393B; font-size: 292.3%; margin-top: 25px; position: relative;width: 350px;margin: auto;}
+	footer .gold h3 hr {width: 185px; border-color: #015B9B; position: absolute; top: 20px; left: -200px;}
+	footer .gold h3 hr:last-child {left: 360px;}
+	footer .gold p {font-family: "solidomedium", sans-serif; color: #3A393B; font-size: 215.3%; margin-top: 15px;}
+	footer .info {margin-top: 70px;}
+	footer .leftText {width: calc(100% - 315px); float: left;}
+	footer .info h3 {font-family: "solidobold", sans-serif; font-size: 269.2%; color: #3A393B; display: inline; vertical-align: bottom; margin-left: 20px; line-height: 20px;}
+	footer .info p {color: #3A393B; margin-top: 20px; font-family: "solidobook", sans-serif;}
+	footer .info p.concesionarias {font-size: 138.5%;}
+	footer .info p.legal {font-size: 108%;}
+	footer .info aside {width: 245px; margin-left: 70px; float: right;margin-top: 60px;}
+	footer .info aside ul li:first-child {margin-bottom: 20px;}
+	footer .social {padding-top: 70px;clear: both;margin-bottom: 65px;}
+	footer .social ul {width: 185px; margin: auto;}
+	footer .social ul li {float: left; margin-right: 15px;}
+	footer .social ul li:last-child {margin-right: 0;}
+	footer .social ul li a {width: 35px; height: 35px; background:url(../img/social.jpg) no-repeat; display: block; -webkit-transition: ease all 0.4s;
+	   -moz-transition: ease all 0.4s;
+	    -ms-transition: ease all 0.4s;
+	     -o-transition: ease all 0.4s;
+	        transition: ease all 0.4s;}
+	footer .social ul li a:hover {opacity: 0.8;}
+	footer .social ul li a.tw {background-position: -51px 0px;}
+	footer .social ul li a.in {background-position: -103px 0px;}
+	footer .social ul li a.yt {background-position: -154px 0px;}
+
+/*	--------------------------------------------------
+	Fin Footer -
+	-------------------------------------------------- */	
+	
+	@media only screen and (min-width: 900px) and (max-width: 1279px) {
+		section.detail .carDetail {padding-left: 0; float: left;}
+		section.detail .car {max-width: 470px;}
+		footer {padding: 30px 30px 0 30px;}
+		footer .leftText {width: 100%; margin-bottom: 30px;}
+		footer .info aside {float: none; margin: auto;}
+	}
+	
+	@media (max-width: 900px) {
+		.desktop {display: none !important;}
+		.mobile {display: block !important;}
+		section.main .titles {zoom: 0.8;}
+
+		section.main .mobile .bx-controls-direction {display: none;}
+		section.main .mobile .bx-wrapper .bx-pager {background: transparent; text-align: center;bottom: 70px;margin-left: -10px;}
+
+		section.main .mobile ul li img {width: 55%; float: left; margin-bottom: 40px; margin-left: 30px;}
+		section.main .mobile ul li .slide {display: block; padding: 10% 0;}
+		section.main .mobile ul li .bonus .civic {left: 5%; top: 0;}
+
+		section.main .mobile .model {width: 147px; color: #3A393B; margin-right: 40px; margin-top: -32px; font-family: "solidomedium", sans-serif; float: right;}
+		section.main .mobile .model .title {font-size: 230.7%;}
+		section.main .mobile .model .price {font-size: 461.5%; font-family: "solidobold", sans-serif; letter-spacing: 1px;}
+		section.main .mobile .model .price span {font-size: 33.3%; display: block; text-align: right; font-family: "solidomedium", sans-serif; letter-spacing: 0;}
+		section.main .mobile ul li .more {width: 100%; clear: both;}
+		section.main .mobile .seeMore {font-family: "solidomedium", sans-serif; width: 200px; height: 40px; background: url(../img/more.png) no-repeat 50% -40px #01A3EA; display: block; text-align: center; line-height: 40px; font-size: 182%;  -webkit-transition: ease all 0.3s; -moz-transition: ease all 0.3s; -ms-transition: ease all 0.3s; -o-transition: ease all 0.3s; transition: ease all 0.3s; overflow: hidden; background-size: 15%;margin: auto;top: 50px;position: relative;}
+		section.main .mobile .seeMore:hover {background-position: 50%; line-height: 130px; background-size: 15%;}
+
+		footer .leftText {float: none; width: 100%; padding:0 20px;}
+		footer .info h3 {font-size: 200%;}
+		footer .info aside {float: none; margin:30px auto 0 auto;}
+		footer .gold h3 hr {width: 100px;left: -110px;}
+
+		header .logo {width: 65%;}
+		section.detail .car {float: none; margin: auto; max-width: 460px;}
+		section.detail .carDetail {margin-bottom: 40px; margin-top: 20px;}
+		section.detail .bonus .badge {left: 4%;top: -26%;}
+		section.detail .carDetail {width: 100%; text-align: center;padding-left: 0;}
+		section.detail {margin-top: 175px;}
+		section.form .formfields {padding: 25px 40px;}
+		footer .social ul li a:hover {opacity: 1;}
+
+	}
+
+	@media (max-width: 600px) {
+		section.ok {padding: 0 20px; font-size: 70%; margin-top: 150px;}
+		section.main .titles {zoom: 0.6;}
+		section.main .mobile .seeMore {top: 25px;}
+		section.main .mobile .seeMore:hover {background-position: 50% -40px; line-height: 42px;}
+		header .goback {zoom: 0.85; margin-right: 15px;}
+		section.detail .bonus .badge {width: 80px; height: 80px; font-size: 160%;}
+		header .logo {width: 58%;}
+		section.form .formfields ul.formbody>li {width: 100%;}
+		section.form .formfields {height: 670px;}
+		footer .gold h3 {font-size: 250%;}
+		footer .gold h3 hr {width: 70px; left: -50px;}
+		footer .gold h3 hr:last-child {left: 330px;}
+		.bx-wrapper .bx-controls-direction a {width: 58px !important; height: 58px !important;}
+		.bx-wrapper .bx-next, .bx-wrapper .bx-prev {zoom: 0.5;}
+		.bx-wrapper .bx-prev {background-position: -10px !important;}
+		.bx-wrapper .bx-next {background-position: -100px !important;}
+	}
+
+	@media (max-width: 500px) {
+		section.ok {margin-top: 110px;}
+		section.main {margin-top: 110px;}
+		section.main .bonus .badge {width: 60px; height: 60px; font-size: 123%;}
+		section.main .mobile ul li img {width: 42%;}
+		section.form .formfields ul li.getUpdates {font-size: 150%;}
+		section.form .formfields {padding: 15px 30px;}
+		footer .info h3 {font-size: 150%;}
+		section.form .formfields ul li.getUpdates {font-size: 140%;}
+		section.detail {margin-top: 115px;}
+		footer .gold h3 {font-size: 180%; width: 220px;}
+		footer .gold p {font-size: 110%; margin-top: 5px;}
+		footer .info {margin-top: 20px;}
+		footer .gold h3 hr {top: 10px; left: -80px;}
+		footer .gold h3 hr:last-child {left: 230px;}
+		footer {padding-top: 20px;}
+	}
+
+	@media (max-width: 400px){
+		section.main {margin-top: 80px;}
+		section.main .titles {zoom: 0.4;}
+		footer .leftText img {width: 30%;}
+		footer .info h3 {font-size: 120%;}
+		section.main .mobile .model {zoom: 0.7;}
+		section.main .mobile .seeMore {top: 5px;}
+		header .goback {zoom: 0.6;}
+		section.detail .carDetail h3 {font-size: 400%;}
+		section.detail .carDetail p {font-size: 280%;}
+		section.form .formfields {padding:15px}
+		section.detail {margin-top: 95px;}
+		footer .gold h3 {font-size: 160%;}
+		footer .gold h3 hr {width: 50px; left: -40px;}
+		footer .gold h3 hr:last-child {left: 210px;}
+	}
+
+	@media (max-width: 360px){
+		
+	}
+
+	/* Samsung Galaxy S4 */
+	@media screen (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) and (device-width: 1080px) and (orientation: portrait) { 
+    	
+	}
+	@media screen (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) and (device-width: 1920px) and (orientation: landscape) { 
+		
+	}
+
+
+	/* iPad */
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+		section.main .titles {zoom: 1;}
+		section.main .mobile .model {margin-right: 100px;}
+		section.main .mobile ul li img {margin-left: 70px;}
+		section.main .mobile ul li .bonus .civic {left: 16%;}
+	}
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+		
+	}
+
+
+	/* iPhone 4 */
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+		section.main .titles {zoom: 1;}
+		section.main .titles span.price {font-size: 120%; margin-top: -43px;}
+		section.main .titles .title {width: 135px; font-size: 220%;}
+		section.main .titles span {font-size: 44%; letter-spacing: 9px;}
+		section.main .mobile .model {zoom: 1; width: 100px;}
+		section.main .mobile .model .price span {font-size: 38%;}
+		section.main .mobile .model .price{font-size: 370%;}
+	}
+
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+	}
+
+	/* iPhone 5 */
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+		
+	}
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
+	}
