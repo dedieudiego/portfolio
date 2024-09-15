@@ -1,0 +1,118 @@
+/* main container styles */
+div.drum-wrapper {
+	position: relative;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+div.drum-wrapper .inner {
+	position: relative;
+	overflow: hidden;
+}
+div.drum-wrapper div.container {
+	position: absolute;
+	width: 100%;
+	top: 48px;
+	left: 0px;
+	-webkit-perspective: 1100px;
+	-moz-perspective: 1100px;
+	-o-perspective: 1100px;
+	perspective: 1100px;
+}
+
+div.drum-wrapper, 
+div.drum-wrapper .inner {
+	height: 260px;
+	margin-top: 40px;
+}
+
+.outside div.drum-wrapper {
+	height: 140px;
+}
+.outside div.drum-wrapper .inner {
+	top: 12px;
+}
+.outside div.drum-wrapper .container {
+	top: 46px;
+}
+
+/* dail styles for mouse controls */
+div.drum-wrapper .dial {
+	position: absolute;
+	width: 100%;
+	left: -10px;
+	height: 68px;
+	background-color: rgba(255, 255, 255, 0.7);
+	display: none;
+	cursor: pointer;
+}
+
+.outside div.drum-wrapper .dial {
+	height: 58px;
+}
+
+div.drum-wrapper .dial div {
+	width: 20px;
+	height: 10px;
+	margin: 0 auto;
+}
+div.drum-wrapper .dial svg {
+	position: absolute;
+}
+div.drum-wrapper .up {
+	top: -20px;
+}
+div.drum-wrapper .up svg {
+	top: 2px
+}
+div.drum-wrapper .down {
+	bottom: -20px;
+}
+div.drum-wrapper .down svg {
+	bottom: 2px;
+}
+
+/* actual drum styles */
+div.drum {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	margin-top: 50px;
+}
+div.drum figure {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;  
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	line-height: 20px;
+	color: black;
+	font-size: 200%;
+	font-family: 'sofiabold', sans-serif;
+	margin: 0px;
+	padding: 0px 3px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+}
+
+div.drum-wrapper div.container, div.drum-wrapper figure {
+	height: 60px;
+	line-height: 60px;
+}

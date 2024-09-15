@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48.08" height="42.884" viewBox="0 0 48.08 42.884">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.789" x2="0" y2="1.618" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8916db"/>
+      <stop offset="0.433" stop-color="#6e45ce"/>
+      <stop offset="1" stop-color="#0082e1"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_416" data-name="Grupo 416" transform="translate(-231 -1861)">
+    <g id="Grupo_403" data-name="Grupo 403">
+      <g id="Grupo_202" data-name="Grupo 202" transform="translate(0 -214)">
+        <path id="Trazado_976" data-name="Trazado 976" d="M546.5,3244.667h19.4a4.648,4.648,0,0,1,4.023,2.323l9.7,16.8a4.646,4.646,0,0,1,0,4.646l-9.7,16.8a4.648,4.648,0,0,1-4.023,2.323H546.5a4.648,4.648,0,0,1-4.023-2.323l-9.7-16.8a4.647,4.647,0,0,1,0-4.646l9.7-16.8A4.648,4.648,0,0,1,546.5,3244.667Z" transform="translate(-301.153 -1169.667)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Grupo_415" data-name="Grupo 415" transform="translate(243 1869.732)">
+      <g id="Grupo_409" data-name="Grupo 409">
+        <path id="Trazado_1211" data-name="Trazado 1211" d="M0,3A1,1,0,0,1,1,2H23a1,1,0,0,1,1,1V22a1,1,0,0,1-1,1H1a1,1,0,0,1-1-1ZM1,3V22H23V3Z" fill="#fff" fill-rule="evenodd"/>
+        <rect id="Rectángulo_143" data-name="Rectángulo 143" width="3" height="1" transform="translate(3 5)" fill="#fff"/>
+        <rect id="Rectángulo_144" data-name="Rectángulo 144" width="5" height="1" transform="translate(7 5)" fill="#fff"/>
+        <rect id="Rectángulo_145" data-name="Rectángulo 145" width="3" height="1" transform="translate(3 7)" fill="#fff"/>
+        <rect id="Rectángulo_146" data-name="Rectángulo 146" width="5" height="1" transform="translate(7 7)" fill="#fff"/>
+        <rect id="Rectángulo_147" data-name="Rectángulo 147" width="3" height="1" transform="translate(3 9)" fill="#fff"/>
+        <rect id="Rectángulo_148" data-name="Rectángulo 148" width="5" height="1" transform="translate(7 9)" fill="#fff"/>
+        <rect id="Rectángulo_149" data-name="Rectángulo 149" width="3" height="1" transform="translate(3 11)" fill="#fff"/>
+        <rect id="Rectángulo_150" data-name="Rectángulo 150" width="2" height="1" transform="translate(15 15)" fill="#fff"/>
+        <rect id="Rectángulo_151" data-name="Rectángulo 151" width="2" height="1" transform="translate(15 17)" fill="#fff"/>
+        <rect id="Rectángulo_152" data-name="Rectángulo 152" width="2" height="1" transform="translate(15 19)" fill="#fff"/>
+        <rect id="Rectángulo_153" data-name="Rectángulo 153" width="3" height="1" transform="translate(18 15)" fill="#fff"/>
+        <path id="Trazado_1212" data-name="Trazado 1212" d="M16.175,11.74a3.5,3.5,0,0,1-1.013-5.845l1.8,2.7Zm.97.242a3.5,3.5,0,0,0,3.837-3.837l-3.07.767ZM15.994,5.34A3.5,3.5,0,0,1,20.74,7.175l-3.019.754Z" fill="#fff" fill-rule="evenodd"/>
+        <path id="Trazado_1213" data-name="Trazado 1213" d="M0,3A1,1,0,0,1,1,2H23a1,1,0,0,1,1,1V22a1,1,0,0,1-1,1H1a1,1,0,0,1-1-1ZM1,3V22H23V3Z" fill="#fff" fill-rule="evenodd"/>
+        <rect id="Rectángulo_154" data-name="Rectángulo 154" width="3" height="1" transform="translate(18 17)" fill="#fff"/>
+        <rect id="Rectángulo_155" data-name="Rectángulo 155" width="3" height="1" transform="translate(18 19)" fill="#fff"/>
+        <rect id="Rectángulo_156" data-name="Rectángulo 156" width="1" height="6" transform="translate(3 14)" fill="#fff"/>
+        <rect id="Rectángulo_157" data-name="Rectángulo 157" width="1" height="2" transform="translate(5 18)" fill="#fff"/>
+        <rect id="Rectángulo_158" data-name="Rectángulo 158" width="1" height="4" transform="translate(7 16)" fill="#fff"/>
+        <rect id="Rectángulo_159" data-name="Rectángulo 159" width="1" height="4" transform="translate(9 16)" fill="#fff"/>
+        <rect id="Rectángulo_160" data-name="Rectángulo 160" width="1" height="3" transform="translate(11 17)" fill="#fff"/>
+        <rect id="Rectángulo_161" data-name="Rectángulo 161" width="5" height="1" transform="translate(7 11)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

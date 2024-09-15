@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48.08" height="42.884" viewBox="0 0 48.08 42.884">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.357" y1="1.738" x2="0.923" y2="-0.184" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f07800"/>
+      <stop offset="1" stop-color="#e867a7"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_396" data-name="Grupo 396" transform="translate(-231 -1426)">
+    <g id="Grupo_198" data-name="Grupo 198" transform="translate(0 -170)">
+      <path id="Trazado_984" data-name="Trazado 984" d="M546.5,3244.667h19.4a4.648,4.648,0,0,1,4.023,2.323l9.7,16.8a4.646,4.646,0,0,1,0,4.646l-9.7,16.8a4.648,4.648,0,0,1-4.023,2.323H546.5a4.648,4.648,0,0,1-4.023-2.323l-9.7-16.8a4.647,4.647,0,0,1,0-4.646l9.7-16.8A4.648,4.648,0,0,1,546.5,3244.667Z" transform="translate(-301.153 -1648.667)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="diagram" transform="translate(243.291 1435.732)">
+      <g id="Grupo_319" data-name="Grupo 319">
+        <g id="Grupo_318" data-name="Grupo 318">
+          <path id="Trazado_1044" data-name="Trazado 1044" d="M22.746,18.971H4.349V.478A.451.451,0,0,0,3.871,0a.451.451,0,0,0-.478.478V18.971H.478a.478.478,0,0,0,0,.956H3.393v2.819a.451.451,0,0,0,.478.478.451.451,0,0,0,.478-.478V19.927h18.4a.451.451,0,0,0,.478-.478A.479.479,0,0,0,22.746,18.971Z" fill="#fff" stroke="#fff" stroke-width="1"/>
+        </g>
+      </g>
+      <g id="Grupo_321" data-name="Grupo 321" transform="translate(5.883 3.536)">
+        <g id="Grupo_320" data-name="Grupo 320">
+          <path id="Trazado_1045" data-name="Trazado 1045" d="M112.2,66.368l2.58-2.724a.473.473,0,0,0-.669-.669l-2.533,2.676L105.7,59.343a.516.516,0,0,0-.334-.143.434.434,0,0,0-.335.143l-6.4,6.833a.474.474,0,0,0,.717.621l5.973-6.451,5.543,6.021L108.378,69l-2.963-3.727a.484.484,0,0,0-.335-.191.543.543,0,0,0-.382.143l-6.021,5.925a.462.462,0,0,0,0,.669.516.516,0,0,0,.335.143.434.434,0,0,0,.334-.143l5.687-5.591L108,70a.607.607,0,0,0,.335.191.543.543,0,0,0,.382-.143l2.819-2.963,2.533,2.772a.491.491,0,0,0,.717-.669Z" transform="translate(-98.492 -59.2)" fill="#fff" stroke="#fff" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

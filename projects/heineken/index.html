@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title, Desription, Keywords -->
+    <title>Heinken - Check In</title>
+    <meta name="description" content="Heineken - Check In">
+    <meta name="keywords" content="heineken, check in, enjoy, enjoy responsibly, nightlife experience, get ready to upgrade your nightlife experience, heineken check in">
+    
+    <!-- Social meta tags - Facebook -->
+    <meta property="og:title" content="Heineken">
+    <meta property="og:description" content="Heineken Check In">
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="img/share.jpg">
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Meta tags twitter cards - Twitter -->
+    <meta name="twitter:title" content="Heineken">
+    <meta name="twitter:description" content="Heineken Check In">
+    <meta name="twitter:card" content="">
+    <meta name="twitter:image:src" content="img/share.jpg">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="img/web-icons/favicon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/web-icons/57x57.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="img/web-icons/114x114.png" />
+    <link rel="icon" sizes="192x192" href="img/web-icons/192x192.png" />
+    <link rel="icon" sizes="128x128" href="img/web-icons/128x128.png" />
+
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- Alert message ('active' to show & 'error'/'success') -->
+	<div id="message" class="alert-message">Tienes errores en el formulario</div>
+
+    <div class="main-container">
+
+        <!-- begin Init -->
+        <!-- add class section-active to show -->
+        <section class="init section-active">
+            <div class="center-container text-center">
+                <div class="container">
+                    <div class="enjoy"><img src="img/enjoy.svg" alt="Enjoy responsibly"></div>
+                    <h1 class="mb-5 logo-centered logo-heineken"><img src="img/heineken_logo.png" alt="Heineken" /></h1>
+                    <h1 class="logo-amazing logo-centered"><img src="img/checkin_logo.svg" alt="Check In" /></h1>
+
+                    <div class="date mt-6">Saturday, April 13<sup>th</sup><br>The Lobby at La Concha<br>10:00 PM</div>
+                    <a href="#" id="btnSignIn" class="btn btn-primary mt-6">SIGN IN</a>
+                </div>
+            </div>
+        </section>
+        <!-- end Init -->
+
+        <!-- begin Form Steps -->
+        <!-- add class section-active to show -->
+        <section class="steps section-red"><!-- section-<data-color> -->
+            <div class="center-container">
+                <form class="container">
+                    <div class="enjoy"><img src="img/enjoy.svg" alt="Enjoy responsibly"></div>
+                    <div class="logo-amazing mb-4 mb-lg-4 heineken-logo"><img src="img/heineken_logo.png" alt="Heineken" /></div> 
+                    <div class="logo-amazing mb-5 mb-lg-6"><img src="img/checkin_logo.svg" alt="Check In" /></div> 
+                    
+                    <div class="steps-wrap">
+                        <!-- begin Step 1 -->
+                        <!-- add class step-active to show -->
+                        <div class="step step1 step-active" data-color="red">
+                            <div class="row">
+                                <div class="col-lg-10">                                    
+
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <span class="input">
+                                                <input class="input__field" type="text" name="name" data-error="Debe ingresar su nombre" required />
+                                                <label class="input__label" for="name">
+                                                    <span class="input__label-content">NAME</span>
+                                                </label>
+                                                <svg class="graphic" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                                                    <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="col-lg-4 mt-4 mt-lg-0">
+                                            <span class="input">
+                                                <input class="input__field" type="text" name="lastname" data-error="Debe ingresar su apellido" required />
+                                                <label class="input__label" for="lastname">
+                                                    <span class="input__label-content">LAST NAME</span>
+                                                </label>
+                                                <svg class="graphic" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                                                    <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="col-lg-4 mt-4 mt-lg-0">
+                                            <span class="input">
+                                                <input class="input__field" type="numeric" name="partyid" required/>
+                                                <label class="input__label" for="partyid">
+                                                    <span class="input__label-content">BRACELET ID</span>
+                                                </label>
+                                                <svg class="graphic" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                                                    <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+                                                </svg>
+                                                <span class="input-icon"><img width="30" src="img/ic-id.svg" alt="" /></span>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="btn-wrap mt-5 mt-lg-6">
+                                        <a href="#" class="btn btn-b-red">CONTINUE</a>
+                                        <p class="mt-3 copy small">SATURDAY, APRIL 13<sup>TH</sup> - THE LOBBY AT LA CONCHA - 10:00 PM</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end Step 1 -->
+
+                        <!-- begin Step 2 -->
+                        <div class="step step2" data-color="green">
+                            <div class="row">
+                                <div class="col-lg-10">
+                                    
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <span class="input">
+                                                <input class="input__field" type="text" name="phone" required/>
+                                                <label class="input__label" for="phone">
+                                                    <span class="input__label-content">PHONE NUMBER</span>
+                                                </label>
+                                                <svg class="graphic" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                                                    <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="col-lg-4 mt-4 mt-lg-0">
+                                            <span class="input">
+                                                <input class="input__field" type="email" name="email" required/>
+                                                <label class="input__label" for="email">
+                                                    <span class="input__label-content">EMAIL</span>
+                                                </label>
+                                                <svg class="graphic" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                                                    <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="col-lg-5 mt-4 mt-lg-0">
+                                            <span class="input">
+                                                <input class="input__field" type="text" name="birthyear" required/>
+                                                <label class="input__label" for="birthyear">
+                                                    <span class="input__label-content">WHAT YEAR WERE YOU BORN IN?</span>
+                                                </label>
+                                                <svg class="graphic" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                                                    <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="btn-wrap mt-6">
+                                        <a href="#" class="btn btn-b-green">CONTINUE</a>
+                                        <p class="mt-3 copy small">SATURDAY, APRIL 13<sup>TH</sup> - THE LOBBY AT LA CONCHA - 10:00 PM</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end Step 2 -->
+
+                        <!-- begin Step 3 -->
+                        <div class="step ste34" data-color="pink">
+                            <div class="row">
+                                <div class="col-lg-10">   
+                                    <h1 class="mb-4">YOU’RE ALMOST DONE CHECKING-IN</h1>
+
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <span id="input--music" class="input input--party">
+                                                <span class="input__party">AN AWESOME NIGHT FOR ME START LISTENING TO</span>
+                                                <input class="input__field" name="party_music" type="text" id="party" readonly required />
+                                                <span id="music__value" class="party__value">
+                                                    <span></span>
+                                                </span>
+                                                <svg class="graphic" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                                                    <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+                                                </svg>
+                                            </span>
+
+                                            <!-- begin Custom dropdown -->
+                                            <div id="music" class="drinks-select-options">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" data-music="WISIN Y YANDEL">
+                                                            <span data-music="WISIN Y YANDEL">Wisin y Yandel</span>
+                                                        </a>                                                           
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" data-music="DUA LIPA">
+                                                            <span data-music="DUA LIPA">Dua Lipa</span>
+                                                        </a>                                                           
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" data-music="IMAGINE DRAGONS">
+                                                            <span data-music="IMAGINE DRAGONS">Imagine Dragons</span>
+                                                        </a>                                                           
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- end Custom dropdown -->
+                                        </div>
+                                        <div class="col-lg-6 mt-6 mt-lg-0">
+                                            <span id="input--drink" class="input input--party">
+                                                <span class="input__party">WHICH DO YOU PREFER?</span>
+                                                <input class="input__field" name="party_drink" type="text" id="party" readonly required />
+                                                <span id="drink__value" class="party__value">
+                                                    <img width="18" src="" style="display: none"/>
+                                                    <span></span>
+                                                </span>
+                                                <svg class="graphic" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                                                    <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+                                                </svg>
+                                            </span>
+
+                                            <!-- begin Custom dropdown -->
+                                            <div id="drinks" class="drinks-select-options">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" data-drink="Heineken®">
+                                                            <img width="20" src="img/beer-bottle.svg" alt="Heineken®" />
+                                                            <span data-type="HEINEKEN<sup>®</sup>">Heineken<sup>®</sup></span>
+                                                        </a>                                                           
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" data-drink="Heineken Light">
+                                                            <img width="20" src="img/light-beer-bottle.svg" alt="Heineken® Light" />
+                                                            <span data-type="HEINEKEN<sup>®</sup> LIGHT">Heineken<sup>®</sup> light</span>
+                                                        </a>                                                           
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- end Custom dropdown -->
+                                        </div>
+                                    </div>
+
+                                    <div class="btn-wrap mt-6">
+                                        <a href="#" class="btn btn-b-pink btnFinish">CHECK ME IN!</a>
+                                        <p class="mt-3 copy small">SATURDAY, APRIL 13<sup>TH</sup> - THE LOBBY AT LA CONCHA - 10:00 PM</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end Step 3 -->
+                    </div>
+                </form>
+            </div>
+
+            <span class="bg-parallelogram"></span>
+
+            <ul class="steps-pager">
+                <li class="active"><span>1</span></li>
+                <li><span>2</span></li>
+                <li><span>3</span></li>
+            </ul>
+        </section>
+        <!-- end Form Steps -->
+
+        <!-- begin All Set -->
+        <section class="allset">
+            <div class="center-container text-center">
+                <div class="container">
+                    <div class="enjoy"><img src="img/enjoy.svg" alt="Enjoy responsibly"></div>
+                    <h1 class="mb-4 logo-centered logo-heineken"><img src="img/heineken_logo.png" alt="Heineken" /></h1>
+                    <h1 class="logo-amazing logo-centered"><img src="img/checkin_logo.svg" alt="Check In" /></h1>
+                    <p class="mt-5">YOU HAVE SUCCESSFULLY CHECKED-IN!<br /> YOU WILL RECEIVE A CONFIRMATION EMAIL SHORTLY</p>
+                    <p class="mt-3">SATURDAY, APRIL 13<sup>TH</sup></p>
+                    <p class="mt-3">DON'T FORGET TO BRING YOUR BRACELET!</p>
+                    <div class="instagram mt-5"><a href="https://www.instagram.com/heinekenpr/" target="_blank">FOLLOW US <img src="img/instagram.svg" alt="Instagram"></a></div>
+                </div>
+            </div>
+        </section>
+        <!-- end All Set -->
+
+        <!-- begin Lateral Text -->
+        <div class="lateral">
+            <ul>
+                <li>Saturday, April 13 <sup>th</sup></li>
+                <li>The Lobby at La Concha</li>
+                <li>10:00 PM</li>
+                <!--li>Get ready to upgrade your nightlife experience</li-->
+            </ul>
+        </div>
+        <!-- end Lateral Text -->
+
+        <!-- Lines Background -->
+        <div class="bg-lines"><!-- add class bg-lines-left -->
+            <div class="bg-lines-wrap">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="892px" height="1005px" viewBox="0 0 892 1005" style="enable-background:new 0 0 892 1005;" xml:space="preserve">
+                    <polygon class="line line1" points="446.9,1.6 342.5,321.3 1.5,321.3 274,522 172.8,843.4 446.9,647.6 724.2,843.4 621.5,526.9 
+    890.6,321.3 554.6,321.3 "/>
+                </svg>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="892px" height="1005px" viewBox="0 0 892 1005" style="enable-background:new 0 0 892 1005;" xml:space="preserve">
+                    <polygon class="line line2" points="446.9,1.6 342.5,321.3 1.5,321.3 274,522 172.8,843.4 446.9,647.6 724.2,843.4 621.5,526.9 
+    890.6,321.3 554.6,321.3 "/>
+                </svg>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="892px" height="1005px" viewBox="0 0 892 1005" style="enable-background:new 0 0 892 1005;" xml:space="preserve">
+                    <polygon class="line line3" points="446.9,1.6 342.5,321.3 1.5,321.3 274,522 172.8,843.4 446.9,647.6 724.2,843.4 621.5,526.9 
+    890.6,321.3 554.6,321.3 "/>
+                </svg>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="892px" height="1005px" viewBox="0 0 892 1005" style="enable-background:new 0 0 892 1005;" xml:space="preserve">
+                    <polygon class="line line4" points="446.9,1.6 342.5,321.3 1.5,321.3 274,522 172.8,843.4 446.9,647.6 724.2,843.4 621.5,526.9 
+    890.6,321.3 554.6,321.3 "/>
+                </svg>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="892px" height="1005px" viewBox="0 0 892 1005" style="enable-background:new 0 0 892 1005;" xml:space="preserve">
+                    <polygon class="line line5" points="446.9,1.6 342.5,321.3 1.5,321.3 274,522 172.8,843.4 446.9,647.6 724.2,843.4 621.5,526.9 
+    890.6,321.3 554.6,321.3 "/>
+                </svg>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="892px" height="1005px" viewBox="0 0 892 1005" style="enable-background:new 0 0 892 1005;" xml:space="preserve">
+                    <polygon class="line line6" points="446.9,1.6 342.5,321.3 1.5,321.3 274,522 172.8,843.4 446.9,647.6 724.2,843.4 621.5,526.9 
+    890.6,321.3 554.6,321.3 "/>
+                </svg>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="892px" height="1005px" viewBox="0 0 892 1005" style="enable-background:new 0 0 892 1005;" xml:space="preserve">
+                    <polygon class="line line7" points="446.9,1.6 342.5,321.3 1.5,321.3 274,522 172.8,843.4 446.9,647.6 724.2,843.4 621.5,526.9 
+    890.6,321.3 554.6,321.3 "/>
+                </svg>                                                                        
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="892px" height="1005px" viewBox="0 0 892 1005" style="enable-background:new 0 0 892 1005;" xml:space="preserve">
+                    <polygon class="line line8" points="446.9,1.6 342.5,321.3 1.5,321.3 274,522 172.8,843.4 446.9,647.6 724.2,843.4 621.5,526.9 
+    890.6,321.3 554.6,321.3 "/>
+                </svg>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="892px" height="1005px" viewBox="0 0 892 1005" style="enable-background:new 0 0 892 1005;" xml:space="preserve">
+                    <polygon class="line line1" points="446.9,1.6 342.5,321.3 1.5,321.3 274,522 172.8,843.4 446.9,647.6 724.2,843.4 621.5,526.9 
+    890.6,321.3 554.6,321.3 "/>
+                </svg>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="892px" height="1005px" viewBox="0 0 892 1005" style="enable-background:new 0 0 892 1005;" xml:space="preserve">
+                    <polygon class="line line2" points="446.9,1.6 342.5,321.3 1.5,321.3 274,522 172.8,843.4 446.9,647.6 724.2,843.4 621.5,526.9 
+    890.6,321.3 554.6,321.3 "/>
+                </svg>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="892px" height="1005px" viewBox="0 0 892 1005" style="enable-background:new 0 0 892 1005;" xml:space="preserve">
+                    <polygon class="line line3" points="446.9,1.6 342.5,321.3 1.5,321.3 274,522 172.8,843.4 446.9,647.6 724.2,843.4 621.5,526.9 
+    890.6,321.3 554.6,321.3 "/>
+                </svg>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="892px" height="1005px" viewBox="0 0 892 1005" style="enable-background:new 0 0 892 1005;" xml:space="preserve">
+                    <polygon class="line line4" points="446.9,1.6 342.5,321.3 1.5,321.3 274,522 172.8,843.4 446.9,647.6 724.2,843.4 621.5,526.9 
+    890.6,321.3 554.6,321.3 "/>
+                </svg>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="892px" height="1005px" viewBox="0 0 892 1005" style="enable-background:new 0 0 892 1005;" xml:space="preserve">
+                    <polygon class="line line5" points="446.9,1.6 342.5,321.3 1.5,321.3 274,522 172.8,843.4 446.9,647.6 724.2,843.4 621.5,526.9 
+    890.6,321.3 554.6,321.3 "/>
+                </svg>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="892px" height="1005px" viewBox="0 0 892 1005" style="enable-background:new 0 0 892 1005;" xml:space="preserve">
+                    <polygon class="line line6" points="446.9,1.6 342.5,321.3 1.5,321.3 274,522 172.8,843.4 446.9,647.6 724.2,843.4 621.5,526.9 
+    890.6,321.3 554.6,321.3 "/>
+                </svg>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="892px" height="1005px" viewBox="0 0 892 1005" style="enable-background:new 0 0 892 1005;" xml:space="preserve">
+                    <polygon class="line line7" points="446.9,1.6 342.5,321.3 1.5,321.3 274,522 172.8,843.4 446.9,647.6 724.2,843.4 621.5,526.9 
+    890.6,321.3 554.6,321.3 "/>
+                </svg>                                                                        
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="892px" height="1005px" viewBox="0 0 892 1005" style="enable-background:new 0 0 892 1005;" xml:space="preserve">
+                    <polygon class="line line8" points="446.9,1.6 342.5,321.3 1.5,321.3 274,522 172.8,843.4 446.9,647.6 724.2,843.4 621.5,526.9 
+    890.6,321.3 554.6,321.3 "/>
+                </svg>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="892px" height="1005px" viewBox="0 0 892 1005" style="enable-background:new 0 0 892 1005;" xml:space="preserve">
+                    <polygon class="line line1" points="446.9,1.6 342.5,321.3 1.5,321.3 274,522 172.8,843.4 446.9,647.6 724.2,843.4 621.5,526.9 
+    890.6,321.3 554.6,321.3 "/>
+                </svg>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="892px" height="1005px" viewBox="0 0 892 1005" style="enable-background:new 0 0 892 1005;" xml:space="preserve">
+                    <polygon class="line line2" points="446.9,1.6 342.5,321.3 1.5,321.3 274,522 172.8,843.4 446.9,647.6 724.2,843.4 621.5,526.9 
+    890.6,321.3 554.6,321.3 "/>
+                </svg>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="892px" height="1005px" viewBox="0 0 892 1005" style="enable-background:new 0 0 892 1005;" xml:space="preserve">
+                    <polygon class="line line3" points="446.9,1.6 342.5,321.3 1.5,321.3 274,522 172.8,843.4 446.9,647.6 724.2,843.4 621.5,526.9 
+    890.6,321.3 554.6,321.3 "/>
+                </svg>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="892px" height="1005px" viewBox="0 0 892 1005" style="enable-background:new 0 0 892 1005;" xml:space="preserve">
+                    <polygon class="line line4" points="446.9,1.6 342.5,321.3 1.5,321.3 274,522 172.8,843.4 446.9,647.6 724.2,843.4 621.5,526.9 
+    890.6,321.3 554.6,321.3 "/>
+                </svg>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="892px" height="1005px" viewBox="0 0 892 1005" style="enable-background:new 0 0 892 1005;" xml:space="preserve">
+                    <polygon class="line line5" points="446.9,1.6 342.5,321.3 1.5,321.3 274,522 172.8,843.4 446.9,647.6 724.2,843.4 621.5,526.9 
+    890.6,321.3 554.6,321.3 "/>
+                </svg>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="892px" height="1005px" viewBox="0 0 892 1005" style="enable-background:new 0 0 892 1005;" xml:space="preserve">
+                    <polygon class="line line6" points="446.9,1.6 342.5,321.3 1.5,321.3 274,522 172.8,843.4 446.9,647.6 724.2,843.4 621.5,526.9 
+    890.6,321.3 554.6,321.3 "/>
+                </svg>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="892px" height="1005px" viewBox="0 0 892 1005" style="enable-background:new 0 0 892 1005;" xml:space="preserve">
+                    <polygon class="line line7" points="446.9,1.6 342.5,321.3 1.5,321.3 274,522 172.8,843.4 446.9,647.6 724.2,843.4 621.5,526.9 
+    890.6,321.3 554.6,321.3 "/>
+                </svg>                                                                        
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="892px" height="1005px" viewBox="0 0 892 1005" style="enable-background:new 0 0 892 1005;" xml:space="preserve">
+                    <polygon class="line line8" points="446.9,1.6 342.5,321.3 1.5,321.3 274,522 172.8,843.4 446.9,647.6 724.2,843.4 621.5,526.9 
+    890.6,321.3 554.6,321.3 "/>
+                </svg>
+            </div>
+        </div>     
+    </div>
+    <footer>
+        18+ ID required | <a href="img/terms.pdf" target="_blank">Terms & conditions and Privacy policy</a>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script src="js/lib/classie.js"></script>
+    <script src="js/forms.js"></script>
+    <script src="js/site.js"></script>
+
+</body>
+
+</html>

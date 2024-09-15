@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48.081" height="42.884" viewBox="0 0 48.081 42.884">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.48" y1="2.054" x2="0.8" y2="0.137" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cb00f0"/>
+      <stop offset="1" stop-color="#e867a7"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_431" data-name="Grupo 431" transform="translate(-231 -1652)">
+    <g id="Grupo_199" data-name="Grupo 199" transform="translate(0 -191)">
+      <path id="Trazado_985" data-name="Trazado 985" d="M546.5,3244.667h19.4a4.648,4.648,0,0,1,4.023,2.323l9.7,16.8a4.646,4.646,0,0,1,0,4.646l-9.7,16.8a4.648,4.648,0,0,1-4.023,2.323H546.5a4.648,4.648,0,0,1-4.023-2.323l-9.7-16.8a4.647,4.647,0,0,1,0-4.646l9.7-16.8A4.648,4.648,0,0,1,546.5,3244.667Z" transform="translate(-301.153 -1401.667)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Grupo_400" data-name="Grupo 400" transform="translate(238.9 1658.232)">
+      <path id="Trazado_1204" data-name="Trazado 1204" d="M25.385,3.877h-2.8V3.09a.59.59,0,1,0-1.18,0v.787H16.73V3.09a.59.59,0,0,0-1.18,0v.787H10.9V3.09a.59.59,0,1,0-1.18,0v.787H6.895A1.8,1.8,0,0,0,5.1,5.672V24.038a1.8,1.8,0,0,0,1.795,1.795h18.49a1.8,1.8,0,0,0,1.795-1.795V5.672A1.8,1.8,0,0,0,25.385,3.877Zm-18.49,1.2H9.7v.787a.59.59,0,1,0,1.18,0V5.082h4.647v.787a.59.59,0,1,0,1.18,0V5.082h4.647v.787a.59.59,0,1,0,1.18,0V5.082h2.8a.609.609,0,0,1,.615.615V7.86H6.28V5.7A.625.625,0,0,1,6.895,5.082Zm6.368,13.966V14.622h5.778v4.426Zm5.753,1.2v4.426H13.263V20.252Zm0-11.212v4.426H13.263V9.04Zm-6.958,4.4H6.28V9.016h5.778Zm-5.778,1.2h5.778v4.426H6.28Zm13.941,0H26v4.426H20.221Zm0-1.2V9.016H26v4.426ZM6.28,24.063V20.252h5.778v4.426H6.895A.661.661,0,0,1,6.28,24.063Zm19.1.59H20.221V20.227H26v3.811A.625.625,0,0,1,25.385,24.653Z" transform="translate(0 0)" fill="#fff"/>
+      <circle id="Elipse_134" data-name="Elipse 134" cx="1.377" cy="1.377" r="1.377" transform="translate(14.738 15.482)" fill="#fff"/>
+      <circle id="Elipse_135" data-name="Elipse 135" cx="1.377" cy="1.377" r="1.377" transform="translate(7.792 15.482)" fill="#fff"/>
+      <circle id="Elipse_136" data-name="Elipse 136" cx="1.377" cy="1.377" r="1.377" transform="translate(7.805 9.852)" fill="#fff"/>
+      <circle id="Elipse_137" data-name="Elipse 137" cx="1.377" cy="1.377" r="1.377" transform="translate(14.775 9.852)" fill="#fff"/>
+      <circle id="Elipse_138" data-name="Elipse 138" cx="1.377" cy="1.377" r="1.377" transform="translate(21.733 9.852)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

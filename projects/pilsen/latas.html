@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+    <!--[if IE 7]>    <html class="no-js lt-ie10 lt-ie9 lt-ie8" lang="es"> <![endif]-->
+    <!--[if IE 8]>    <html class="no-js lt-ie10 lt-ie9" lang="es"> <![endif]-->
+    <!--[if IE 9]>    <html class="no-js lt-ie10" lang="es"> <![endif]-->
+    <!--[if gt IE 9]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8" />
+
+        <meta name="rating" content="general" />
+        <meta name="Revisit-After" content="1 Days"/>
+        <meta name="robots" content="index,follow" />
+        <meta name="author" content="Diego De Dieu" />
+
+        <meta name="title" content="Diego De Dieu" />
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+
+        <meta property="og:title" content="" />
+        <meta property="og:description" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:image" content="" />
+
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+
+        <title>Pilsen</title>
+
+        <link href="img/favicon.jpeg" rel="shortcut icon"/>
+
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/animate.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+      
+        <!-- Included Main JS Files -->
+        <script src="js/lib/jquery/modernizr.js"></script>
+        <script src="js/lib/jquery/jquery-3.6.0.js"></script>
+        <script src="js/lib/jquery/placeholders.min.js"></script>
+        <script src="js/lib/jquery/wow.min.js"></script>
+        <script src="js/scripts.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+    </head>
+    <body>
+        <div class="modal-backdrop"></div>
+        <main>
+            <!-- HOME -->
+            <section class="home">
+                <!-- Lottie animation -->
+                <div class="lottie" id="papers"></div>
+
+                <div class="share float-item">
+                    <a href="#">
+                        <span>COMPARTIR</span>
+                        <i class="icon">
+                            <img src="img/share.svg" alt="">
+                        </i>
+                    </a>
+                </div>
+                <div class="how float-item open-modal" data-modal="modal-how">
+                    <a href="#">
+                        <i class="icon">
+                            <img src="img/how.png" alt="">
+                        </i>
+                        <span>CÓMO LO HAGO?</span>
+                    </a>
+                </div>
+
+                <div class="content">
+                    <div class="title">
+                        <img width="445" src="img/titulo.png" alt="La cerveza del más grande">
+                        <img width="80" src="img/copa.svg" alt="La Copa Pilsen" class="mobile">
+                    </div>
+                    <div class="actions">
+                        <img width="135" class="desktop" src="img/copa.svg" alt="">
+                        <div class="results">
+                            <div class="result yellow">
+                                <div id="bubbles_p_m"></div>
+                                <div class="circle">
+                                    <p>53%</p>
+                                </div>
+                            </div>
+                            <img src="img/latas.png" alt="">
+                            <div class="result blue">
+                                <div id="bubbles_n_m"></div>
+                                <div class="circle">
+                                    <p>47%</p>
+                                </div>
+                            </div>
+                            <div class="bars">
+                                <div class="bar yellow">
+                                    <span style="height: 53%"></span>
+                                </div>
+                                <div class="bar blue">
+                                    <span style="height: 47%"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <p>Registrá los 3 últimos dígitos del código de lote + el código único de tu lata y participa por camisetas oficiales y entradas gratis a partidos en el estadio Campeón del Siglo y Gran Parque Central.<br /> No todo es Nacional y Peñarol, por eso podés postular a tu equipo para que tenga su propia lata edición limitada</p>
+                            <a href="#" class="action open-modal" data-modal="modal-team">
+                                Registrá tu lata y alentá a tu equipo
+                            </a>
+                            <a href="#" class="action alternate open-modal" data-modal="modal-other-team">
+                                Soy hincha de otro club
+                            </a>
+                        </div>
+                    </div>
+                    <div class="legal">
+                        <p>Legal-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>    
+                </div>
+
+                <div class="teams">
+                    <div class="team yellow">
+                        <div class="votes">
+                            <div class="bubbles" id="bubbles_p"></div>
+                            <div class="circle">
+                                <span class="percentage">53%</span>
+                                <img src="img/lata-p.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team blue">
+                        <div class="votes">
+                            <div class="bubbles" id="bubbles_n"></div>
+                            <div class="circle">
+                                <span class="percentage">47%</span>
+                                <img src="img/lata-n.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="conditions float-item">
+                    <a href="#" class="open-modal" data-modal="modal-conditions">
+                        <span>BASES Y CONDICIONES</span>
+                    </a>
+                </div>
+                <div class="social float-item">
+                    <ul>
+                        <li>
+                            <a href="https://twitter.com/PilsenUruguay" target="_blank">
+                                <img width="20" src="img/x.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/@PilsenUruguayOK" target="_blank">
+                                <img src="img/youtube.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/pilsenuruguay/" target="_blank">
+                                <img src="img/instagram.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/pilsenuruguay" target="_blank">
+                                <img src="img/facebook.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- HOW MODAL -->
+            <div class="modal" id="modal-how">
+                <a href="#" class="close close-modal">
+                    <img src="img/times.svg" alt="Close">
+                </a>
+                <div class="modal-content">
+                    <h3>¿Cómo lo hago?</h3>
+                    <p class="subtitle">Te mostramos un tutorial para que te sumes.</p>
+                    <div class="steps">
+                        <div class="step">
+                            <div class="pic">
+                                <div class="circle"></div>
+                                <img src="img/compra.png" alt="">
+                            </div>
+                            <div class="step-content">
+                                <div class="number">1</div>
+                                <div class="step-title">COMPRA</div>
+                                <p>Una lata del más grande</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="pic">
+                                <div class="circle"></div>
+                                <img src="img/codigo.png" alt="">
+                            </div>
+                            <div class="step-content">
+                                <div class="number">2</div>
+                                <div class="step-title">INGRESÁ</div>
+                                <p>Los últimos 3 números del código de lote + el código único de tu lata</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="pic">
+                                <div class="circle"></div>
+                                <img src="img/celular.png" alt="">
+                            </div>
+                            <div class="step-content">
+                                <div class="number">3</div>
+                                <div class="step-title">VOTÁ</div>
+                                <p>Por el más grande y sumá chances de que tu equipo gane LA COPA PILSEN</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="action close-modal">¡Entendido!</a>
+            </div>
+
+            <!-- TEAM MODAL -->
+            <div class="modal" id="modal-team">
+                <a href="#" class="close close-modal">
+                    <img src="img/times.svg" alt="Close">
+                </a>
+                <div class="modal-content">
+                    <h3>Vota por el equipo más grande</h3>
+                    <p class="subtitle">Registrá tu lata con los últimos 3 números de código de lote + el código único de tu lata. Registrándola estarás participando por camisetas oficiales y entradas gratis en el Campeón del Siglo y Gran Parque Central.</p>
+                    <form name="team">
+                        <div class="input-container">
+                            <span class="mandatory">Campos obligatorios *</span>
+                            <input type="text" name="nombre" placeholder="Nombre y apellido">
+                            <div class="error-block">
+                                <img src="img/times.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <span class="mandatory">Campos obligatorios *</span>
+                            <input type="email" name="email" placeholder="Email">
+                            <div class="error-block">
+                                <img src="img/times.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <span class="mandatory">Campos obligatorios *</span>
+                            <input type="number" name="celular" placeholder="Celular">
+                            <div class="error-block">
+                                <img src="img/times.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <span class="mandatory">Campos obligatorios *</span>
+                            <div class="custom-select">
+                                <select>
+                                    <option value="" selected disabled>Departamento</option>
+                                    <option value="artigas">Artigas</option>
+                                    <option value="canelones">Canelones</option>
+                                    <option value="cerrolargo">Cerro Largo</option>
+                                    <option value="colonia">Colonia</option>
+                                    <option value="durazno">Durazno</option>
+                                    <option value="flores">Flores</option>
+                                    <option value="florida">Florida</option>
+                                    <option value="lavalleja">Lavalleja</option>
+                                    <option value="maldonado">Maldonado</option>
+                                    <option value="montevideo">Montevideo</option>
+                                    <option value="paysandu">Paysandú</option>
+                                    <option value="rionegro">Río Negro</option>
+                                    <option value="rivera">Rivera</option>
+                                    <option value="rocha">Rocha</option>
+                                    <option value="salto">Salto</option>
+                                    <option value="sanjose">San José</option>
+                                    <option value="soriano">Soriano</option>
+                                    <option value="tacuarembo">Tacuarembó</option>
+                                    <option value="treintaytres">Treinta y tres</option>
+                                </select>
+                            </div>
+                            <div class="error-block">
+                                <img src="img/times.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <span class="mandatory">Campos obligatorios *</span>
+                            <input type="text" name="digitos" placeholder="Últimos 3 digitos">
+                            <div class="error-block">
+                                <img src="img/times.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <span class="mandatory desktop">Campos obligatorios *</span>
+                            <div class="out-container">
+                                <label class="radio-container">
+                                    <img src="img/penarol.svg" alt="Peñarol">
+                                    <input type="radio" name="equipo" checked value="penarol">
+                                    <span class="radio-button"></span>
+                                </label>
+                            </div>
+                            <div class="out-container">
+                                <label class="radio-container">
+                                    <img src="img/nacional.svg" alt="Nacional">
+                                    <input type="radio" name="equipo" value="nacional">
+                                    <span class="radio-button"></span>
+                                </label>
+                            </div>
+                            <div class="error-block">
+                                <img src="img/times.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="error-message">
+                            <img src="img/times.svg" alt="">
+                            <p>Mensaje de error</p>
+                        </div>
+                        <button type="submit" class="action">ENVIAR</button>
+                    </form>
+                </div>
+                <div class="success">
+                    <h3>¡SALÚ! <br />VOTASTE POR EL MÁS GRANDE</h3>
+                    <p class="subtitle">Gracias por participar!  Todos sabemos quién es el más grande. <br />Sigamos demostrando!</p>
+                    <div class="success-icon">
+                        <img src="img/check.svg" alt="">
+                    </div>
+                    <a href="#" class="action close-modal">ACEPTAR</a>
+                </div>
+            </div>
+
+            <!-- OTHER TEAM MODAL -->
+            <div class="modal" id="modal-other-team">
+                <a href="#" class="close close-modal">
+                    <img src="img/times.svg" alt="Close">
+                </a>
+                <div class="modal-content">
+                    <h3>¿Qué equipo querés que tenga su propia lata?</h3>
+                    <p class="subtitle">Existen muchos grandes en nuestro país, y vos lo sabés. <br />Votá por tu equipo y demostrá lo grande que son tus colores.</p>
+                    <form name="other-team">
+                        <div class="input-container">
+                            <span class="mandatory">Campos obligatorios *</span>
+                            <input type="text" name="nombre" placeholder="Nombre y apellido">
+                            <div class="error-block">
+                                <img src="img/times.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <span class="mandatory">Campos obligatorios *</span>
+                            <input type="email" name="email" placeholder="Email">
+                            <div class="error-block">
+                                <img src="img/times.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <span class="mandatory">Campos obligatorios *</span>
+                            <input type="number" name="celular" placeholder="Celular">
+                            <div class="error-block">
+                                <img src="img/times.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <span class="mandatory">Campos obligatorios *</span>
+                            <input type="text" name="equipo" placeholder="¿de que equipo de fútbol sos?">
+                            <div class="error-block">
+                                <img src="img/times.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <span class="mandatory">Campos obligatorios *</span>
+                            <div class="custom-select">
+                                <select>
+                                    <option value="" selected disabled>Departamento</option>
+                                    <option value="artigas">Artigas</option>
+                                    <option value="canelones">Canelones</option>
+                                    <option value="cerrolargo">Cerro Largo</option>
+                                    <option value="colonia">Colonia</option>
+                                    <option value="durazno">Durazno</option>
+                                    <option value="flores">Flores</option>
+                                    <option value="florida">Florida</option>
+                                    <option value="lavalleja">Lavalleja</option>
+                                    <option value="maldonado">Maldonado</option>
+                                    <option value="montevideo">Montevideo</option>
+                                    <option value="paysandu">Paysandú</option>
+                                    <option value="rionegro">Río Negro</option>
+                                    <option value="rivera">Rivera</option>
+                                    <option value="rocha">Rocha</option>
+                                    <option value="salto">Salto</option>
+                                    <option value="sanjose">San José</option>
+                                    <option value="soriano">Soriano</option>
+                                    <option value="tacuarembo">Tacuarembó</option>
+                                    <option value="treintaytres">Treinta y tres</option>
+                                </select>
+                            </div>
+                            <div class="error-block">
+                                <img src="img/times.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="error-message">
+                            <img src="img/times.svg" alt="">
+                            <p>Mensaje de error</p>
+                        </div>
+                        <div class="flex-full">
+                            <button type="submit" class="action">ENVIAR</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="success">
+                    <h3>¡SALÚ! <br />TU EQUIPO ESTÁ UN VOTO MÁS CERCA DE TENER SU PROPIA LATA.</h3>
+                    <p class="subtitle">Gracias por participar!</p>
+                    <div class="success-icon">
+                        <img src="img/check.svg" alt="">
+                    </div>
+                    <a href="#" class="action close-modal">ACEPTAR</a>
+                </div>
+            </div>
+
+            <!-- CONDITIONS MODAL -->
+            <div class="modal" id="modal-conditions">
+                <a href="#" class="close close-modal">
+                    <img src="img/times.svg" alt="Close">
+                </a>
+                <div class="modal-content">
+                    <h3>Bases y condiciones</h3>
+                    <div class="conditions-content">
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                    </div>
+                    <a href="#" class="action close-modal">ACEPTAR</a>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

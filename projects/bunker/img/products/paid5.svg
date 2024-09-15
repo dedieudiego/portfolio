@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48.08" height="42.884" viewBox="0 0 48.08 42.884">
+  <defs>
+    <linearGradient id="linear-gradient" y1="1.317" x2="1.153" y2="-0.277" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f07800"/>
+      <stop offset="1" stop-color="#e867a7"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_387" data-name="Grupo 387" transform="translate(-231 -2374)">
+    <path id="Trazado_976" data-name="Trazado 976" d="M546.5,3244.667h19.4a4.648,4.648,0,0,1,4.023,2.323l9.7,16.8a4.646,4.646,0,0,1,0,4.646l-9.7,16.8a4.648,4.648,0,0,1-4.023,2.323H546.5a4.648,4.648,0,0,1-4.023-2.323l-9.7-16.8a4.647,4.647,0,0,1,0-4.646l9.7-16.8A4.648,4.648,0,0,1,546.5,3244.667Z" transform="translate(-301.153 -870.667)" fill="url(#linear-gradient)"/>
+    <g id="Grupo_197" data-name="Grupo 197" transform="translate(0 779)">
+      <rect id="Rectángulo_6" data-name="Rectángulo 6" width="7.36" height="18.734" transform="translate(251.36 1607.05)" stroke-width="2" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <rect id="Rectángulo_7" data-name="Rectángulo 7" width="7.36" height="12.712" transform="translate(258.72 1613.071)" stroke-width="2" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <rect id="Rectángulo_8" data-name="Rectángulo 8" width="7.36" height="8.029" transform="translate(244 1617.755)" stroke-width="2" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </g>
+  </g>
+</svg>

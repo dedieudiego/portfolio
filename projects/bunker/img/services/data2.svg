@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48.08" height="42.884" viewBox="0 0 48.08 42.884">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.48" y1="2.054" x2="0.8" y2="0.137" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4628b1"/>
+      <stop offset="1" stop-color="#33b07e"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_375" data-name="Grupo 375" transform="translate(-231 -1105)">
+    <g id="Grupo_199" data-name="Grupo 199" transform="translate(0 -738)">
+      <path id="Trazado_985" data-name="Trazado 985" d="M546.5,3244.667h19.4a4.648,4.648,0,0,1,4.023,2.323l9.7,16.8a4.646,4.646,0,0,1,0,4.646l-9.7,16.8a4.648,4.648,0,0,1-4.023,2.323H546.5a4.648,4.648,0,0,1-4.023-2.323l-9.7-16.8a4.647,4.647,0,0,1,0-4.646l9.7-16.8A4.648,4.648,0,0,1,546.5,3244.667Z" transform="translate(-301.153 -1401.667)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="crm" transform="translate(243.279 1085.959)">
+      <g id="Grupo_271" data-name="Grupo 271" transform="translate(0 30.041)">
+        <g id="Grupo_270" data-name="Grupo 270">
+          <path id="Trazado_1135" data-name="Trazado 1135" d="M23.631,47.571V30.041H0v17.53H7.764v1.881H5.16V50.9h13.31V49.452h-2.6V47.571h7.764ZM1.447,31.488H22.184V43.351H1.447ZM14.42,49.452H9.211V47.571H14.42ZM1.447,46.124V44.8H22.184v1.326H1.447Z" transform="translate(0 -30.041)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Grupo_275" data-name="Grupo 275" transform="translate(3.815 33.646)">
+        <g id="Grupo_274" data-name="Grupo 274">
+          <rect id="Rectángulo_126" data-name="Rectángulo 126" width="1.664" height="1.447" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Grupo_277" data-name="Grupo 277" transform="translate(6.505 33.646)">
+        <g id="Grupo_276" data-name="Grupo 276">
+          <rect id="Rectángulo_127" data-name="Rectángulo 127" width="13.074" height="1.447" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Grupo_279" data-name="Grupo 279" transform="translate(3.815 36.696)">
+        <g id="Grupo_278" data-name="Grupo 278">
+          <rect id="Rectángulo_128" data-name="Rectángulo 128" width="1.664" height="1.447" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Grupo_281" data-name="Grupo 281" transform="translate(6.505 36.696)">
+        <g id="Grupo_280" data-name="Grupo 280">
+          <rect id="Rectángulo_129" data-name="Rectángulo 129" width="13.074" height="1.447" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Grupo_283" data-name="Grupo 283" transform="translate(3.815 39.747)">
+        <g id="Grupo_282" data-name="Grupo 282">
+          <rect id="Rectángulo_130" data-name="Rectángulo 130" width="1.664" height="1.447" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Grupo_285" data-name="Grupo 285" transform="translate(6.505 39.747)">
+        <g id="Grupo_284" data-name="Grupo 284">
+          <rect id="Rectángulo_131" data-name="Rectángulo 131" width="13.074" height="1.447" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

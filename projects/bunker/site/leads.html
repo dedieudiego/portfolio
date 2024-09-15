@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+    <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+    <!--[if IE 7]>    <html class="no-js lt-ie10 lt-ie9 lt-ie8" lang="es"> <![endif]-->
+    <!--[if IE 8]>    <html class="no-js lt-ie10 lt-ie9" lang="es"> <![endif]-->
+    <!--[if IE 9]>    <html class="no-js lt-ie10" lang="es"> <![endif]-->
+    <!--[if gt IE 9]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8" />
+
+        <meta name="rating" content="general" />
+        <meta name="Revisit-After" content="1 Days"/>
+        <meta name="robots" content="index,follow" />
+        <meta name="author" content="The Electric Factory" />
+
+        <meta name="title" content="Bunker db - Leads y bases de datos" />
+        <meta name="keywords" content="Analítica de Social Media, Análisis de sitios, Análisis de Apps, Análisis de medios pagos, análisis de sentimiento, reporting, competencia, A/B Testing, Sistema de alertas, Leads, Campañas, API, Consumidores, Base de Datos, Facebook, Instagram, Business Manager, Google, Google Analytics, DoubleClick, DBM, Twitter, Youtube, Google Marketing Platform, Mailchimp, Sizmek, DCM, DFP, SMS, Email, Custom Audience, Look Alike, ecommerce, herramienta de analítica, marketing digital, análisis de marketing digital, analítica de redes sociales" />
+        <meta name="description" content="Bunker db puedes obtener un perfil completo de tus consumidores, administrar tus bases de datos y hacer un seguimiento de detallado de tus leads." />
+
+        <meta property="og:title" content="" />
+        <meta property="og:description" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:image" content="" />
+
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+
+        <title>Bunker db - Leads y bases de datos</title>
+
+        <link href="../img/favicon.png" rel="shortcut icon"/>
+
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+        <link rel="stylesheet" href="../css/tef-reset.css" />
+        <link rel="stylesheet" href="../css/jquery.bxslider.css" />
+        <link rel="stylesheet" href="../css/tef-styles.css" />
+        <link rel="stylesheet" href="../css/selectric.css" />
+        <link rel="stylesheet" href="../css/animate.css" />
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" type="text/css" href="../css/tef-styles-ie8.css" />
+        <![endif]-->
+      
+        <!-- Included Main JS Files -->
+        <script src="../js/lib/jquery/tef-modernizr.js"></script>
+        <script src="../js/lib/jquery/jquery-1.9.1.js"></script>
+        <script src="../js/lib/jquery/placeholders.min.js"></script>
+        <script src="../js/lib/jquery/jquery.bxslider.js"></script>
+        <script src="../js/lib/jquery/wow.min.js"></script>
+        <script src="../js/scripts.js"></script>
+        <script type="text/javascript" src="../js/lib/jquery/jquery.selectric.js"></script>
+        <!--[if lte IE 9]>
+        <script src="js/lib/jquery/jquery.backgroundSize.js"></script>
+        <script>
+            $(function() {
+                $('body').css( "background-size", "cover" );
+            });
+        </script>
+        <![endif]-->
+    </head>
+    <body>
+        <header>
+            <a href="index.html" class="logo l"></a>
+            <div class="menu desktop r">
+                <ul>
+                    <li class="clickable" data-section="product"><a href="#">Plataforma <i class="chevron-down"></i></a></li>
+                    <li class="clickable" data-section="services"><a href="#">Otros Servicios <i class="chevron-down"></i></a></li>
+                    <li><a href="plans.html">Planes</a></li>
+                    <li class="clickable" data-section="company"><a href="#">Compañía <i class="chevron-down"></i></a></li>
+                </ul>
+                <a href="demo.html" class="demo">Solicitar Demo</a>
+                <div class="lang">
+                    <a href="#" class="selected">ES</a> <i class="chevron-down"></i></a>
+                    <div class="dropLang">
+                        <a class="selected" href="#">Español</a>
+                        <a href="#">Inglés</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <a href="#" class="menuBtn mobile">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <div class="mobileMenu">
+            <div class="menuItem selected">Plataforma <i class="chevron-down"></i></div>
+            <div class="menuDrop" style="display: none">
+                <ul>
+                    <li><a href="product.html"><b>Conoce Bunker db</b></a></li>
+                    <li><a href="analitica.html">Analítica en Redes Sociales</a></li>
+                    <li><a href="owned.html">Analítica en Plataformas propias</a></li>
+                    <li><a href="paid.html">Análisis de Inversiones</a></li>
+                    <li><a href="sentiment.html">Análisis de sentimiento</a></li>
+                    <li><a href="competition.html">Análisis de competencia</a></li>
+                    <li><a href="abtesting.html">A/B Testing</a></li>
+                    <li><a class="selected" href="alert.html">Alertas y Seguimientos de KPI’s</a></li>
+                    <li><a href="reporting.html">Manejo de Campañas</a></li>
+                    <li><a href="leads.html">Gestión de Leads y Base de datos</a></li>
+                    <li><a href="realtime.html">Analítica en Puntos de Venta en tiempo real</a></li>
+                    <li><a href="api.html">Consumer API</a></li>
+                </ul>
+            </div>
+            <div class="menuItem">Otros Servicios <i class="chevron-down"></i></div>
+            <div class="menuDrop" style="display: none">
+                <ul>
+                    <li><a href="services.html"><b>Conoce nuestros servicios</b></a></li>
+                    <li><a href="face.html">Face Recognition - OOH Analytics</a></li>
+                    <li><a href="marketing.html">Marketing Consultancy services</a></li>
+                    <li><a href="success.html">Success Management</a></li>
+                    <li><a href="datasupport.html">Data Support</a></li>
+                </ul>
+            </div>
+            <a href="plans.html" class="menuItem">Planes</a>
+            <div class="menuItem">Compañía <i class="chevron-down"></i></div>
+            <div class="menuDrop" style="display: none">
+                <ul>
+                    <li><a href="whybunker.html"><b>Conoce nuestra compañía</b></a></li>
+                    <li><a href="about.html">Nosotros</a></li>
+                    <li><a href="people.html">Nuestro equipo</a></li>
+                    <li><a href="partners.html">Nuestros partners</a></li>
+                    <li><a href="news.html">Novedades</a></li>
+                    <li><a href="http://bunkerdb.com/blog">Blog</a></li>
+                </ul>
+            </div>
+            <div class="social">
+                <a href="#"><img src="../img/linkedin.svg" alt="LinkedIn"></a>
+                <a href="#"><img src="../img/facebook.svg" alt="Facebook"></a>
+                <a href="#"><img src="../img/instagram.svg" alt="Instagram"></a>
+            </div>
+            <div class="lang">
+                <a href="#" class="active">ES</a> <span>/</span> <a href="#">EN</a>
+            </div>
+            <div class="clear"></div>
+            <a href="demo.html" class="demo">Solicitar Demo</a>
+        </div>
+        <div class="dropdown product">
+            <div class="dropProduct dropItem">
+                <div class="moreInfo">
+                    Conoce todas las funciones que Bunker db tiene para ti.
+                    <a href="product.html" class="moreBtn">Conoce más</a>
+                </div>
+                <div class="options">
+                    <ul>
+                        <li><a href="analitica.html">Analítica en Redes Sociales</a></li>
+                        <li><a href="owned.html">Analítica en Plataformas propias</a></li>
+                        <li><a href="paid.html">Análisis de Inversiones</a></li>
+                        <li><a href="sentiment.html">Análisis de sentimiento</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="competition.html">Análisis de competencia</a></li>
+                        <li><a href="abtesting.html">A/B Testing</a></li>
+                        <li><a href="alert.html">Alertas y Seguimientos de KPI’s</a></li>
+                        <li><a href="reporting.html">Manejo de Campañas</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="leads.html">Gestión de Leads y Base de datos</a></li>
+                        <li><a href="realtime.html">Analítica en Puntos de Venta en tiempo real</a></li>
+                        <li><a href="api.html">Consumer API</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown services">
+            <div class="dropProduct dropItem">
+                <div class="moreInfo">
+                    Mucho más que una plataforma, una suite de soluciones indispensable para tu negocio.
+                    <a href="services.html" class="moreBtn">Conoce más</a>
+                </div>
+                <div class="options">
+                    <ul>
+                        <li><a href="face.html">Face Recognition - OOH Analytics</a></li>
+                        <li><a href="marketing.html">Marketing Consultancy services</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="success.html">Success Management</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="datasupport.html">Data Support</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown company">
+            <div class="dropProduct dropItem">
+                <div class="moreInfo">
+                    Conoce nuestra compañía, nuestro equipo y cómo trabajamos 
+                    <a href="whybunker.html" class="moreBtn">Conoce más</a>
+                </div>
+                <div class="options">
+                    <ul>
+                        <li><a href="about.html">Nosotros</a></li>
+                        <li><a href="people.html">Nuestro equipo</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="partners.html">Nuestros partners</a></li>
+                        <li><a href="news.html">Novedades</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="http://bunkerdb.com/blog">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <section class="productIntro productDetail">
+            <div class="sectionTitle mainTitle">
+                <h3>Gestión de Leads & Bases de Datos.</h3>
+                <p>Administra tus bases de datos, gestiona tus leads y conoce mejor a tu consumidores.</p>
+            </div>
+            <div class="whiteShape"></div>
+        </section>
+
+        <section class="aboutDetails">
+            <div class="sectionTitle">
+                <h3 class="wow fadeInUp" data-wow-offset="100" data-wow-duration="1.4s">Sigue de cerca la generación de leads y <b>activa tu base de datos</b>.</h3>
+            </div>
+        </section>
+
+        <section class="products services reverseCustom reverseMobile about noPadding violetBack withVideo">
+            <div class="whiteShape top"></div>
+            <div class="videoProduct videoContainer mobile">
+                <div class="videoHeader">
+                    <div class="dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="videoBody">
+                    <a href="#" id="mobileVideo" data-video="face">
+                        <img src="../img/playMobile.svg" alt="Play" class="productPlay">
+                    </a>
+                </div>
+                <div class="closeVideo" data-video="faceMobile">
+                    <span></span>
+                    <span></span>
+                </div>
+                <video width="100%" controls id="videoMobile">
+                    <source src="../img/social.mp4" type="video/mp4">
+                </video>
+                <!--div id="player-youtube-face-mobile"></div-->
+            </div>
+            <div class="companyContainer wow fadeIn">
+                <div class="videoProduct videoContainer desktop">
+                    <div class="videoHeader">
+                        <div class="dots">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="videoBody">
+                        <a href="#" class="revealVideo" data-video="face">
+                            <div class="play desktop"></div>
+                            <img src="../img/playMobile.svg" alt="Play" class="mobile productPlay">
+                        </a>
+                    </div>
+                    <div class="closeVideo" data-video="face">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <video width="100%" controls id="video">
+                        <source src="../img/social.mp4" type="video/mp4">
+                    </video>
+                    <!--div id="player-youtube-face"></div-->
+                </div>
+                <ul>
+                    <li class="wow fadeIn">
+                        <img src="../img/products/leads1.svg" alt="Obtiene un perfil 360 de tus consumidores">
+                        <h3 class="mobile companyContentH3">Obtiene un perfil 360 de tus consumidores</h3>
+                        <div class="companyContent">
+                            <h3 class="desktop">Obtiene un perfil 360 de tus consumidores</h3>
+                            <p>Con <b>Bunker db</b> puedes conocer la cantidad de campañas y marcas con las que interactúa cada uno de tus consumidores, saber el número de premios ganados y registros que cada uno lleva, los gustos y preferencias que ese consumidor tiene, saber si un usuario es conflictivo, tuvo problemas o es un potencial embajador, así como también consolidar los principales datos de identificación como dirección de email, teléfono, id de Facebook, documento de identidad, ubicación geográfica y mucho más.</p>
+                            <hr>
+                        </div>
+                    </li>
+                    <li class="wow fadeIn">
+                        <img src="../img/products/leads2.svg" alt="Integra leads de diferentes medios">
+                        <h3 class="mobile companyContentH3">Integra leads de diferentes medios</h3>
+                        <div class="companyContent">
+                            <h3 class="desktop">Integra leads de diferentes medios</h3>
+                            <p>Mediante una conexión sencilla con nuestra API, puedes consolidar todos tus leads en tiempo real y organizarlos en un sólo lugar para robustecer tu base de datos. De esta forma podrás establecer el valor potencial y el atractivo de tus consumidores por segmento. Puedes asociarlos a marcas y campañas, y así gestionar tu relación con los consumidores a través del tiempo.</p>
+                            <hr>
+                        </div>
+                    </li>
+                    <li class="wow fadeIn">
+                        <img src="../img/products/leads3.svg" alt="Unifica la información en un sólo lugar">
+                        <h3 class="mobile companyContentH3">Unifica la información en un sólo lugar</h3>
+                        <div class="companyContent">
+                            <h3 class="desktop">Unifica la información en un sólo lugar</h3>
+                            <p>Un sencillo panel de herramientas unifica la información que se recolecta con cada acción que el consumidor realiza. <b>Bunker db</b> rompe con el paradigma de preguntar al usuario acerca de sus preferencias detectando de forma automatizada sus gustos a partir de sus acciones en las diferentes plataformas, para identificar tendencias genuinas de consumo y acumular el conocimiento.</p>
+                            <hr>
+                        </div>
+                    </li>
+                    <li class="wow fadeIn">
+                        <img src="../img/products/leads4.svg" alt="Configura tu base de datos">
+                        <h3 class="mobile companyContentH3">Configura tu base de datos</h3>
+                        <div class="companyContent">
+                            <h3 class="desktop">Configura tu base de datos</h3>
+                            <p>Desde <b>Bunker db</b> puedes configurar los campos que deseas para cada una de tus marcas y así almacenar la mayor cantidad de datos posibles según la información que recolectes de cada una de tus campañas. De esta forma no debes limitarte a obtener datos estructurados sino también desestructurados para potenciar el entendimiento de tus consumidores.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="whiteShape bottom"></div>
+        </section>
+
+        <section class="aboutDetails mobile">
+            <div class="sectionTitle">
+                <h3 class="wow fadeInUp" data-wow-offset="100" data-wow-duration="1.4s"><b>Administra y gestiona el perfil de cada consumidor</b>.</h3>
+                <p class="wow fadeInUp" data-wow-offset="100" data-wow-duration="1.4s"><b>Bunker db</b> correlaciona la información demográfica, gustos o preferencias, hábitos de consumo y el historial de participación de tus consumidores en puntos de contacto online/offline. De esta forma la información se procesa para que puedas implementar acciones de marketing directo segmentadas como enviar e-mails, SMS, encuestas, sorteos e incluso ejecutar campañas de custom audience en Facebook.</p>
+            </div>
+        </section>
+
+        <section class="products services reverse violetBack mobile">
+            <div class="whiteShape top"></div>
+            <div class="cardsContainer">
+                <div class="cardContainer wow fadeIn">
+                    <div class="card">
+                        <img src="../img/visualizar.svg" alt="Visualizar">
+                        <div class="cardTitle">Visualizar</div>
+                        <p>Ahorra tiempo visualizando, en una única plataforma, todos los datos relevantes para la toma de decisiones con tu marca.</p>
+                    </div>
+                </div>
+                <div class="cardContainer wow fadeIn">
+                    <div class="card">
+                        <img src="../img/entender.svg" alt="Entender">
+                        <div class="cardTitle">Entender</div>
+                        <p>​Establece el valor potencial y el atractivo de la segmentación de consumidores, a partir de un amplio conocimiento de su perfil, preferencias y previas interacciones con tu marca.</p>
+                    </div>
+                </div>
+                <div class="cardContainer wow fadeIn">
+                    <div class="card">
+                        <img src="../img/actuar.svg" alt="Actuar">
+                        <div class="cardTitle">Actuar</div>
+                        <p>​Diseña y ejecuta acciones de marketing con mayor precisión, economizando tus esfuerzos y mejorando considerablemente los resultados de tus futuras interacciones.</p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="whiteShape bottom"></div>
+        </section>
+
+        <section class="marketing violetBack desktop">
+            <div class="sectionTitle">
+                <h3 class="wow fadeInUp" data-wow-offset="100" data-wow-duration="1.4s"><b>Administra y gestiona el perfil de cada consumidor</b>.</h3>
+                <p class="wow fadeInUp" data-wow-offset="100" data-wow-duration="1.4s"><b>Bunker db</b> correlaciona la información demográfica, gustos o preferencias, hábitos de consumo y el historial de participación de tus consumidores en puntos de contacto online/offline. De esta forma la información se procesa para que puedas implementar acciones de marketing directo segmentadas como enviar e-mails, SMS, encuestas, sorteos e incluso ejecutar campañas de custom audience en Facebook.</p>
+            </div>
+            <div class="cardsContainer">
+                <div class="cardContainer wow fadeIn">
+                    <div class="card">
+                        <img src="../img/visualizar.svg" alt="Visualizar">
+                        <div class="cardTitle">Visualizar</div>
+                        <p>Ahorra tiempo visualizando, en una única plataforma, todos los datos relevantes para la toma de decisiones con tu marca.</p>
+                    </div>
+                </div>
+                <div class="cardContainer wow fadeIn">
+                    <div class="card">
+                        <img src="../img/entender.svg" alt="Entender">
+                        <div class="cardTitle">Entender</div>
+                        <p>​Establece el valor potencial y el atractivo de la segmentación de consumidores, a partir de un amplio conocimiento de su perfil, preferencias y previas interacciones con tu marca.</p>
+                    </div>
+                </div>
+                <div class="cardContainer wow fadeIn">
+                    <div class="card">
+                        <img src="../img/actuar.svg" alt="Actuar">
+                        <div class="cardTitle">Actuar</div>
+                        <p>​Diseña y ejecuta acciones de marketing con mayor precisión, economizando tus esfuerzos y mejorando considerablemente los resultados de tus futuras interacciones.</p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </section>
+
+        <section class="moreServices">
+            <div class="sectionTitle">
+                <h3 class="wow fadeInUp" data-wow-offset="100" data-wow-duration="1.4s">Conoce todo lo que <b>Bunker db</b> tiene para ofrecerte</h3>
+            </div>
+            <a href="alert.html">
+                <div class="prevService wow fadeIn" data-wow-delay=".3s">
+                    <i class="l"></i>
+                    <span>KPI Tracking</span>
+                    <img src="../img/products/alert.svg" alt="KPI Tracking" class="r">
+                </div>
+            </a>
+            <a href="realtime.html">
+                <div class="nextService wow fadeIn" data-wow-delay=".5s">
+                    <img src="../img/products/realtime.svg" alt="Gestión de campañas" class="l">
+                    <span>Gestión de campañas</span>
+                    <i class="r"></i>
+                </div>
+            </a>
+            <div class="clear"></div>
+        </section>
+
+        <section class="askDemo violetBack">
+            <div class="demoInfo">
+                <h4>Activa tu base de datos</h4>
+                <p>Solicita una demo sin costo de nuestra herramienta y entenderás porque <b>Bunker db</b> es una plataforma indispensable para tu departamento de Marketing.</p>
+                <a href="demo.html">Solicitar Demo</a>
+            </div>
+            <img class="demoImageImg desktop" src="../img/demoMan.png" alt="Solicitar demo">
+            <div class="whiteShape"></div>
+            <a href="#" class="goTop white mobile"><span>↑</span> Subir</a>
+        </section>
+
+        <footer>
+            <div class="column">
+                <img src="../img/logo-footer.svg" alt="Bunker DB" class="logo">
+                <b class="desktop">Headquarters</b>
+                <p>Sarandí 669. Apto.101<br>Montevideo - Uruguay<br>+598 2 914 5614</p>
+                <a href="mailto:uy@bunkerdb.com">uy@bunkerdb.com</a>
+                <a class="mobile" href="mailto:info@bunkerdb.com">info@bunkerdb.com</a>
+                <a class="mobile" href="mailto:sales@bunkerdb.com">sales@bunkerdb.com</a>
+            </div>
+            <div class="column">
+                <b>Product</b>
+                <ul>
+                    <li><a href="analitica.html">Analítica en Redes Sociales</a></li>
+                    <li><a href="owned.html">Analítica en Plataformas propias</a></li>
+                    <li><a href="paid.html">Análisis de Inversiones</a></li>
+                    <li><a href="sentiment.html">Análisis de sentimiento</a></li>
+                    <li><a href="competition.html">Análisis de competencia</a></li>
+                    <li><a href="abtesting.html">A/B Testing</a></li>
+                    <li><a href="alert.html">Alertas y Seguimientos de KPI’s</a></li>
+                    <li><a href="reporting.html">Manejo de Campañas</a></li>
+                    <li><a href="leads.html">Gestión de Leads y Base de datos</a></li>
+                    <li><a href="realtime.html">Analítica en Puntos de Venta en tiempo real</a></li>
+                    <li><a href="api.html">Consumer API</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <b>Other Services</b>
+                <ul>
+                    <li><a href="face.html">Face Recognition - OOH Analytics</a></li>
+                    <li><a href="marketing.html">Marketing Consultancy services</a></li>
+                    <li><a href="success.html">Success Management</a></li>
+                    <li><a href="datasupport.html">Data Support</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <b>Plans</b>
+                <ul>
+                    <li><a href="plans.html">Analytics</a></li>
+                    <li><a href="plans.html">Advanced</a></li>
+                    <li><a href="plans.html">Power</a></li>
+                    <li><a href="plans.html">Full</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <b>Company</b>
+                <ul>
+                    <li><a href="about.html">Nosotros</a></li>
+                    <li><a href="people.html">Nuestro equipo</a></li>
+                    <li><a href="partners.html">Nuestros partners</a></li>
+                    <li><a href="news.html">Novedades</a></li>
+                    <li><a href="http://bunkerdb.com/blog">Blog</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <b>Contact us</b>
+                <ul>
+                    <li><a href="demo.html">Solicitar Demo</a></li>
+                    <li><a href="demo.html">Solicitar Información</a></li>
+                    <li><a href="partners.html">Quiero ser Representante</a></li>
+                    <li>
+                        <div class="country">Emails</div>
+                        <a href="mailto:info@bunkerdb.com">info@bunkerdb.com</a>
+                        <a href="mailto:sales@bunkerdb.com">sales@bunkerdb.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+            <hr class="mobile">
+            <div class="copy">
+                <div class="social r">
+                    <a href="#"><img src="../img/linkedin.svg" alt="LinkedIn"></a>
+                    <a href="#"><img src="../img/facebook.svg" alt="Facebook"></a>
+                    <a href="#"><img src="../img/instagram.svg" alt="Instagram"></a>
+                </div>
+                <div class="copyright l">
+                    <p>Bunker db © 2018 | Todos los derechos reservados.</p>
+                    <a href="#">Política de Privacidad</a>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </footer>
+    </body>
+</html>

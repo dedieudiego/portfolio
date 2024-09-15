@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55" height="55" viewBox="0 0 55 55">
+    <defs>
+        <path id="g25fm3rtva" d="M0.712 0.655L8.531 0.655 8.531 7.144 0.712 7.144z"/>
+        <path id="q1mlmz7goc" d="M0.355 0.212L13.192 0.212 13.192 9.968 0.355 9.968z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="27.5" cy="27.5" r="27" stroke="#FFF" opacity=".4"/>
+        <g>
+            <path fill="#FFF" d="M9.943 11.273v-.11l-9.53-9.4-.057.056C.133 2.052 0 2.415 0 2.885v16.777c0 .47.133.833.356 1.066l.057.055 9.53-9.399v-.11z" transform="translate(19 16)"/>
+            <g transform="translate(19 16) translate(10.77 7.374)">
+                <mask id="oasusy2jab" fill="#fff">
+                    <use xlink:href="#g25fm3rtva"/>
+                </mask>
+                <path fill="#FFF" d="M7.724 2.804L3.961.695 3.89.655.712 3.788v.221L3.89 7.144l.072-.04 3.763-2.11c1.076-.602 1.076-1.588 0-2.19" mask="url(#oasusy2jab)"/>
+            </g>
+            <path fill="#FFF" d="M1.125 21.487c.355.37.94.415 1.599.047l11.237-6.298-3.249-3.204-9.587 9.455z" transform="translate(19 16)"/>
+            <g transform="translate(19 16) translate(.77 .547)">
+                <mask id="d81wx412ad" fill="#fff">
+                    <use xlink:href="#q1mlmz7goc"/>
+                </mask>
+                <path fill="#FFF" d="M13.192 6.763L1.955.467C1.295.097.71.143.355.513l9.587 9.455 3.25-3.205z" mask="url(#d81wx412ad)"/>
+            </g>
+        </g>
+    </g>
+</svg>

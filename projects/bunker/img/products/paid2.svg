@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48.08" height="42.884" viewBox="0 0 48.08 42.884">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.48" y1="2.054" x2="0.8" y2="0.137" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cb00f0"/>
+      <stop offset="1" stop-color="#e867a7"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_384" data-name="Grupo 384" transform="translate(-231 -1642)">
+    <g id="Grupo_199" data-name="Grupo 199" transform="translate(0 -201)">
+      <path id="Trazado_985" data-name="Trazado 985" d="M546.5,3244.667h19.4a4.648,4.648,0,0,1,4.023,2.323l9.7,16.8a4.646,4.646,0,0,1,0,4.646l-9.7,16.8a4.648,4.648,0,0,1-4.023,2.323H546.5a4.648,4.648,0,0,1-4.023-2.323l-9.7-16.8a4.647,4.647,0,0,1,0-4.646l9.7-16.8A4.648,4.648,0,0,1,546.5,3244.667Z" transform="translate(-301.153 -1401.667)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="server" transform="translate(243.531 1653)">
+      <path id="Trazado_1016" data-name="Trazado 1016" d="M7.731,7A1.731,1.731,0,1,0,9.462,8.731,1.733,1.733,0,0,0,7.731,7Zm0,2.692a.962.962,0,1,1,.962-.962A.963.963,0,0,1,7.731,9.692Z" transform="translate(-3.692 -3.692)" fill="#fff" stroke="#fff" stroke-width="0.4"/>
+      <circle id="Elipse_106" data-name="Elipse 106" cx="0.385" cy="0.385" r="0.385" transform="translate(18.846 4.077)" fill="#fff" stroke="#fff" stroke-width="0.4"/>
+      <circle id="Elipse_107" data-name="Elipse 107" cx="0.385" cy="0.385" r="0.385" transform="translate(17.308 4.077)" fill="#fff" stroke="#fff" stroke-width="0.4"/>
+      <circle id="Elipse_108" data-name="Elipse 108" cx="0.385" cy="0.385" r="0.385" transform="translate(19.616 5.231)" fill="#fff" stroke="#fff" stroke-width="0.4"/>
+      <circle id="Elipse_109" data-name="Elipse 109" cx="0.385" cy="0.385" r="0.385" transform="translate(18.077 5.231)" fill="#fff" stroke="#fff" stroke-width="0.4"/>
+      <circle id="Elipse_110" data-name="Elipse 110" cx="0.385" cy="0.385" r="0.385" transform="translate(15.769 4.077)" fill="#fff" stroke="#fff" stroke-width="0.4"/>
+      <circle id="Elipse_111" data-name="Elipse 111" cx="0.385" cy="0.385" r="0.385" transform="translate(16.539 5.231)" fill="#fff" stroke="#fff" stroke-width="0.4"/>
+      <circle id="Elipse_112" data-name="Elipse 112" cx="0.385" cy="0.385" r="0.385" transform="translate(14.231 4.077)" fill="#fff" stroke="#fff" stroke-width="0.4"/>
+      <circle id="Elipse_113" data-name="Elipse 113" cx="0.385" cy="0.385" r="0.385" transform="translate(15 5.231)" fill="#fff" stroke="#fff" stroke-width="0.4"/>
+      <circle id="Elipse_114" data-name="Elipse 114" cx="0.385" cy="0.385" r="0.385" transform="translate(12.693 4.077)" fill="#fff" stroke="#fff" stroke-width="0.4"/>
+      <circle id="Elipse_115" data-name="Elipse 115" cx="0.385" cy="0.385" r="0.385" transform="translate(13.462 5.231)" fill="#fff" stroke="#fff" stroke-width="0.4"/>
+      <path id="Trazado_1017" data-name="Trazado 1017" d="M23.077,7.3V2.772A1.774,1.774,0,0,0,21.3,1H1.772A1.774,1.774,0,0,0,0,2.772V7.3A1.763,1.763,0,0,0,.683,8.692,1.763,1.763,0,0,0,0,10.08v4.532a1.774,1.774,0,0,0,1.772,1.773h9.382V19.5a1.929,1.929,0,0,0-1.5,1.5H.385a.385.385,0,0,0,0,.769h9.27a1.923,1.923,0,0,0,3.769,0h9.27a.385.385,0,0,0,0-.769h-9.27a1.929,1.929,0,0,0-1.5-1.5V16.385H21.3a1.774,1.774,0,0,0,1.772-1.772V10.08a1.762,1.762,0,0,0-.683-1.388A1.763,1.763,0,0,0,23.077,7.3ZM12.693,21.385a1.154,1.154,0,1,1-1.154-1.154A1.155,1.155,0,0,1,12.693,21.385Zm9.616-11.3v4.532a1,1,0,0,1-1,1H1.772a1,1,0,0,1-1-1V10.08a1,1,0,0,1,1-1H21.3A1,1,0,0,1,22.308,10.08ZM1.772,8.308a1,1,0,0,1-1-1V2.772a1,1,0,0,1,1-1H21.3a1,1,0,0,1,1,1V7.3a1,1,0,0,1-1,1Z" transform="translate(0 0)" fill="#fff" stroke="#fff" stroke-width="0.4"/>
+      <path id="Trazado_1018" data-name="Trazado 1018" d="M7.731,29.462A1.731,1.731,0,1,0,6,27.731,1.733,1.733,0,0,0,7.731,29.462Zm0-2.692a.962.962,0,1,1-.962.962A.963.963,0,0,1,7.731,26.769Z" transform="translate(-3.692 -15.384)" fill="#fff" stroke="#fff" stroke-width="0.4"/>
+      <circle id="Elipse_116" data-name="Elipse 116" cx="0.385" cy="0.385" r="0.385" transform="translate(18.846 11.385)" fill="#fff" stroke="#fff" stroke-width="0.4"/>
+      <circle id="Elipse_117" data-name="Elipse 117" cx="0.385" cy="0.385" r="0.385" transform="translate(17.308 11.385)" fill="#fff" stroke="#fff" stroke-width="0.4"/>
+      <circle id="Elipse_118" data-name="Elipse 118" cx="0.385" cy="0.385" r="0.385" transform="translate(19.616 12.539)" fill="#fff" stroke="#fff" stroke-width="0.4"/>
+      <circle id="Elipse_119" data-name="Elipse 119" cx="0.385" cy="0.385" r="0.385" transform="translate(18.077 12.539)" fill="#fff" stroke="#fff" stroke-width="0.4"/>
+      <circle id="Elipse_120" data-name="Elipse 120" cx="0.385" cy="0.385" r="0.385" transform="translate(15.769 11.385)" fill="#fff" stroke="#fff" stroke-width="0.4"/>
+      <circle id="Elipse_121" data-name="Elipse 121" cx="0.385" cy="0.385" r="0.385" transform="translate(16.539 12.539)" fill="#fff" stroke="#fff" stroke-width="0.4"/>
+      <circle id="Elipse_122" data-name="Elipse 122" cx="0.385" cy="0.385" r="0.385" transform="translate(14.231 11.385)" fill="#fff" stroke="#fff" stroke-width="0.4"/>
+      <circle id="Elipse_123" data-name="Elipse 123" cx="0.385" cy="0.385" r="0.385" transform="translate(15 12.539)" fill="#fff" stroke="#fff" stroke-width="0.4"/>
+      <circle id="Elipse_124" data-name="Elipse 124" cx="0.385" cy="0.385" r="0.385" transform="translate(12.693 11.385)" fill="#fff" stroke="#fff" stroke-width="0.4"/>
+      <circle id="Elipse_125" data-name="Elipse 125" cx="0.385" cy="0.385" r="0.385" transform="translate(13.462 12.539)" fill="#fff" stroke="#fff" stroke-width="0.4"/>
+    </g>
+  </g>
+</svg>

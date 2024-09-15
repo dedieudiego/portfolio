@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48.08" height="42.884" viewBox="0 0 48.08 42.884">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.789" x2="0" y2="1.618" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8916db"/>
+      <stop offset="0.433" stop-color="#6e45ce"/>
+      <stop offset="1" stop-color="#0082e1"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_381" data-name="Grupo 381" transform="translate(-231 -1865)">
+    <g id="Grupo_201" data-name="Grupo 201" transform="translate(0 -210)">
+      <path id="Trazado_976" data-name="Trazado 976" d="M546.5,3244.667h19.4a4.648,4.648,0,0,1,4.023,2.323l9.7,16.8a4.646,4.646,0,0,1,0,4.646l-9.7,16.8a4.648,4.648,0,0,1-4.023,2.323H546.5a4.648,4.648,0,0,1-4.023-2.323l-9.7-16.8a4.647,4.647,0,0,1,0-4.646l9.7-16.8A4.648,4.648,0,0,1,546.5,3244.667Z" transform="translate(-301.153 -1169.667)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="speech-bubble-with-text-lines" transform="translate(244 1870.502)">
+      <g id="Grupo_243" data-name="Grupo 243" transform="translate(0 7.23)">
+        <path id="Trazado_1008" data-name="Trazado 1008" d="M18.346,7.23H3.9A3.9,3.9,0,0,0,0,11.13v8.91a3.9,3.9,0,0,0,3.9,3.9h9.2l4.4,4.4a.78.78,0,0,0,1.332-.552V23.91a3.906,3.906,0,0,0,3.409-3.869V11.13A3.9,3.9,0,0,0,18.346,7.23Zm2.34,12.81a2.343,2.343,0,0,1-2.34,2.34h-.288a.78.78,0,0,0-.78.78v2.75l-3.3-3.3a.78.78,0,0,0-.552-.228H3.9a2.343,2.343,0,0,1-2.34-2.34V11.13A2.343,2.343,0,0,1,3.9,8.79H18.346a2.343,2.343,0,0,1,2.34,2.34Z" transform="translate(0 -7.23)" fill="#fff"/>
+        <path id="Trazado_1009" data-name="Trazado 1009" d="M86,95.743H74.522a.78.78,0,1,0,0,1.56H86a.78.78,0,0,0,0-1.56Z" transform="translate(-69.14 -90.219)" fill="#fff"/>
+        <path id="Trazado_1010" data-name="Trazado 1010" d="M86,165.743H74.522a.78.78,0,1,0,0,1.56H86a.78.78,0,1,0,0-1.56Z" transform="translate(-69.14 -155.851)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

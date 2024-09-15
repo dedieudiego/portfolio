@@ -1,0 +1,76 @@
+:root {
+	--main: #14406E;
+	--secondary: #008FBE;
+	--background: rgba(3, 169, 244, 0.5);
+	--accent: #55D5FF;
+}
+
+header .section_indicator {
+	color: var(--secondary);
+}
+section.content_detail p {
+	letter-spacing: -0.2px;
+}
+
+/* Xperiment */
+.content_xperiment .goal_item {
+	height: 163px;
+}
+section.content_xperiment .goals_title {
+	margin-top: 80px;
+}
+.content_xperiment .course_item span {
+	line-height: 50px;
+}
+.content_xperiment .content_slider .slick-arrow {
+	bottom: -550px;
+}
+.content_xperiment .course_modal {
+	top: 263px;
+	height: 650px;
+}
+.content_xperiment .course_info {
+	font-size: 32px;
+	line-height: 40px;
+}
+
+/* Xpress */
+.content_xpress .goal_item {
+	height: 169px;
+}
+section.content_xpress .goals_title {
+	margin-top: 110px;
+}
+.content_xpress .course_item {
+	height: 110px;
+	padding: 0 40px;
+}
+.content_xpress .content_slider .slick-arrow {
+	bottom: -570px;
+}
+.content_xpress .course_modal {
+	top: 243px;
+	height: 695px;
+}
+
+/* Xplore */
+.content_xplore .goal_item {
+	height: 163px;
+}
+section.content_xplore .goals_title {
+	margin-top: 120px;
+}
+.content_xplore .course_item {
+	height: 140px;
+	padding: 0 40px;
+}
+.content_xplore .course_item span {
+	line-height: 50px;
+}
+.content_xplore .content_slider .slick-arrow {
+	bottom: -510px;
+}
+.content_xplore .course_modal {
+	top: 250px;
+	height: 585px;
+}

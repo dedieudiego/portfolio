@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 750 960.7" style="enable-background:new 0 0 750 960.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;fill:url(#SVGID_1_);}
+	.st2{display:inline;fill:url(#SVGID_2_);}
+	.st3{fill:url(#SVGID_3_);}
+	.st4{fill:url(#SVGID_4_);}
+</style>
+<g class="st0">
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-204.2148" y1="731.2964" x2="206.551" y2="187.7036" gradientTransform="matrix(1 0 0 -1 0 960)">
+		<stop  offset="0" style="stop-color:#998CF2"/>
+		<stop  offset="1" style="stop-color:#37986B"/>
+	</linearGradient>
+	<polygon class="st1" points="372,529.5 0,397 0,960.7 208,900.5 	"/>
+	
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="223.2012" y1="1131.1445" x2="705.584" y2="492.7762" gradientTransform="matrix(1 0 0 -1 0 960)">
+		<stop  offset="0" style="stop-color:#998CF2"/>
+		<stop  offset="1" style="stop-color:#F4B244"/>
+	</linearGradient>
+	<polygon class="st2" points="279,428.7 750,585.5 750,0 415.7,62.2 	"/>
+</g>
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="262.7122" y1="76.5409" x2="-148.7403" y2="501.7741" gradientTransform="matrix(1 0 0 -1 0 960)">
+	<stop  offset="0" style="stop-color:#37986B"/>
+	<stop  offset="1" style="stop-color:#7F6FEF"/>
+</linearGradient>
+<path class="st3" d="M370,537.1c2.2-5-0.3-10.5-5.5-12.1L-151,377.5v543.7l351-21.3c5.5-0.5,11.8-5,14-10L370,537.1z"/>
+<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="312.7885" y1="1109.0088" x2="793.1254" y2="473.348" gradientTransform="matrix(1 0 0 -1 0 960)">
+	<stop  offset="0" style="stop-color:#7D15EE"/>
+	<stop  offset="1" style="stop-color:#F4B244"/>
+</linearGradient>
+<path class="st4" d="M392.9,481.3c-1.4,4.2,1.1,8.9,5.3,10.3L813,622.8V-17L531.2,64.1c-4.2,1.4-8.8,5.9-10.1,10.2L392.9,481.3z"/>
+</svg>
